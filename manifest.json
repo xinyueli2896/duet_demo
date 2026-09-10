@@ -1,0 +1,408 @@
+{
+ "experiments": [
+  {
+   "id": "E1_6b",
+   "prompts": [
+    "004",
+    "326",
+    "456",
+    "746",
+    "816"
+   ],
+   "promptBars": 6,
+   "input": {
+    "004": "midis/E1_matched_p6/prompts/merged_tagged/004.mid",
+    "326": "midis/E1_matched_p6/prompts/merged_tagged/326.mid",
+    "456": "midis/E1_matched_p6/prompts/merged_tagged/456.mid",
+    "746": "midis/E1_matched_p6/prompts/merged_tagged/746.mid",
+    "816": "midis/E1_matched_p6/prompts/merged_tagged/816.mid"
+   },
+   "models": [
+    {
+     "id": "A1",
+     "name": "A1",
+     "variations": {
+      "004": [
+       "midis/E1_matched_p6/A1/004/co/sample_0_temp1.0.mid",
+       "midis/E1_matched_p6/A1/004/co/sample_1_temp1.0.mid",
+       "midis/E1_matched_p6/A1/004/co/sample_2_temp1.0.mid"
+      ],
+      "326": [
+       "midis/E1_matched_p6/A1/326/co/sample_0_temp1.0.mid",
+       "midis/E1_matched_p6/A1/326/co/sample_1_temp1.0.mid",
+       "midis/E1_matched_p6/A1/326/co/sample_2_temp1.0.mid"
+      ],
+      "456": [
+       "midis/E1_matched_p6/A1/456/co/sample_0_temp1.0.mid",
+       "midis/E1_matched_p6/A1/456/co/sample_1_temp1.0.mid",
+       "midis/E1_matched_p6/A1/456/co/sample_2_temp1.0.mid"
+      ],
+      "746": [
+       "midis/E1_matched_p6/A1/746/co/sample_0_temp1.0.mid",
+       "midis/E1_matched_p6/A1/746/co/sample_1_temp1.0.mid",
+       "midis/E1_matched_p6/A1/746/co/sample_2_temp1.0.mid"
+      ],
+      "816": [
+       "midis/E1_matched_p6/A1/816/co/sample_0_temp1.0.mid",
+       "midis/E1_matched_p6/A1/816/co/sample_1_temp1.0.mid",
+       "midis/E1_matched_p6/A1/816/co/sample_2_temp1.0.mid"
+      ]
+     }
+    },
+    {
+     "id": "A3ctcaT",
+     "name": "A3ctcaT",
+     "variations": {
+      "004": [
+       "midis/E1_matched_p6/A3ctcaT/004/co/sample_0_temp1.0.mid",
+       "midis/E1_matched_p6/A3ctcaT/004/co/sample_1_temp1.0.mid",
+       "midis/E1_matched_p6/A3ctcaT/004/co/sample_2_temp1.0.mid"
+      ],
+      "326": [
+       "midis/E1_matched_p6/A3ctcaT/326/co/sample_0_temp1.0.mid",
+       "midis/E1_matched_p6/A3ctcaT/326/co/sample_1_temp1.0.mid",
+       "midis/E1_matched_p6/A3ctcaT/326/co/sample_2_temp1.0.mid"
+      ],
+      "456": [
+       "midis/E1_matched_p6/A3ctcaT/456/co/sample_0_temp1.0.mid",
+       "midis/E1_matched_p6/A3ctcaT/456/co/sample_1_temp1.0.mid",
+       "midis/E1_matched_p6/A3ctcaT/456/co/sample_2_temp1.0.mid"
+      ],
+      "746": [
+       "midis/E1_matched_p6/A3ctcaT/746/co/sample_0_temp1.0.mid",
+       "midis/E1_matched_p6/A3ctcaT/746/co/sample_1_temp1.0.mid",
+       "midis/E1_matched_p6/A3ctcaT/746/co/sample_2_temp1.0.mid"
+      ],
+      "816": [
+       "midis/E1_matched_p6/A3ctcaT/816/co/sample_0_temp1.0.mid",
+       "midis/E1_matched_p6/A3ctcaT/816/co/sample_1_temp1.0.mid",
+       "midis/E1_matched_p6/A3ctcaT/816/co/sample_2_temp1.0.mid"
+      ]
+     }
+    },
+    {
+     "id": "WS",
+     "name": "WS",
+     "variations": {
+      "004": [
+       "midis/E1_matched_p6/WS/004/co/sample_0.mid",
+       "midis/E1_matched_p6/WS/004/co/sample_1.mid",
+       "midis/E1_matched_p6/WS/004/co/sample_2.mid"
+      ],
+      "326": [
+       "midis/E1_matched_p6/WS/326/co/sample_0.mid",
+       "midis/E1_matched_p6/WS/326/co/sample_1.mid",
+       "midis/E1_matched_p6/WS/326/co/sample_2.mid"
+      ],
+      "456": [
+       "midis/E1_matched_p6/WS/456/co/sample_0.mid",
+       "midis/E1_matched_p6/WS/456/co/sample_1.mid",
+       "midis/E1_matched_p6/WS/456/co/sample_2.mid"
+      ],
+      "746": [
+       "midis/E1_matched_p6/WS/746/co/sample_0.mid",
+       "midis/E1_matched_p6/WS/746/co/sample_1.mid",
+       "midis/E1_matched_p6/WS/746/co/sample_2.mid"
+      ],
+      "816": [
+       "midis/E1_matched_p6/WS/816/co/sample_0.mid",
+       "midis/E1_matched_p6/WS/816/co/sample_1.mid",
+       "midis/E1_matched_p6/WS/816/co/sample_2.mid"
+      ]
+     }
+    },
+    {
+     "id": "P-mc",
+     "name": "P-mc",
+     "variations": {
+      "004": [
+       "midis/E1_matched_p6/P-mc/4_final/004/co/sample_0_temp1.0.mid",
+       "midis/E1_matched_p6/P-mc/4_final/004/co/sample_1_temp1.0.mid",
+       "midis/E1_matched_p6/P-mc/4_final/004/co/sample_2_temp1.0.mid"
+      ],
+      "326": [
+       "midis/E1_matched_p6/P-mc/4_final/326/co/sample_0_temp1.0.mid",
+       "midis/E1_matched_p6/P-mc/4_final/326/co/sample_1_temp1.0.mid",
+       "midis/E1_matched_p6/P-mc/4_final/326/co/sample_2_temp1.0.mid"
+      ],
+      "456": [
+       "midis/E1_matched_p6/P-mc/4_final/456/co/sample_0_temp1.0.mid",
+       "midis/E1_matched_p6/P-mc/4_final/456/co/sample_1_temp1.0.mid",
+       "midis/E1_matched_p6/P-mc/4_final/456/co/sample_2_temp1.0.mid"
+      ],
+      "746": [
+       "midis/E1_matched_p6/P-mc/4_final/746/co/sample_0_temp1.0.mid",
+       "midis/E1_matched_p6/P-mc/4_final/746/co/sample_1_temp1.0.mid",
+       "midis/E1_matched_p6/P-mc/4_final/746/co/sample_2_temp1.0.mid"
+      ],
+      "816": [
+       "midis/E1_matched_p6/P-mc/4_final/816/co/sample_0_temp1.0.mid",
+       "midis/E1_matched_p6/P-mc/4_final/816/co/sample_1_temp1.0.mid",
+       "midis/E1_matched_p6/P-mc/4_final/816/co/sample_2_temp1.0.mid"
+      ]
+     }
+    },
+    {
+     "id": "P-cm",
+     "name": "P-cm",
+     "variations": {
+      "004": [
+       "midis/E1_matched_p6/P-cm/4_final/004/co/sample_0_temp1.0.mid",
+       "midis/E1_matched_p6/P-cm/4_final/004/co/sample_1_temp1.0.mid",
+       "midis/E1_matched_p6/P-cm/4_final/004/co/sample_2_temp1.0.mid"
+      ],
+      "326": [
+       "midis/E1_matched_p6/P-cm/4_final/326/co/sample_0_temp1.0.mid",
+       "midis/E1_matched_p6/P-cm/4_final/326/co/sample_1_temp1.0.mid",
+       "midis/E1_matched_p6/P-cm/4_final/326/co/sample_2_temp1.0.mid"
+      ],
+      "456": [
+       "midis/E1_matched_p6/P-cm/4_final/456/co/sample_0_temp1.0.mid",
+       "midis/E1_matched_p6/P-cm/4_final/456/co/sample_1_temp1.0.mid",
+       "midis/E1_matched_p6/P-cm/4_final/456/co/sample_2_temp1.0.mid"
+      ],
+      "746": [
+       "midis/E1_matched_p6/P-cm/4_final/746/co/sample_0_temp1.0.mid",
+       "midis/E1_matched_p6/P-cm/4_final/746/co/sample_1_temp1.0.mid",
+       "midis/E1_matched_p6/P-cm/4_final/746/co/sample_2_temp1.0.mid"
+      ],
+      "816": [
+       "midis/E1_matched_p6/P-cm/4_final/816/co/sample_0_temp1.0.mid",
+       "midis/E1_matched_p6/P-cm/4_final/816/co/sample_1_temp1.0.mid",
+       "midis/E1_matched_p6/P-cm/4_final/816/co/sample_2_temp1.0.mid"
+      ]
+     }
+    },
+    {
+     "id": "S1",
+     "name": "S1",
+     "variations": {
+      "746": [
+       "midis/E1_matched_p6/S1/746.mid_temp1.0_continuation_0.mid",
+       "midis/E1_matched_p6/S1/746.mid_temp1.0_continuation_1.mid",
+       "midis/E1_matched_p6/S1/746.mid_temp1.0_continuation_2.mid"
+      ],
+      "004": [
+       "midis/E1_matched_p6/S1/004.mid_temp1.0_continuation_0.mid",
+       "midis/E1_matched_p6/S1/004.mid_temp1.0_continuation_1.mid",
+       "midis/E1_matched_p6/S1/004.mid_temp1.0_continuation_2.mid"
+      ],
+      "816": [
+       "midis/E1_matched_p6/S1/816.mid_temp1.0_continuation_0.mid",
+       "midis/E1_matched_p6/S1/816.mid_temp1.0_continuation_1.mid",
+       "midis/E1_matched_p6/S1/816.mid_temp1.0_continuation_2.mid"
+      ],
+      "326": [
+       "midis/E1_matched_p6/S1/326.mid_temp1.0_continuation_0.mid",
+       "midis/E1_matched_p6/S1/326.mid_temp1.0_continuation_1.mid",
+       "midis/E1_matched_p6/S1/326.mid_temp1.0_continuation_2.mid"
+      ],
+      "456": [
+       "midis/E1_matched_p6/S1/456.mid_temp1.0_continuation_0.mid",
+       "midis/E1_matched_p6/S1/456.mid_temp1.0_continuation_1.mid",
+       "midis/E1_matched_p6/S1/456.mid_temp1.0_continuation_2.mid"
+      ]
+     }
+    },
+    {
+     "id": "S-scratch",
+     "name": "S-scratch",
+     "variations": {
+      "746": [
+       "midis/E1_matched_p6/S-scratch/746.mid_temp1.0_continuation_0.mid",
+       "midis/E1_matched_p6/S-scratch/746.mid_temp1.0_continuation_1.mid",
+       "midis/E1_matched_p6/S-scratch/746.mid_temp1.0_continuation_2.mid"
+      ],
+      "004": [
+       "midis/E1_matched_p6/S-scratch/004.mid_temp1.0_continuation_0.mid",
+       "midis/E1_matched_p6/S-scratch/004.mid_temp1.0_continuation_1.mid",
+       "midis/E1_matched_p6/S-scratch/004.mid_temp1.0_continuation_2.mid"
+      ],
+      "816": [
+       "midis/E1_matched_p6/S-scratch/816.mid_temp1.0_continuation_0.mid",
+       "midis/E1_matched_p6/S-scratch/816.mid_temp1.0_continuation_1.mid",
+       "midis/E1_matched_p6/S-scratch/816.mid_temp1.0_continuation_2.mid"
+      ],
+      "326": [
+       "midis/E1_matched_p6/S-scratch/326.mid_temp1.0_continuation_0.mid",
+       "midis/E1_matched_p6/S-scratch/326.mid_temp1.0_continuation_1.mid",
+       "midis/E1_matched_p6/S-scratch/326.mid_temp1.0_continuation_2.mid"
+      ],
+      "456": [
+       "midis/E1_matched_p6/S-scratch/456.mid_temp1.0_continuation_0.mid",
+       "midis/E1_matched_p6/S-scratch/456.mid_temp1.0_continuation_1.mid",
+       "midis/E1_matched_p6/S-scratch/456.mid_temp1.0_continuation_2.mid"
+      ]
+     }
+    }
+   ],
+   "name": "E1 \u00b7 6-bar",
+   "capBars": 26
+  },
+  {
+   "id": "E1_8b",
+   "prompts": [
+    "046",
+    "136",
+    "466"
+   ],
+   "promptBars": 8,
+   "input": {
+    "466": "midis/E1_matched_p8/prompts/merged_tagged/466.mid",
+    "136": "midis/E1_matched_p8/prompts/merged_tagged/136.mid",
+    "046": "midis/E1_matched_p8/prompts/merged_tagged/046.mid"
+   },
+   "models": [
+    {
+     "id": "A1",
+     "name": "A1",
+     "variations": {
+      "046": [
+       "midis/E1_matched_p8/A1/046/co/sample_0_temp1.0.mid",
+       "midis/E1_matched_p8/A1/046/co/sample_1_temp1.0.mid",
+       "midis/E1_matched_p8/A1/046/co/sample_2_temp1.0.mid"
+      ],
+      "136": [
+       "midis/E1_matched_p8/A1/136/co/sample_0_temp1.0.mid",
+       "midis/E1_matched_p8/A1/136/co/sample_1_temp1.0.mid",
+       "midis/E1_matched_p8/A1/136/co/sample_2_temp1.0.mid"
+      ],
+      "466": [
+       "midis/E1_matched_p8/A1/466/co/sample_0_temp1.0.mid",
+       "midis/E1_matched_p8/A1/466/co/sample_1_temp1.0.mid",
+       "midis/E1_matched_p8/A1/466/co/sample_2_temp1.0.mid"
+      ]
+     }
+    },
+    {
+     "id": "A3ctcaT",
+     "name": "A3ctcaT",
+     "variations": {
+      "046": [
+       "midis/E1_matched_p8/A3ctcaT/046/co/sample_0_temp1.0.mid",
+       "midis/E1_matched_p8/A3ctcaT/046/co/sample_1_temp1.0.mid",
+       "midis/E1_matched_p8/A3ctcaT/046/co/sample_2_temp1.0.mid"
+      ],
+      "136": [
+       "midis/E1_matched_p8/A3ctcaT/136/co/sample_0_temp1.0.mid",
+       "midis/E1_matched_p8/A3ctcaT/136/co/sample_1_temp1.0.mid",
+       "midis/E1_matched_p8/A3ctcaT/136/co/sample_2_temp1.0.mid"
+      ],
+      "466": [
+       "midis/E1_matched_p8/A3ctcaT/466/co/sample_0_temp1.0.mid",
+       "midis/E1_matched_p8/A3ctcaT/466/co/sample_1_temp1.0.mid",
+       "midis/E1_matched_p8/A3ctcaT/466/co/sample_2_temp1.0.mid"
+      ]
+     }
+    },
+    {
+     "id": "WS",
+     "name": "WS",
+     "variations": {
+      "046": [
+       "midis/E1_matched_p8/WS/046/co/sample_0.mid",
+       "midis/E1_matched_p8/WS/046/co/sample_1.mid",
+       "midis/E1_matched_p8/WS/046/co/sample_2.mid"
+      ],
+      "136": [
+       "midis/E1_matched_p8/WS/136/co/sample_0.mid",
+       "midis/E1_matched_p8/WS/136/co/sample_1.mid",
+       "midis/E1_matched_p8/WS/136/co/sample_2.mid"
+      ],
+      "466": [
+       "midis/E1_matched_p8/WS/466/co/sample_0.mid",
+       "midis/E1_matched_p8/WS/466/co/sample_1.mid",
+       "midis/E1_matched_p8/WS/466/co/sample_2.mid"
+      ]
+     }
+    },
+    {
+     "id": "P-mc",
+     "name": "P-mc",
+     "variations": {
+      "046": [
+       "midis/E1_matched_p8/P-mc/4_final/046/co/sample_0_temp1.0.mid",
+       "midis/E1_matched_p8/P-mc/4_final/046/co/sample_1_temp1.0.mid",
+       "midis/E1_matched_p8/P-mc/4_final/046/co/sample_2_temp1.0.mid"
+      ],
+      "136": [
+       "midis/E1_matched_p8/P-mc/4_final/136/co/sample_0_temp1.0.mid",
+       "midis/E1_matched_p8/P-mc/4_final/136/co/sample_1_temp1.0.mid",
+       "midis/E1_matched_p8/P-mc/4_final/136/co/sample_2_temp1.0.mid"
+      ],
+      "466": [
+       "midis/E1_matched_p8/P-mc/4_final/466/co/sample_0_temp1.0.mid",
+       "midis/E1_matched_p8/P-mc/4_final/466/co/sample_1_temp1.0.mid",
+       "midis/E1_matched_p8/P-mc/4_final/466/co/sample_2_temp1.0.mid"
+      ]
+     }
+    },
+    {
+     "id": "P-cm",
+     "name": "P-cm",
+     "variations": {
+      "046": [
+       "midis/E1_matched_p8/P-cm/4_final/046/co/sample_0_temp1.0.mid",
+       "midis/E1_matched_p8/P-cm/4_final/046/co/sample_1_temp1.0.mid",
+       "midis/E1_matched_p8/P-cm/4_final/046/co/sample_2_temp1.0.mid"
+      ],
+      "136": [
+       "midis/E1_matched_p8/P-cm/4_final/136/co/sample_0_temp1.0.mid",
+       "midis/E1_matched_p8/P-cm/4_final/136/co/sample_1_temp1.0.mid",
+       "midis/E1_matched_p8/P-cm/4_final/136/co/sample_2_temp1.0.mid"
+      ],
+      "466": [
+       "midis/E1_matched_p8/P-cm/4_final/466/co/sample_0_temp1.0.mid",
+       "midis/E1_matched_p8/P-cm/4_final/466/co/sample_1_temp1.0.mid",
+       "midis/E1_matched_p8/P-cm/4_final/466/co/sample_2_temp1.0.mid"
+      ]
+     }
+    },
+    {
+     "id": "S1",
+     "name": "S1",
+     "variations": {
+      "046": [
+       "midis/E1_matched_p8/S1/046.mid_temp1.0_continuation_0.mid",
+       "midis/E1_matched_p8/S1/046.mid_temp1.0_continuation_1.mid",
+       "midis/E1_matched_p8/S1/046.mid_temp1.0_continuation_2.mid"
+      ],
+      "136": [
+       "midis/E1_matched_p8/S1/136.mid_temp1.0_continuation_0.mid",
+       "midis/E1_matched_p8/S1/136.mid_temp1.0_continuation_1.mid",
+       "midis/E1_matched_p8/S1/136.mid_temp1.0_continuation_2.mid"
+      ],
+      "466": [
+       "midis/E1_matched_p8/S1/466.mid_temp1.0_continuation_0.mid",
+       "midis/E1_matched_p8/S1/466.mid_temp1.0_continuation_1.mid",
+       "midis/E1_matched_p8/S1/466.mid_temp1.0_continuation_2.mid"
+      ]
+     }
+    },
+    {
+     "id": "S-scratch",
+     "name": "S-scratch",
+     "variations": {
+      "046": [
+       "midis/E1_matched_p8/S-scratch/046.mid_temp1.0_continuation_0.mid",
+       "midis/E1_matched_p8/S-scratch/046.mid_temp1.0_continuation_1.mid",
+       "midis/E1_matched_p8/S-scratch/046.mid_temp1.0_continuation_2.mid"
+      ],
+      "136": [
+       "midis/E1_matched_p8/S-scratch/136.mid_temp1.0_continuation_0.mid",
+       "midis/E1_matched_p8/S-scratch/136.mid_temp1.0_continuation_1.mid",
+       "midis/E1_matched_p8/S-scratch/136.mid_temp1.0_continuation_2.mid"
+      ],
+      "466": [
+       "midis/E1_matched_p8/S-scratch/466.mid_temp1.0_continuation_0.mid",
+       "midis/E1_matched_p8/S-scratch/466.mid_temp1.0_continuation_1.mid",
+       "midis/E1_matched_p8/S-scratch/466.mid_temp1.0_continuation_2.mid"
+      ]
+     }
+    }
+   ],
+   "name": "E1 \u00b7 8-bar",
+   "capBars": 28
+  }
+ ]
+}

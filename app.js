@@ -241,16 +241,16 @@ function renderPrompts() {
   const exp = MANIFEST.experiments[expIdx];
   const box = document.getElementById("prompts"); box.innerHTML = "";
   const many = exp.prompts.length > 12;
-  box.appendChild(Object.assign(document.createElement("span"), { className: "plabel", textContent: many ? "Song" : "Prompt" }));
+  box.appendChild(Object.assign(document.createElement("span"), { className: "plabel", textContent: many ? "POP909 song" : "Prompt" }));
   if (many) {
     // dropdown + prev/next for large song sets
     const prev = btn("&#10094;", "pnav"), next = btn("&#10095;", "pnav");
     const sel = document.createElement("select"); sel.className = "songsel";
     exp.prompts.forEach((pid, i) => {
-      const o = document.createElement("option"); o.value = i; o.textContent = `${i + 1}.  ${pid}`;
+      const o = document.createElement("option"); o.value = i; o.textContent = `POP909 #${pid}`;
       if (i === promptIdx) o.selected = true; sel.appendChild(o);
     });
-    const count = Object.assign(document.createElement("span"), { className: "pcount", textContent: `${promptIdx + 1} / ${exp.prompts.length}` });
+    const count = Object.assign(document.createElement("span"), { className: "pcount", textContent: `${exp.prompts.length} songs · POP909 index` });
     const go = (i) => { promptIdx = (i + exp.prompts.length) % exp.prompts.length; renderPrompts(); renderRows(); };
     sel.addEventListener("change", () => go(+sel.value));
     prev.addEventListener("click", () => go(promptIdx - 1));

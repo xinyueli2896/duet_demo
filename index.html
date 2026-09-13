@@ -59,8 +59,20 @@
   <div id="prompts" class="prompts"></div>
   <div id="rows"></div>
 </div>
-<script src="lib/Tone.js?v=1789072881"></script>
-<script src="lib/midi-parse.js?v=1789072881"></script>
-<script src="app.js?v=1789072881"></script>
+<script src="lib/Tone.js?v=1"></script>
+<script>
+/* Load our own scripts with a fresh timestamp each visit, so browsers never serve
+   a stale cached copy after an update. Loaded in order (parser before app). */
+(function () {
+  var v = Date.now(), srcs = ["lib/midi-parse.js", "app.js"];
+  (function next(i) {
+    if (i >= srcs.length) return;
+    var s = document.createElement("script");
+    s.src = srcs[i] + "?v=" + v;
+    s.onload = function () { next(i + 1); };
+    document.body.appendChild(s);
+  })(0);
+})();
+</script>
 </body>
 </html>

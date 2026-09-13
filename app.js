@@ -283,10 +283,12 @@ function renderTabs() {
     box.appendChild(b);
   });
 }
-document.addEventListener("DOMContentLoaded", () => {
+function initApp() {
   fetch("manifest.json").then(r => r.json()).then(m => {
     MANIFEST = m;
     if (!m.experiments || !m.experiments.length) { document.getElementById("rows").innerHTML = "<p class='err'>manifest.json has no experiments — run build_manifest.py</p>"; return; }
     renderTabs(); renderPrompts(); renderRows();
   }).catch(() => { document.getElementById("rows").innerHTML = "<p class='err'>could not load manifest.json — run <code>python3 build_manifest.py</code>, then serve over http.</p>"; });
-});
+}
+if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", initApp);
+else initApp();   // DOM already ready (script was loaded dynamically after DOMContentLoaded)

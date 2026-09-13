@@ -226,19 +226,43 @@ function renderRows() {
   const rows = document.getElementById("rows"); rows.innerHTML = "";
   const pb = exp.promptBars || 0, gv = exp.given || null, cap = exp.capBars || 0;
   if (exp.input && exp.input[pid]) makeRow(rows, "Input (reference)", [exp.input[pid]], { capBars: cap || 26, promptBars: pb, given: gv });
+  let lastGroup;
   for (const mdl of exp.models) {
     const files = mdl.variations[pid];
-    if (files && files.length) makeRow(rows, `${mdl.name} (${mdl.id})`, files, { promptBars: pb, given: gv, capBars: cap });
+    if (!files || !files.length) continue;
+    if (mdl.group && mdl.group !== lastGroup) {          // section heading when the group changes
+      const hd = document.createElement("div"); hd.className = "grouphead"; hd.textContent = mdl.group;
+      rows.appendChild(hd); lastGroup = mdl.group;
+    }
+    makeRow(rows, mdl.name, files, { promptBars: pb, given: gv, capBars: cap });
   }
 }
 function renderPrompts() {
   const exp = MANIFEST.experiments[expIdx];
-  const box = document.getElementById("prompts"); box.innerHTML = "<span class='plabel'>Prompt</span>";
-  exp.prompts.forEach((pid, i) => {
-    const b = btn(pid, "pbtn" + (i === promptIdx ? " on" : ""));
-    b.addEventListener("click", () => { promptIdx = i; renderPrompts(); renderRows(); });
-    box.appendChild(b);
-  });
+  const box = document.getElementById("prompts"); box.innerHTML = "";
+  const many = exp.prompts.length > 12;
+  box.appendChild(Object.assign(document.createElement("span"), { className: "plabel", textContent: many ? "Song" : "Prompt" }));
+  if (many) {
+    // dropdown + prev/next for large song sets
+    const prev = btn("&#10094;", "pnav"), next = btn("&#10095;", "pnav");
+    const sel = document.createElement("select"); sel.className = "songsel";
+    exp.prompts.forEach((pid, i) => {
+      const o = document.createElement("option"); o.value = i; o.textContent = `${i + 1}.  ${pid}`;
+      if (i === promptIdx) o.selected = true; sel.appendChild(o);
+    });
+    const count = Object.assign(document.createElement("span"), { className: "pcount", textContent: `${promptIdx + 1} / ${exp.prompts.length}` });
+    const go = (i) => { promptIdx = (i + exp.prompts.length) % exp.prompts.length; renderPrompts(); renderRows(); };
+    sel.addEventListener("change", () => go(+sel.value));
+    prev.addEventListener("click", () => go(promptIdx - 1));
+    next.addEventListener("click", () => go(promptIdx + 1));
+    box.appendChild(prev); box.appendChild(sel); box.appendChild(next); box.appendChild(count);
+  } else {
+    exp.prompts.forEach((pid, i) => {
+      const b = btn(pid, "pbtn" + (i === promptIdx ? " on" : ""));
+      b.addEventListener("click", () => { promptIdx = i; renderPrompts(); renderRows(); });
+      box.appendChild(b);
+    });
+  }
   // one BPM handle for the whole experiment
   const g = document.createElement("span"); g.className = "groupbpm";
   const inp = document.createElement("input"); inp.type = "number"; inp.min = 20; inp.max = 400; inp.step = 1; inp.className = "bpmin"; inp.value = groupBpm;

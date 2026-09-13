@@ -39,21 +39,31 @@ def subdirs(d): return [os.path.join(d, x) for x in os.listdir(d) if os.path.isd
 
 # --- model folder -> (id, display name, sort order) ---
 def model_meta(folder):
+    """Return (id, display_name, sort_order, group)."""
+    table = {
+        "A1":        ("Duet without query",                 0,  "Our Models"),
+        "A3ctcaT":   ("Duet",                               1,  "Our Models"),
+        "S-scratch": ("Single-stream (from scratch)",       2,  "Internal Baselines"),
+        "S1":        ("Single-stream (finetuned)",          3,  "Internal Baselines"),
+        "P-mc":      ("Cascade (mel\u2192cho)",             4,  "Internal Baselines"),
+        "P-cm":      ("Cascade (cho\u2192mel)",             5,  "Internal Baselines"),
+        "WSf":       ("Whole-song Generation",              6,  "External Baseline"),
+    }
+    if folder in table:
+        nm, order, grp = table[folder]; return (folder, nm, order, grp)
     f = folder.lower()
-    if folder == "B.1": return ("B.1", "Anticipatory", 3)
-    if f == "a2shared": return ("A2shared", "share_gate", 0)
-    if f == "a2mg": return ("A2mg", "modality_specific_gate", 1)
-    if f == "d0": return ("D0", "per-modality gate", 0)
-    if f == "d1": return ("D1", "dense", 1)
-    if f == "d2": return ("D2", "hard route", 2)
-    if f == "d3": return ("D3", "shared gate", 3)
-    for nm, order in (("A1", 0), ("A3ctcaT", 1), ("WS", 2), ("P-mc", 3), ("P-cm", 4), ("S1", 5), ("S-scratch", 6)):
-        if folder == nm: return (nm, nm, order)
+    if folder == "B.1": return ("B.1", "Anticipatory", 3, None)
+    if f == "a2shared": return ("A2shared", "share_gate", 0, None)
+    if f == "a2mg": return ("A2mg", "modality_specific_gate", 1, None)
+    if f == "d0": return ("D0", "per-modality gate", 0, None)
+    if f == "d1": return ("D1", "dense", 1, None)
+    if f == "d2": return ("D2", "hard route", 2, None)
+    if f == "d3": return ("D3", "shared gate", 3, None)
     m = re.match(r"a2v(\d)(\d+)$", folder, re.I)
-    if m: return (folder, f"A.2 v{m.group(1)}.{m.group(2)}", 1.1 + int(m.group(1) + m.group(2)) * 0.001)
-    if folder == "A.1": return ("A.1", "A.1", 0)
-    if folder == "A.2": return ("A.2", "A.2", 1)
-    return (folder, folder, 2.5)
+    if m: return (folder, f"A.2 v{m.group(1)}.{m.group(2)}", 1.1 + int(m.group(1) + m.group(2)) * 0.001, None)
+    if folder == "A.1": return ("A.1", "A.1", 0, None)
+    if folder == "A.2": return ("A.2", "A.2", 1, None)
+    return (folder, folder, 2.5, None)
 
 def exp_tag(name, run):
     """Which experiment a co-style folder belongs to (keeps MoE separate from E1)."""
@@ -369,11 +379,13 @@ def main():
             for sub in subdirs(exp_dir):
                 if "baseline" in os.path.basename(sub).lower():
                     bl_prompts += list(s_prompts(sub).values())
+            for sub in subdirs(run):                 # S-style model folders (S1, S-scratch) carry *_prompt.mid
+                bl_prompts += list(s_prompts(sub).values())
             N = E4_PROMPT_BARS if tag == "E4" else prompt_bars(name, bl_prompts)
             g = co_groups.setdefault((tag, N), {"models": {}, "input": {}, "baselines": []})
             for folder, var in co_models(run):
-                mid, nm, order = model_meta(folder)
-                g["models"][mid] = (order, nm, var)
+                mid, nm, order, grp = model_meta(folder)
+                g["models"][mid] = (order, nm, var, grp)
             g["input"].update(merged_prompts(run))
             for bn, bv in discover_baselines(exp_dir):
                 g["baselines"].append((bn, bv))
@@ -403,18 +415,21 @@ def main():
     experiments = []
     for (tag, N) in sorted(co_groups, key=lambda k: (k[0], k[1] or 0)):
         g = co_groups[(tag, N)]
+        cap = (N or 5) + 22 if tag != "E4" else 0     # trim ground-truth/whole-song rows to ~prompt+generation
         models = []
-        for mid, (order, nm, var) in sorted(g["models"].items(), key=lambda kv: kv[1][0]):
-            models.append({"id": mid, "name": nm, "variations": var})
+        # Ground Truth first (full reference truncated to prompt+generation length)
+        if tag != "E4" and g["input"]:
+            models.append({"id": "GT", "name": "Ground Truth", "group": "Reference", "variations": {k: [v] for k, v in g["input"].items()}})
+        for mid, (order, nm, var, grp) in sorted(g["models"].items(), key=lambda kv: kv[1][0]):
+            models.append({"id": mid, "name": nm, "group": grp, "variations": var})
         for i, (bn, bv) in enumerate(g.get("baselines", [])):
-            models.append({"id": f"bl{i}", "name": bn, "variations": bv})
+            models.append({"id": f"bl{i}", "name": bn, "group": "Internal Baselines", "variations": bv})
         pids = sorted(set(g["input"]) | set().union(*[set(m["variations"]) for m in models]) if models else set(g["input"]), key=natural)
-        exp = {"id": f"{tag}_{N}b", "prompts": pids, "promptBars": N, "input": g["input"], "models": models}
+        exp = {"id": f"{tag}_{N}b", "prompts": pids, "promptBars": N, "input": {}, "models": models, "capBars": cap}
         if tag == "E4":
             exp["name"] = "E4 · MoE"; exp["note"] = f"MoE gating comparison · {N}-bar prompt · " + ", ".join(m["name"] for m in models)
         else:
-            exp["name"] = f"E1 · {N}-bar"
-            exp["capBars"] = (N or 6) + 20      # generations run ~20 bars past the prompt; trims runaway rows (e.g. WS)
+            exp["name"] = f"E1 · {N}-bar prompt"
         experiments.append(exp)
     experiments += cond_exps
     if e3_dirs: experiments += build_e3(e3_dirs)

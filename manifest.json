@@ -1,408 +1,3655 @@
 {
  "experiments": [
   {
-   "id": "E1_6b",
+   "id": "E1_5b",
    "prompts": [
+    "001",
+    "002",
+    "003",
     "004",
-    "326",
-    "456",
-    "746",
-    "816"
-   ],
-   "promptBars": 6,
-   "input": {
-    "004": "midis/E1_matched_p6/prompts/merged_tagged/004.mid",
-    "326": "midis/E1_matched_p6/prompts/merged_tagged/326.mid",
-    "456": "midis/E1_matched_p6/prompts/merged_tagged/456.mid",
-    "746": "midis/E1_matched_p6/prompts/merged_tagged/746.mid",
-    "816": "midis/E1_matched_p6/prompts/merged_tagged/816.mid"
-   },
-   "models": [
-    {
-     "id": "A1",
-     "name": "A1",
-     "variations": {
-      "004": [
-       "midis/E1_matched_p6/A1/004/co/sample_0_temp1.0.mid",
-       "midis/E1_matched_p6/A1/004/co/sample_1_temp1.0.mid",
-       "midis/E1_matched_p6/A1/004/co/sample_2_temp1.0.mid"
-      ],
-      "326": [
-       "midis/E1_matched_p6/A1/326/co/sample_0_temp1.0.mid",
-       "midis/E1_matched_p6/A1/326/co/sample_1_temp1.0.mid",
-       "midis/E1_matched_p6/A1/326/co/sample_2_temp1.0.mid"
-      ],
-      "456": [
-       "midis/E1_matched_p6/A1/456/co/sample_0_temp1.0.mid",
-       "midis/E1_matched_p6/A1/456/co/sample_1_temp1.0.mid",
-       "midis/E1_matched_p6/A1/456/co/sample_2_temp1.0.mid"
-      ],
-      "746": [
-       "midis/E1_matched_p6/A1/746/co/sample_0_temp1.0.mid",
-       "midis/E1_matched_p6/A1/746/co/sample_1_temp1.0.mid",
-       "midis/E1_matched_p6/A1/746/co/sample_2_temp1.0.mid"
-      ],
-      "816": [
-       "midis/E1_matched_p6/A1/816/co/sample_0_temp1.0.mid",
-       "midis/E1_matched_p6/A1/816/co/sample_1_temp1.0.mid",
-       "midis/E1_matched_p6/A1/816/co/sample_2_temp1.0.mid"
-      ]
-     }
-    },
-    {
-     "id": "A3ctcaT",
-     "name": "A3ctcaT",
-     "variations": {
-      "004": [
-       "midis/E1_matched_p6/A3ctcaT/004/co/sample_0_temp1.0.mid",
-       "midis/E1_matched_p6/A3ctcaT/004/co/sample_1_temp1.0.mid",
-       "midis/E1_matched_p6/A3ctcaT/004/co/sample_2_temp1.0.mid"
-      ],
-      "326": [
-       "midis/E1_matched_p6/A3ctcaT/326/co/sample_0_temp1.0.mid",
-       "midis/E1_matched_p6/A3ctcaT/326/co/sample_1_temp1.0.mid",
-       "midis/E1_matched_p6/A3ctcaT/326/co/sample_2_temp1.0.mid"
-      ],
-      "456": [
-       "midis/E1_matched_p6/A3ctcaT/456/co/sample_0_temp1.0.mid",
-       "midis/E1_matched_p6/A3ctcaT/456/co/sample_1_temp1.0.mid",
-       "midis/E1_matched_p6/A3ctcaT/456/co/sample_2_temp1.0.mid"
-      ],
-      "746": [
-       "midis/E1_matched_p6/A3ctcaT/746/co/sample_0_temp1.0.mid",
-       "midis/E1_matched_p6/A3ctcaT/746/co/sample_1_temp1.0.mid",
-       "midis/E1_matched_p6/A3ctcaT/746/co/sample_2_temp1.0.mid"
-      ],
-      "816": [
-       "midis/E1_matched_p6/A3ctcaT/816/co/sample_0_temp1.0.mid",
-       "midis/E1_matched_p6/A3ctcaT/816/co/sample_1_temp1.0.mid",
-       "midis/E1_matched_p6/A3ctcaT/816/co/sample_2_temp1.0.mid"
-      ]
-     }
-    },
-    {
-     "id": "WS",
-     "name": "WS",
-     "variations": {
-      "004": [
-       "midis/E1_matched_p6/WS/004/co/sample_0.mid",
-       "midis/E1_matched_p6/WS/004/co/sample_1.mid",
-       "midis/E1_matched_p6/WS/004/co/sample_2.mid"
-      ],
-      "326": [
-       "midis/E1_matched_p6/WS/326/co/sample_0.mid",
-       "midis/E1_matched_p6/WS/326/co/sample_1.mid",
-       "midis/E1_matched_p6/WS/326/co/sample_2.mid"
-      ],
-      "456": [
-       "midis/E1_matched_p6/WS/456/co/sample_0.mid",
-       "midis/E1_matched_p6/WS/456/co/sample_1.mid",
-       "midis/E1_matched_p6/WS/456/co/sample_2.mid"
-      ],
-      "746": [
-       "midis/E1_matched_p6/WS/746/co/sample_0.mid",
-       "midis/E1_matched_p6/WS/746/co/sample_1.mid",
-       "midis/E1_matched_p6/WS/746/co/sample_2.mid"
-      ],
-      "816": [
-       "midis/E1_matched_p6/WS/816/co/sample_0.mid",
-       "midis/E1_matched_p6/WS/816/co/sample_1.mid",
-       "midis/E1_matched_p6/WS/816/co/sample_2.mid"
-      ]
-     }
-    },
-    {
-     "id": "P-mc",
-     "name": "P-mc",
-     "variations": {
-      "004": [
-       "midis/E1_matched_p6/P-mc/4_final/004/co/sample_0_temp1.0.mid",
-       "midis/E1_matched_p6/P-mc/4_final/004/co/sample_1_temp1.0.mid",
-       "midis/E1_matched_p6/P-mc/4_final/004/co/sample_2_temp1.0.mid"
-      ],
-      "326": [
-       "midis/E1_matched_p6/P-mc/4_final/326/co/sample_0_temp1.0.mid",
-       "midis/E1_matched_p6/P-mc/4_final/326/co/sample_1_temp1.0.mid",
-       "midis/E1_matched_p6/P-mc/4_final/326/co/sample_2_temp1.0.mid"
-      ],
-      "456": [
-       "midis/E1_matched_p6/P-mc/4_final/456/co/sample_0_temp1.0.mid",
-       "midis/E1_matched_p6/P-mc/4_final/456/co/sample_1_temp1.0.mid",
-       "midis/E1_matched_p6/P-mc/4_final/456/co/sample_2_temp1.0.mid"
-      ],
-      "746": [
-       "midis/E1_matched_p6/P-mc/4_final/746/co/sample_0_temp1.0.mid",
-       "midis/E1_matched_p6/P-mc/4_final/746/co/sample_1_temp1.0.mid",
-       "midis/E1_matched_p6/P-mc/4_final/746/co/sample_2_temp1.0.mid"
-      ],
-      "816": [
-       "midis/E1_matched_p6/P-mc/4_final/816/co/sample_0_temp1.0.mid",
-       "midis/E1_matched_p6/P-mc/4_final/816/co/sample_1_temp1.0.mid",
-       "midis/E1_matched_p6/P-mc/4_final/816/co/sample_2_temp1.0.mid"
-      ]
-     }
-    },
-    {
-     "id": "P-cm",
-     "name": "P-cm",
-     "variations": {
-      "004": [
-       "midis/E1_matched_p6/P-cm/4_final/004/co/sample_0_temp1.0.mid",
-       "midis/E1_matched_p6/P-cm/4_final/004/co/sample_1_temp1.0.mid",
-       "midis/E1_matched_p6/P-cm/4_final/004/co/sample_2_temp1.0.mid"
-      ],
-      "326": [
-       "midis/E1_matched_p6/P-cm/4_final/326/co/sample_0_temp1.0.mid",
-       "midis/E1_matched_p6/P-cm/4_final/326/co/sample_1_temp1.0.mid",
-       "midis/E1_matched_p6/P-cm/4_final/326/co/sample_2_temp1.0.mid"
-      ],
-      "456": [
-       "midis/E1_matched_p6/P-cm/4_final/456/co/sample_0_temp1.0.mid",
-       "midis/E1_matched_p6/P-cm/4_final/456/co/sample_1_temp1.0.mid",
-       "midis/E1_matched_p6/P-cm/4_final/456/co/sample_2_temp1.0.mid"
-      ],
-      "746": [
-       "midis/E1_matched_p6/P-cm/4_final/746/co/sample_0_temp1.0.mid",
-       "midis/E1_matched_p6/P-cm/4_final/746/co/sample_1_temp1.0.mid",
-       "midis/E1_matched_p6/P-cm/4_final/746/co/sample_2_temp1.0.mid"
-      ],
-      "816": [
-       "midis/E1_matched_p6/P-cm/4_final/816/co/sample_0_temp1.0.mid",
-       "midis/E1_matched_p6/P-cm/4_final/816/co/sample_1_temp1.0.mid",
-       "midis/E1_matched_p6/P-cm/4_final/816/co/sample_2_temp1.0.mid"
-      ]
-     }
-    },
-    {
-     "id": "S1",
-     "name": "S1",
-     "variations": {
-      "746": [
-       "midis/E1_matched_p6/S1/746.mid_temp1.0_continuation_0.mid",
-       "midis/E1_matched_p6/S1/746.mid_temp1.0_continuation_1.mid",
-       "midis/E1_matched_p6/S1/746.mid_temp1.0_continuation_2.mid"
-      ],
-      "004": [
-       "midis/E1_matched_p6/S1/004.mid_temp1.0_continuation_0.mid",
-       "midis/E1_matched_p6/S1/004.mid_temp1.0_continuation_1.mid",
-       "midis/E1_matched_p6/S1/004.mid_temp1.0_continuation_2.mid"
-      ],
-      "816": [
-       "midis/E1_matched_p6/S1/816.mid_temp1.0_continuation_0.mid",
-       "midis/E1_matched_p6/S1/816.mid_temp1.0_continuation_1.mid",
-       "midis/E1_matched_p6/S1/816.mid_temp1.0_continuation_2.mid"
-      ],
-      "326": [
-       "midis/E1_matched_p6/S1/326.mid_temp1.0_continuation_0.mid",
-       "midis/E1_matched_p6/S1/326.mid_temp1.0_continuation_1.mid",
-       "midis/E1_matched_p6/S1/326.mid_temp1.0_continuation_2.mid"
-      ],
-      "456": [
-       "midis/E1_matched_p6/S1/456.mid_temp1.0_continuation_0.mid",
-       "midis/E1_matched_p6/S1/456.mid_temp1.0_continuation_1.mid",
-       "midis/E1_matched_p6/S1/456.mid_temp1.0_continuation_2.mid"
-      ]
-     }
-    },
-    {
-     "id": "S-scratch",
-     "name": "S-scratch",
-     "variations": {
-      "746": [
-       "midis/E1_matched_p6/S-scratch/746.mid_temp1.0_continuation_0.mid",
-       "midis/E1_matched_p6/S-scratch/746.mid_temp1.0_continuation_1.mid",
-       "midis/E1_matched_p6/S-scratch/746.mid_temp1.0_continuation_2.mid"
-      ],
-      "004": [
-       "midis/E1_matched_p6/S-scratch/004.mid_temp1.0_continuation_0.mid",
-       "midis/E1_matched_p6/S-scratch/004.mid_temp1.0_continuation_1.mid",
-       "midis/E1_matched_p6/S-scratch/004.mid_temp1.0_continuation_2.mid"
-      ],
-      "816": [
-       "midis/E1_matched_p6/S-scratch/816.mid_temp1.0_continuation_0.mid",
-       "midis/E1_matched_p6/S-scratch/816.mid_temp1.0_continuation_1.mid",
-       "midis/E1_matched_p6/S-scratch/816.mid_temp1.0_continuation_2.mid"
-      ],
-      "326": [
-       "midis/E1_matched_p6/S-scratch/326.mid_temp1.0_continuation_0.mid",
-       "midis/E1_matched_p6/S-scratch/326.mid_temp1.0_continuation_1.mid",
-       "midis/E1_matched_p6/S-scratch/326.mid_temp1.0_continuation_2.mid"
-      ],
-      "456": [
-       "midis/E1_matched_p6/S-scratch/456.mid_temp1.0_continuation_0.mid",
-       "midis/E1_matched_p6/S-scratch/456.mid_temp1.0_continuation_1.mid",
-       "midis/E1_matched_p6/S-scratch/456.mid_temp1.0_continuation_2.mid"
-      ]
-     }
-    }
-   ],
-   "name": "E1 \u00b7 6-bar",
-   "capBars": 26
-  },
-  {
-   "id": "E1_8b",
-   "prompts": [
+    "005",
+    "006",
+    "016",
+    "026",
+    "036",
     "046",
+    "056",
+    "066",
+    "076",
+    "086",
+    "096",
+    "106",
+    "116",
+    "126",
     "136",
-    "466"
+    "146",
+    "156",
+    "166",
+    "176",
+    "186",
+    "196",
+    "206",
+    "216",
+    "226",
+    "236",
+    "246",
+    "256",
+    "266",
+    "276",
+    "286",
+    "296",
+    "306",
+    "316",
+    "336",
+    "346",
+    "356",
+    "366",
+    "376",
+    "386",
+    "396",
+    "406",
+    "416",
+    "426",
+    "436",
+    "446",
+    "456",
+    "466",
+    "476",
+    "486",
+    "496",
+    "506",
+    "516",
+    "526",
+    "536",
+    "546",
+    "556",
+    "566",
+    "576",
+    "586",
+    "596",
+    "606",
+    "616",
+    "626",
+    "636",
+    "646",
+    "656",
+    "666",
+    "676",
+    "686",
+    "696",
+    "706",
+    "716",
+    "726",
+    "736",
+    "746",
+    "756",
+    "766",
+    "776",
+    "786",
+    "796",
+    "806",
+    "816",
+    "826",
+    "836",
+    "846",
+    "856",
+    "866",
+    "876",
+    "886",
+    "896",
+    "906"
    ],
-   "promptBars": 8,
-   "input": {
-    "466": "midis/E1_matched_p8/prompts/merged_tagged/466.mid",
-    "136": "midis/E1_matched_p8/prompts/merged_tagged/136.mid",
-    "046": "midis/E1_matched_p8/prompts/merged_tagged/046.mid"
-   },
+   "promptBars": 5,
+   "input": {},
    "models": [
     {
-     "id": "A1",
-     "name": "A1",
+     "id": "GT",
+     "name": "Ground Truth",
+     "group": "Reference",
      "variations": {
-      "046": [
-       "midis/E1_matched_p8/A1/046/co/sample_0_temp1.0.mid",
-       "midis/E1_matched_p8/A1/046/co/sample_1_temp1.0.mid",
-       "midis/E1_matched_p8/A1/046/co/sample_2_temp1.0.mid"
+      "676": [
+       "midis/E1_v5b/prompts/merged_tagged/676.mid"
       ],
-      "136": [
-       "midis/E1_matched_p8/A1/136/co/sample_0_temp1.0.mid",
-       "midis/E1_matched_p8/A1/136/co/sample_1_temp1.0.mid",
-       "midis/E1_matched_p8/A1/136/co/sample_2_temp1.0.mid"
+      "296": [
+       "midis/E1_v5b/prompts/merged_tagged/296.mid"
+      ],
+      "706": [
+       "midis/E1_v5b/prompts/merged_tagged/706.mid"
+      ],
+      "646": [
+       "midis/E1_v5b/prompts/merged_tagged/646.mid"
+      ],
+      "276": [
+       "midis/E1_v5b/prompts/merged_tagged/276.mid"
+      ],
+      "006": [
+       "midis/E1_v5b/prompts/merged_tagged/006.mid"
+      ],
+      "636": [
+       "midis/E1_v5b/prompts/merged_tagged/636.mid"
       ],
       "466": [
-       "midis/E1_matched_p8/A1/466/co/sample_0_temp1.0.mid",
-       "midis/E1_matched_p8/A1/466/co/sample_1_temp1.0.mid",
-       "midis/E1_matched_p8/A1/466/co/sample_2_temp1.0.mid"
+       "midis/E1_v5b/prompts/merged_tagged/466.mid"
+      ],
+      "586": [
+       "midis/E1_v5b/prompts/merged_tagged/586.mid"
+      ],
+      "096": [
+       "midis/E1_v5b/prompts/merged_tagged/096.mid"
+      ],
+      "526": [
+       "midis/E1_v5b/prompts/merged_tagged/526.mid"
+      ],
+      "446": [
+       "midis/E1_v5b/prompts/merged_tagged/446.mid"
+      ],
+      "376": [
+       "midis/E1_v5b/prompts/merged_tagged/376.mid"
+      ],
+      "806": [
+       "midis/E1_v5b/prompts/merged_tagged/806.mid"
+      ],
+      "686": [
+       "midis/E1_v5b/prompts/merged_tagged/686.mid"
+      ],
+      "056": [
+       "midis/E1_v5b/prompts/merged_tagged/056.mid"
+      ],
+      "796": [
+       "midis/E1_v5b/prompts/merged_tagged/796.mid"
+      ],
+      "786": [
+       "midis/E1_v5b/prompts/merged_tagged/786.mid"
+      ],
+      "896": [
+       "midis/E1_v5b/prompts/merged_tagged/896.mid"
+      ],
+      "366": [
+       "midis/E1_v5b/prompts/merged_tagged/366.mid"
+      ],
+      "226": [
+       "midis/E1_v5b/prompts/merged_tagged/226.mid"
+      ],
+      "306": [
+       "midis/E1_v5b/prompts/merged_tagged/306.mid"
+      ],
+      "256": [
+       "midis/E1_v5b/prompts/merged_tagged/256.mid"
+      ],
+      "005": [
+       "midis/E1_v5b/prompts/merged_tagged/005.mid"
+      ],
+      "216": [
+       "midis/E1_v5b/prompts/merged_tagged/216.mid"
+      ],
+      "166": [
+       "midis/E1_v5b/prompts/merged_tagged/166.mid"
+      ],
+      "546": [
+       "midis/E1_v5b/prompts/merged_tagged/546.mid"
+      ],
+      "766": [
+       "midis/E1_v5b/prompts/merged_tagged/766.mid"
+      ],
+      "476": [
+       "midis/E1_v5b/prompts/merged_tagged/476.mid"
+      ],
+      "826": [
+       "midis/E1_v5b/prompts/merged_tagged/826.mid"
+      ],
+      "036": [
+       "midis/E1_v5b/prompts/merged_tagged/036.mid"
+      ],
+      "756": [
+       "midis/E1_v5b/prompts/merged_tagged/756.mid"
+      ],
+      "866": [
+       "midis/E1_v5b/prompts/merged_tagged/866.mid"
+      ],
+      "606": [
+       "midis/E1_v5b/prompts/merged_tagged/606.mid"
+      ],
+      "616": [
+       "midis/E1_v5b/prompts/merged_tagged/616.mid"
+      ],
+      "356": [
+       "midis/E1_v5b/prompts/merged_tagged/356.mid"
+      ],
+      "426": [
+       "midis/E1_v5b/prompts/merged_tagged/426.mid"
+      ],
+      "196": [
+       "midis/E1_v5b/prompts/merged_tagged/196.mid"
+      ],
+      "002": [
+       "midis/E1_v5b/prompts/merged_tagged/002.mid"
+      ],
+      "126": [
+       "midis/E1_v5b/prompts/merged_tagged/126.mid"
+      ],
+      "066": [
+       "midis/E1_v5b/prompts/merged_tagged/066.mid"
+      ],
+      "046": [
+       "midis/E1_v5b/prompts/merged_tagged/046.mid"
+      ],
+      "746": [
+       "midis/E1_v5b/prompts/merged_tagged/746.mid"
+      ],
+      "206": [
+       "midis/E1_v5b/prompts/merged_tagged/206.mid"
+      ],
+      "846": [
+       "midis/E1_v5b/prompts/merged_tagged/846.mid"
+      ],
+      "406": [
+       "midis/E1_v5b/prompts/merged_tagged/406.mid"
+      ],
+      "336": [
+       "midis/E1_v5b/prompts/merged_tagged/336.mid"
+      ],
+      "856": [
+       "midis/E1_v5b/prompts/merged_tagged/856.mid"
+      ],
+      "086": [
+       "midis/E1_v5b/prompts/merged_tagged/086.mid"
+      ],
+      "106": [
+       "midis/E1_v5b/prompts/merged_tagged/106.mid"
+      ],
+      "666": [
+       "midis/E1_v5b/prompts/merged_tagged/666.mid"
+      ],
+      "016": [
+       "midis/E1_v5b/prompts/merged_tagged/016.mid"
+      ],
+      "696": [
+       "midis/E1_v5b/prompts/merged_tagged/696.mid"
+      ],
+      "076": [
+       "midis/E1_v5b/prompts/merged_tagged/076.mid"
+      ],
+      "876": [
+       "midis/E1_v5b/prompts/merged_tagged/876.mid"
+      ],
+      "576": [
+       "midis/E1_v5b/prompts/merged_tagged/576.mid"
+      ],
+      "116": [
+       "midis/E1_v5b/prompts/merged_tagged/116.mid"
+      ],
+      "266": [
+       "midis/E1_v5b/prompts/merged_tagged/266.mid"
+      ],
+      "004": [
+       "midis/E1_v5b/prompts/merged_tagged/004.mid"
+      ],
+      "776": [
+       "midis/E1_v5b/prompts/merged_tagged/776.mid"
+      ],
+      "186": [
+       "midis/E1_v5b/prompts/merged_tagged/186.mid"
+      ],
+      "486": [
+       "midis/E1_v5b/prompts/merged_tagged/486.mid"
+      ],
+      "156": [
+       "midis/E1_v5b/prompts/merged_tagged/156.mid"
+      ],
+      "386": [
+       "midis/E1_v5b/prompts/merged_tagged/386.mid"
+      ],
+      "236": [
+       "midis/E1_v5b/prompts/merged_tagged/236.mid"
+      ],
+      "726": [
+       "midis/E1_v5b/prompts/merged_tagged/726.mid"
+      ],
+      "886": [
+       "midis/E1_v5b/prompts/merged_tagged/886.mid"
+      ],
+      "286": [
+       "midis/E1_v5b/prompts/merged_tagged/286.mid"
+      ],
+      "716": [
+       "midis/E1_v5b/prompts/merged_tagged/716.mid"
+      ],
+      "736": [
+       "midis/E1_v5b/prompts/merged_tagged/736.mid"
+      ],
+      "656": [
+       "midis/E1_v5b/prompts/merged_tagged/656.mid"
+      ],
+      "176": [
+       "midis/E1_v5b/prompts/merged_tagged/176.mid"
+      ],
+      "596": [
+       "midis/E1_v5b/prompts/merged_tagged/596.mid"
+      ],
+      "496": [
+       "midis/E1_v5b/prompts/merged_tagged/496.mid"
+      ],
+      "906": [
+       "midis/E1_v5b/prompts/merged_tagged/906.mid"
+      ],
+      "556": [
+       "midis/E1_v5b/prompts/merged_tagged/556.mid"
+      ],
+      "316": [
+       "midis/E1_v5b/prompts/merged_tagged/316.mid"
+      ],
+      "146": [
+       "midis/E1_v5b/prompts/merged_tagged/146.mid"
+      ],
+      "456": [
+       "midis/E1_v5b/prompts/merged_tagged/456.mid"
+      ],
+      "626": [
+       "midis/E1_v5b/prompts/merged_tagged/626.mid"
+      ],
+      "436": [
+       "midis/E1_v5b/prompts/merged_tagged/436.mid"
+      ],
+      "136": [
+       "midis/E1_v5b/prompts/merged_tagged/136.mid"
+      ],
+      "396": [
+       "midis/E1_v5b/prompts/merged_tagged/396.mid"
+      ],
+      "816": [
+       "midis/E1_v5b/prompts/merged_tagged/816.mid"
+      ],
+      "003": [
+       "midis/E1_v5b/prompts/merged_tagged/003.mid"
+      ],
+      "246": [
+       "midis/E1_v5b/prompts/merged_tagged/246.mid"
+      ],
+      "536": [
+       "midis/E1_v5b/prompts/merged_tagged/536.mid"
+      ],
+      "506": [
+       "midis/E1_v5b/prompts/merged_tagged/506.mid"
+      ],
+      "516": [
+       "midis/E1_v5b/prompts/merged_tagged/516.mid"
+      ],
+      "566": [
+       "midis/E1_v5b/prompts/merged_tagged/566.mid"
+      ],
+      "026": [
+       "midis/E1_v5b/prompts/merged_tagged/026.mid"
+      ],
+      "346": [
+       "midis/E1_v5b/prompts/merged_tagged/346.mid"
+      ],
+      "836": [
+       "midis/E1_v5b/prompts/merged_tagged/836.mid"
+      ],
+      "416": [
+       "midis/E1_v5b/prompts/merged_tagged/416.mid"
+      ],
+      "001": [
+       "midis/E1_v5b/prompts/merged_tagged/001.mid"
+      ]
+     }
+    },
+    {
+     "id": "A1",
+     "name": "Duet without query",
+     "group": "Our Models",
+     "variations": {
+      "001": [
+       "midis/E1_v5b/A1/001/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/001/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/001/co/sample_2_temp1.0.mid"
+      ],
+      "002": [
+       "midis/E1_v5b/A1/002/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/002/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/002/co/sample_2_temp1.0.mid"
+      ],
+      "003": [
+       "midis/E1_v5b/A1/003/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/003/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/003/co/sample_2_temp1.0.mid"
+      ],
+      "004": [
+       "midis/E1_v5b/A1/004/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/004/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/004/co/sample_2_temp1.0.mid"
+      ],
+      "005": [
+       "midis/E1_v5b/A1/005/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/005/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/005/co/sample_2_temp1.0.mid"
+      ],
+      "006": [
+       "midis/E1_v5b/A1/006/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/006/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/006/co/sample_2_temp1.0.mid"
+      ],
+      "016": [
+       "midis/E1_v5b/A1/016/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/016/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/016/co/sample_2_temp1.0.mid"
+      ],
+      "026": [
+       "midis/E1_v5b/A1/026/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/026/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/026/co/sample_2_temp1.0.mid"
+      ],
+      "036": [
+       "midis/E1_v5b/A1/036/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/036/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/036/co/sample_2_temp1.0.mid"
+      ],
+      "046": [
+       "midis/E1_v5b/A1/046/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/046/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/046/co/sample_2_temp1.0.mid"
+      ],
+      "056": [
+       "midis/E1_v5b/A1/056/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/056/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/056/co/sample_2_temp1.0.mid"
+      ],
+      "066": [
+       "midis/E1_v5b/A1/066/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/066/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/066/co/sample_2_temp1.0.mid"
+      ],
+      "076": [
+       "midis/E1_v5b/A1/076/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/076/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/076/co/sample_2_temp1.0.mid"
+      ],
+      "086": [
+       "midis/E1_v5b/A1/086/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/086/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/086/co/sample_2_temp1.0.mid"
+      ],
+      "096": [
+       "midis/E1_v5b/A1/096/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/096/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/096/co/sample_2_temp1.0.mid"
+      ],
+      "106": [
+       "midis/E1_v5b/A1/106/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/106/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/106/co/sample_2_temp1.0.mid"
+      ],
+      "116": [
+       "midis/E1_v5b/A1/116/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/116/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/116/co/sample_2_temp1.0.mid"
+      ],
+      "126": [
+       "midis/E1_v5b/A1/126/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/126/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/126/co/sample_2_temp1.0.mid"
+      ],
+      "136": [
+       "midis/E1_v5b/A1/136/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/136/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/136/co/sample_2_temp1.0.mid"
+      ],
+      "146": [
+       "midis/E1_v5b/A1/146/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/146/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/146/co/sample_2_temp1.0.mid"
+      ],
+      "156": [
+       "midis/E1_v5b/A1/156/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/156/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/156/co/sample_2_temp1.0.mid"
+      ],
+      "166": [
+       "midis/E1_v5b/A1/166/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/166/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/166/co/sample_2_temp1.0.mid"
+      ],
+      "176": [
+       "midis/E1_v5b/A1/176/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/176/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/176/co/sample_2_temp1.0.mid"
+      ],
+      "186": [
+       "midis/E1_v5b/A1/186/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/186/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/186/co/sample_2_temp1.0.mid"
+      ],
+      "196": [
+       "midis/E1_v5b/A1/196/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/196/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/196/co/sample_2_temp1.0.mid"
+      ],
+      "206": [
+       "midis/E1_v5b/A1/206/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/206/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/206/co/sample_2_temp1.0.mid"
+      ],
+      "216": [
+       "midis/E1_v5b/A1/216/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/216/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/216/co/sample_2_temp1.0.mid"
+      ],
+      "226": [
+       "midis/E1_v5b/A1/226/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/226/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/226/co/sample_2_temp1.0.mid"
+      ],
+      "236": [
+       "midis/E1_v5b/A1/236/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/236/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/236/co/sample_2_temp1.0.mid"
+      ],
+      "246": [
+       "midis/E1_v5b/A1/246/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/246/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/246/co/sample_2_temp1.0.mid"
+      ],
+      "256": [
+       "midis/E1_v5b/A1/256/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/256/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/256/co/sample_2_temp1.0.mid"
+      ],
+      "266": [
+       "midis/E1_v5b/A1/266/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/266/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/266/co/sample_2_temp1.0.mid"
+      ],
+      "276": [
+       "midis/E1_v5b/A1/276/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/276/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/276/co/sample_2_temp1.0.mid"
+      ],
+      "286": [
+       "midis/E1_v5b/A1/286/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/286/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/286/co/sample_2_temp1.0.mid"
+      ],
+      "296": [
+       "midis/E1_v5b/A1/296/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/296/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/296/co/sample_2_temp1.0.mid"
+      ],
+      "306": [
+       "midis/E1_v5b/A1/306/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/306/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/306/co/sample_2_temp1.0.mid"
+      ],
+      "316": [
+       "midis/E1_v5b/A1/316/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/316/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/316/co/sample_2_temp1.0.mid"
+      ],
+      "336": [
+       "midis/E1_v5b/A1/336/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/336/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/336/co/sample_2_temp1.0.mid"
+      ],
+      "346": [
+       "midis/E1_v5b/A1/346/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/346/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/346/co/sample_2_temp1.0.mid"
+      ],
+      "356": [
+       "midis/E1_v5b/A1/356/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/356/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/356/co/sample_2_temp1.0.mid"
+      ],
+      "366": [
+       "midis/E1_v5b/A1/366/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/366/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/366/co/sample_2_temp1.0.mid"
+      ],
+      "376": [
+       "midis/E1_v5b/A1/376/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/376/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/376/co/sample_2_temp1.0.mid"
+      ],
+      "386": [
+       "midis/E1_v5b/A1/386/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/386/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/386/co/sample_2_temp1.0.mid"
+      ],
+      "396": [
+       "midis/E1_v5b/A1/396/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/396/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/396/co/sample_2_temp1.0.mid"
+      ],
+      "406": [
+       "midis/E1_v5b/A1/406/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/406/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/406/co/sample_2_temp1.0.mid"
+      ],
+      "416": [
+       "midis/E1_v5b/A1/416/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/416/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/416/co/sample_2_temp1.0.mid"
+      ],
+      "426": [
+       "midis/E1_v5b/A1/426/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/426/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/426/co/sample_2_temp1.0.mid"
+      ],
+      "436": [
+       "midis/E1_v5b/A1/436/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/436/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/436/co/sample_2_temp1.0.mid"
+      ],
+      "446": [
+       "midis/E1_v5b/A1/446/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/446/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/446/co/sample_2_temp1.0.mid"
+      ],
+      "456": [
+       "midis/E1_v5b/A1/456/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/456/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/456/co/sample_2_temp1.0.mid"
+      ],
+      "466": [
+       "midis/E1_v5b/A1/466/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/466/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/466/co/sample_2_temp1.0.mid"
+      ],
+      "476": [
+       "midis/E1_v5b/A1/476/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/476/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/476/co/sample_2_temp1.0.mid"
+      ],
+      "486": [
+       "midis/E1_v5b/A1/486/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/486/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/486/co/sample_2_temp1.0.mid"
+      ],
+      "496": [
+       "midis/E1_v5b/A1/496/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/496/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/496/co/sample_2_temp1.0.mid"
+      ],
+      "506": [
+       "midis/E1_v5b/A1/506/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/506/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/506/co/sample_2_temp1.0.mid"
+      ],
+      "516": [
+       "midis/E1_v5b/A1/516/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/516/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/516/co/sample_2_temp1.0.mid"
+      ],
+      "526": [
+       "midis/E1_v5b/A1/526/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/526/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/526/co/sample_2_temp1.0.mid"
+      ],
+      "536": [
+       "midis/E1_v5b/A1/536/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/536/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/536/co/sample_2_temp1.0.mid"
+      ],
+      "546": [
+       "midis/E1_v5b/A1/546/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/546/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/546/co/sample_2_temp1.0.mid"
+      ],
+      "556": [
+       "midis/E1_v5b/A1/556/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/556/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/556/co/sample_2_temp1.0.mid"
+      ],
+      "566": [
+       "midis/E1_v5b/A1/566/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/566/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/566/co/sample_2_temp1.0.mid"
+      ],
+      "576": [
+       "midis/E1_v5b/A1/576/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/576/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/576/co/sample_2_temp1.0.mid"
+      ],
+      "586": [
+       "midis/E1_v5b/A1/586/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/586/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/586/co/sample_2_temp1.0.mid"
+      ],
+      "596": [
+       "midis/E1_v5b/A1/596/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/596/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/596/co/sample_2_temp1.0.mid"
+      ],
+      "606": [
+       "midis/E1_v5b/A1/606/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/606/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/606/co/sample_2_temp1.0.mid"
+      ],
+      "616": [
+       "midis/E1_v5b/A1/616/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/616/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/616/co/sample_2_temp1.0.mid"
+      ],
+      "626": [
+       "midis/E1_v5b/A1/626/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/626/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/626/co/sample_2_temp1.0.mid"
+      ],
+      "636": [
+       "midis/E1_v5b/A1/636/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/636/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/636/co/sample_2_temp1.0.mid"
+      ],
+      "646": [
+       "midis/E1_v5b/A1/646/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/646/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/646/co/sample_2_temp1.0.mid"
+      ],
+      "656": [
+       "midis/E1_v5b/A1/656/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/656/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/656/co/sample_2_temp1.0.mid"
+      ],
+      "666": [
+       "midis/E1_v5b/A1/666/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/666/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/666/co/sample_2_temp1.0.mid"
+      ],
+      "676": [
+       "midis/E1_v5b/A1/676/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/676/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/676/co/sample_2_temp1.0.mid"
+      ],
+      "686": [
+       "midis/E1_v5b/A1/686/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/686/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/686/co/sample_2_temp1.0.mid"
+      ],
+      "696": [
+       "midis/E1_v5b/A1/696/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/696/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/696/co/sample_2_temp1.0.mid"
+      ],
+      "706": [
+       "midis/E1_v5b/A1/706/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/706/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/706/co/sample_2_temp1.0.mid"
+      ],
+      "716": [
+       "midis/E1_v5b/A1/716/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/716/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/716/co/sample_2_temp1.0.mid"
+      ],
+      "726": [
+       "midis/E1_v5b/A1/726/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/726/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/726/co/sample_2_temp1.0.mid"
+      ],
+      "736": [
+       "midis/E1_v5b/A1/736/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/736/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/736/co/sample_2_temp1.0.mid"
+      ],
+      "746": [
+       "midis/E1_v5b/A1/746/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/746/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/746/co/sample_2_temp1.0.mid"
+      ],
+      "756": [
+       "midis/E1_v5b/A1/756/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/756/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/756/co/sample_2_temp1.0.mid"
+      ],
+      "766": [
+       "midis/E1_v5b/A1/766/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/766/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/766/co/sample_2_temp1.0.mid"
+      ],
+      "776": [
+       "midis/E1_v5b/A1/776/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/776/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/776/co/sample_2_temp1.0.mid"
+      ],
+      "786": [
+       "midis/E1_v5b/A1/786/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/786/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/786/co/sample_2_temp1.0.mid"
+      ],
+      "796": [
+       "midis/E1_v5b/A1/796/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/796/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/796/co/sample_2_temp1.0.mid"
+      ],
+      "806": [
+       "midis/E1_v5b/A1/806/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/806/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/806/co/sample_2_temp1.0.mid"
+      ],
+      "816": [
+       "midis/E1_v5b/A1/816/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/816/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/816/co/sample_2_temp1.0.mid"
+      ],
+      "826": [
+       "midis/E1_v5b/A1/826/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/826/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/826/co/sample_2_temp1.0.mid"
+      ],
+      "836": [
+       "midis/E1_v5b/A1/836/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/836/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/836/co/sample_2_temp1.0.mid"
+      ],
+      "846": [
+       "midis/E1_v5b/A1/846/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/846/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/846/co/sample_2_temp1.0.mid"
+      ],
+      "856": [
+       "midis/E1_v5b/A1/856/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/856/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/856/co/sample_2_temp1.0.mid"
+      ],
+      "866": [
+       "midis/E1_v5b/A1/866/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/866/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/866/co/sample_2_temp1.0.mid"
+      ],
+      "876": [
+       "midis/E1_v5b/A1/876/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/876/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/876/co/sample_2_temp1.0.mid"
+      ],
+      "886": [
+       "midis/E1_v5b/A1/886/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/886/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/886/co/sample_2_temp1.0.mid"
+      ],
+      "896": [
+       "midis/E1_v5b/A1/896/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/896/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/896/co/sample_2_temp1.0.mid"
+      ],
+      "906": [
+       "midis/E1_v5b/A1/906/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A1/906/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A1/906/co/sample_2_temp1.0.mid"
       ]
      }
     },
     {
      "id": "A3ctcaT",
-     "name": "A3ctcaT",
+     "name": "Duet",
+     "group": "Our Models",
      "variations": {
+      "001": [
+       "midis/E1_v5b/A3ctcaT/001/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/001/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/001/co/sample_2_temp1.0.mid"
+      ],
+      "002": [
+       "midis/E1_v5b/A3ctcaT/002/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/002/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/002/co/sample_2_temp1.0.mid"
+      ],
+      "003": [
+       "midis/E1_v5b/A3ctcaT/003/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/003/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/003/co/sample_2_temp1.0.mid"
+      ],
+      "004": [
+       "midis/E1_v5b/A3ctcaT/004/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/004/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/004/co/sample_2_temp1.0.mid"
+      ],
+      "005": [
+       "midis/E1_v5b/A3ctcaT/005/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/005/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/005/co/sample_2_temp1.0.mid"
+      ],
+      "006": [
+       "midis/E1_v5b/A3ctcaT/006/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/006/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/006/co/sample_2_temp1.0.mid"
+      ],
+      "016": [
+       "midis/E1_v5b/A3ctcaT/016/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/016/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/016/co/sample_2_temp1.0.mid"
+      ],
+      "026": [
+       "midis/E1_v5b/A3ctcaT/026/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/026/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/026/co/sample_2_temp1.0.mid"
+      ],
+      "036": [
+       "midis/E1_v5b/A3ctcaT/036/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/036/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/036/co/sample_2_temp1.0.mid"
+      ],
       "046": [
-       "midis/E1_matched_p8/A3ctcaT/046/co/sample_0_temp1.0.mid",
-       "midis/E1_matched_p8/A3ctcaT/046/co/sample_1_temp1.0.mid",
-       "midis/E1_matched_p8/A3ctcaT/046/co/sample_2_temp1.0.mid"
+       "midis/E1_v5b/A3ctcaT/046/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/046/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/046/co/sample_2_temp1.0.mid"
+      ],
+      "056": [
+       "midis/E1_v5b/A3ctcaT/056/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/056/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/056/co/sample_2_temp1.0.mid"
+      ],
+      "066": [
+       "midis/E1_v5b/A3ctcaT/066/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/066/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/066/co/sample_2_temp1.0.mid"
+      ],
+      "076": [
+       "midis/E1_v5b/A3ctcaT/076/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/076/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/076/co/sample_2_temp1.0.mid"
+      ],
+      "086": [
+       "midis/E1_v5b/A3ctcaT/086/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/086/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/086/co/sample_2_temp1.0.mid"
+      ],
+      "096": [
+       "midis/E1_v5b/A3ctcaT/096/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/096/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/096/co/sample_2_temp1.0.mid"
+      ],
+      "106": [
+       "midis/E1_v5b/A3ctcaT/106/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/106/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/106/co/sample_2_temp1.0.mid"
+      ],
+      "116": [
+       "midis/E1_v5b/A3ctcaT/116/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/116/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/116/co/sample_2_temp1.0.mid"
+      ],
+      "126": [
+       "midis/E1_v5b/A3ctcaT/126/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/126/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/126/co/sample_2_temp1.0.mid"
       ],
       "136": [
-       "midis/E1_matched_p8/A3ctcaT/136/co/sample_0_temp1.0.mid",
-       "midis/E1_matched_p8/A3ctcaT/136/co/sample_1_temp1.0.mid",
-       "midis/E1_matched_p8/A3ctcaT/136/co/sample_2_temp1.0.mid"
+       "midis/E1_v5b/A3ctcaT/136/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/136/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/136/co/sample_2_temp1.0.mid"
+      ],
+      "146": [
+       "midis/E1_v5b/A3ctcaT/146/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/146/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/146/co/sample_2_temp1.0.mid"
+      ],
+      "156": [
+       "midis/E1_v5b/A3ctcaT/156/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/156/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/156/co/sample_2_temp1.0.mid"
+      ],
+      "166": [
+       "midis/E1_v5b/A3ctcaT/166/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/166/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/166/co/sample_2_temp1.0.mid"
+      ],
+      "176": [
+       "midis/E1_v5b/A3ctcaT/176/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/176/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/176/co/sample_2_temp1.0.mid"
+      ],
+      "186": [
+       "midis/E1_v5b/A3ctcaT/186/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/186/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/186/co/sample_2_temp1.0.mid"
+      ],
+      "196": [
+       "midis/E1_v5b/A3ctcaT/196/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/196/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/196/co/sample_2_temp1.0.mid"
+      ],
+      "206": [
+       "midis/E1_v5b/A3ctcaT/206/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/206/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/206/co/sample_2_temp1.0.mid"
+      ],
+      "216": [
+       "midis/E1_v5b/A3ctcaT/216/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/216/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/216/co/sample_2_temp1.0.mid"
+      ],
+      "226": [
+       "midis/E1_v5b/A3ctcaT/226/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/226/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/226/co/sample_2_temp1.0.mid"
+      ],
+      "236": [
+       "midis/E1_v5b/A3ctcaT/236/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/236/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/236/co/sample_2_temp1.0.mid"
+      ],
+      "246": [
+       "midis/E1_v5b/A3ctcaT/246/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/246/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/246/co/sample_2_temp1.0.mid"
+      ],
+      "256": [
+       "midis/E1_v5b/A3ctcaT/256/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/256/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/256/co/sample_2_temp1.0.mid"
+      ],
+      "266": [
+       "midis/E1_v5b/A3ctcaT/266/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/266/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/266/co/sample_2_temp1.0.mid"
+      ],
+      "276": [
+       "midis/E1_v5b/A3ctcaT/276/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/276/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/276/co/sample_2_temp1.0.mid"
+      ],
+      "286": [
+       "midis/E1_v5b/A3ctcaT/286/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/286/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/286/co/sample_2_temp1.0.mid"
+      ],
+      "296": [
+       "midis/E1_v5b/A3ctcaT/296/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/296/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/296/co/sample_2_temp1.0.mid"
+      ],
+      "306": [
+       "midis/E1_v5b/A3ctcaT/306/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/306/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/306/co/sample_2_temp1.0.mid"
+      ],
+      "316": [
+       "midis/E1_v5b/A3ctcaT/316/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/316/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/316/co/sample_2_temp1.0.mid"
+      ],
+      "336": [
+       "midis/E1_v5b/A3ctcaT/336/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/336/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/336/co/sample_2_temp1.0.mid"
+      ],
+      "346": [
+       "midis/E1_v5b/A3ctcaT/346/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/346/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/346/co/sample_2_temp1.0.mid"
+      ],
+      "356": [
+       "midis/E1_v5b/A3ctcaT/356/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/356/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/356/co/sample_2_temp1.0.mid"
+      ],
+      "366": [
+       "midis/E1_v5b/A3ctcaT/366/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/366/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/366/co/sample_2_temp1.0.mid"
+      ],
+      "376": [
+       "midis/E1_v5b/A3ctcaT/376/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/376/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/376/co/sample_2_temp1.0.mid"
+      ],
+      "386": [
+       "midis/E1_v5b/A3ctcaT/386/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/386/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/386/co/sample_2_temp1.0.mid"
+      ],
+      "396": [
+       "midis/E1_v5b/A3ctcaT/396/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/396/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/396/co/sample_2_temp1.0.mid"
+      ],
+      "406": [
+       "midis/E1_v5b/A3ctcaT/406/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/406/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/406/co/sample_2_temp1.0.mid"
+      ],
+      "416": [
+       "midis/E1_v5b/A3ctcaT/416/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/416/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/416/co/sample_2_temp1.0.mid"
+      ],
+      "426": [
+       "midis/E1_v5b/A3ctcaT/426/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/426/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/426/co/sample_2_temp1.0.mid"
+      ],
+      "436": [
+       "midis/E1_v5b/A3ctcaT/436/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/436/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/436/co/sample_2_temp1.0.mid"
+      ],
+      "446": [
+       "midis/E1_v5b/A3ctcaT/446/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/446/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/446/co/sample_2_temp1.0.mid"
+      ],
+      "456": [
+       "midis/E1_v5b/A3ctcaT/456/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/456/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/456/co/sample_2_temp1.0.mid"
       ],
       "466": [
-       "midis/E1_matched_p8/A3ctcaT/466/co/sample_0_temp1.0.mid",
-       "midis/E1_matched_p8/A3ctcaT/466/co/sample_1_temp1.0.mid",
-       "midis/E1_matched_p8/A3ctcaT/466/co/sample_2_temp1.0.mid"
-      ]
-     }
-    },
-    {
-     "id": "WS",
-     "name": "WS",
-     "variations": {
-      "046": [
-       "midis/E1_matched_p8/WS/046/co/sample_0.mid",
-       "midis/E1_matched_p8/WS/046/co/sample_1.mid",
-       "midis/E1_matched_p8/WS/046/co/sample_2.mid"
+       "midis/E1_v5b/A3ctcaT/466/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/466/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/466/co/sample_2_temp1.0.mid"
       ],
-      "136": [
-       "midis/E1_matched_p8/WS/136/co/sample_0.mid",
-       "midis/E1_matched_p8/WS/136/co/sample_1.mid",
-       "midis/E1_matched_p8/WS/136/co/sample_2.mid"
+      "476": [
+       "midis/E1_v5b/A3ctcaT/476/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/476/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/476/co/sample_2_temp1.0.mid"
       ],
-      "466": [
-       "midis/E1_matched_p8/WS/466/co/sample_0.mid",
-       "midis/E1_matched_p8/WS/466/co/sample_1.mid",
-       "midis/E1_matched_p8/WS/466/co/sample_2.mid"
-      ]
-     }
-    },
-    {
-     "id": "P-mc",
-     "name": "P-mc",
-     "variations": {
-      "046": [
-       "midis/E1_matched_p8/P-mc/4_final/046/co/sample_0_temp1.0.mid",
-       "midis/E1_matched_p8/P-mc/4_final/046/co/sample_1_temp1.0.mid",
-       "midis/E1_matched_p8/P-mc/4_final/046/co/sample_2_temp1.0.mid"
+      "486": [
+       "midis/E1_v5b/A3ctcaT/486/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/486/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/486/co/sample_2_temp1.0.mid"
       ],
-      "136": [
-       "midis/E1_matched_p8/P-mc/4_final/136/co/sample_0_temp1.0.mid",
-       "midis/E1_matched_p8/P-mc/4_final/136/co/sample_1_temp1.0.mid",
-       "midis/E1_matched_p8/P-mc/4_final/136/co/sample_2_temp1.0.mid"
+      "496": [
+       "midis/E1_v5b/A3ctcaT/496/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/496/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/496/co/sample_2_temp1.0.mid"
       ],
-      "466": [
-       "midis/E1_matched_p8/P-mc/4_final/466/co/sample_0_temp1.0.mid",
-       "midis/E1_matched_p8/P-mc/4_final/466/co/sample_1_temp1.0.mid",
-       "midis/E1_matched_p8/P-mc/4_final/466/co/sample_2_temp1.0.mid"
-      ]
-     }
-    },
-    {
-     "id": "P-cm",
-     "name": "P-cm",
-     "variations": {
-      "046": [
-       "midis/E1_matched_p8/P-cm/4_final/046/co/sample_0_temp1.0.mid",
-       "midis/E1_matched_p8/P-cm/4_final/046/co/sample_1_temp1.0.mid",
-       "midis/E1_matched_p8/P-cm/4_final/046/co/sample_2_temp1.0.mid"
+      "506": [
+       "midis/E1_v5b/A3ctcaT/506/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/506/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/506/co/sample_2_temp1.0.mid"
       ],
-      "136": [
-       "midis/E1_matched_p8/P-cm/4_final/136/co/sample_0_temp1.0.mid",
-       "midis/E1_matched_p8/P-cm/4_final/136/co/sample_1_temp1.0.mid",
-       "midis/E1_matched_p8/P-cm/4_final/136/co/sample_2_temp1.0.mid"
+      "516": [
+       "midis/E1_v5b/A3ctcaT/516/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/516/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/516/co/sample_2_temp1.0.mid"
       ],
-      "466": [
-       "midis/E1_matched_p8/P-cm/4_final/466/co/sample_0_temp1.0.mid",
-       "midis/E1_matched_p8/P-cm/4_final/466/co/sample_1_temp1.0.mid",
-       "midis/E1_matched_p8/P-cm/4_final/466/co/sample_2_temp1.0.mid"
-      ]
-     }
-    },
-    {
-     "id": "S1",
-     "name": "S1",
-     "variations": {
-      "046": [
-       "midis/E1_matched_p8/S1/046.mid_temp1.0_continuation_0.mid",
-       "midis/E1_matched_p8/S1/046.mid_temp1.0_continuation_1.mid",
-       "midis/E1_matched_p8/S1/046.mid_temp1.0_continuation_2.mid"
+      "526": [
+       "midis/E1_v5b/A3ctcaT/526/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/526/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/526/co/sample_2_temp1.0.mid"
       ],
-      "136": [
-       "midis/E1_matched_p8/S1/136.mid_temp1.0_continuation_0.mid",
-       "midis/E1_matched_p8/S1/136.mid_temp1.0_continuation_1.mid",
-       "midis/E1_matched_p8/S1/136.mid_temp1.0_continuation_2.mid"
+      "536": [
+       "midis/E1_v5b/A3ctcaT/536/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/536/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/536/co/sample_2_temp1.0.mid"
       ],
-      "466": [
-       "midis/E1_matched_p8/S1/466.mid_temp1.0_continuation_0.mid",
-       "midis/E1_matched_p8/S1/466.mid_temp1.0_continuation_1.mid",
-       "midis/E1_matched_p8/S1/466.mid_temp1.0_continuation_2.mid"
+      "546": [
+       "midis/E1_v5b/A3ctcaT/546/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/546/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/546/co/sample_2_temp1.0.mid"
+      ],
+      "556": [
+       "midis/E1_v5b/A3ctcaT/556/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/556/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/556/co/sample_2_temp1.0.mid"
+      ],
+      "566": [
+       "midis/E1_v5b/A3ctcaT/566/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/566/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/566/co/sample_2_temp1.0.mid"
+      ],
+      "576": [
+       "midis/E1_v5b/A3ctcaT/576/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/576/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/576/co/sample_2_temp1.0.mid"
+      ],
+      "586": [
+       "midis/E1_v5b/A3ctcaT/586/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/586/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/586/co/sample_2_temp1.0.mid"
+      ],
+      "596": [
+       "midis/E1_v5b/A3ctcaT/596/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/596/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/596/co/sample_2_temp1.0.mid"
+      ],
+      "606": [
+       "midis/E1_v5b/A3ctcaT/606/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/606/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/606/co/sample_2_temp1.0.mid"
+      ],
+      "616": [
+       "midis/E1_v5b/A3ctcaT/616/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/616/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/616/co/sample_2_temp1.0.mid"
+      ],
+      "626": [
+       "midis/E1_v5b/A3ctcaT/626/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/626/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/626/co/sample_2_temp1.0.mid"
+      ],
+      "636": [
+       "midis/E1_v5b/A3ctcaT/636/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/636/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/636/co/sample_2_temp1.0.mid"
+      ],
+      "646": [
+       "midis/E1_v5b/A3ctcaT/646/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/646/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/646/co/sample_2_temp1.0.mid"
+      ],
+      "656": [
+       "midis/E1_v5b/A3ctcaT/656/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/656/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/656/co/sample_2_temp1.0.mid"
+      ],
+      "666": [
+       "midis/E1_v5b/A3ctcaT/666/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/666/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/666/co/sample_2_temp1.0.mid"
+      ],
+      "676": [
+       "midis/E1_v5b/A3ctcaT/676/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/676/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/676/co/sample_2_temp1.0.mid"
+      ],
+      "686": [
+       "midis/E1_v5b/A3ctcaT/686/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/686/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/686/co/sample_2_temp1.0.mid"
+      ],
+      "696": [
+       "midis/E1_v5b/A3ctcaT/696/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/696/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/696/co/sample_2_temp1.0.mid"
+      ],
+      "706": [
+       "midis/E1_v5b/A3ctcaT/706/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/706/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/706/co/sample_2_temp1.0.mid"
+      ],
+      "716": [
+       "midis/E1_v5b/A3ctcaT/716/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/716/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/716/co/sample_2_temp1.0.mid"
+      ],
+      "726": [
+       "midis/E1_v5b/A3ctcaT/726/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/726/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/726/co/sample_2_temp1.0.mid"
+      ],
+      "736": [
+       "midis/E1_v5b/A3ctcaT/736/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/736/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/736/co/sample_2_temp1.0.mid"
+      ],
+      "746": [
+       "midis/E1_v5b/A3ctcaT/746/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/746/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/746/co/sample_2_temp1.0.mid"
+      ],
+      "756": [
+       "midis/E1_v5b/A3ctcaT/756/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/756/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/756/co/sample_2_temp1.0.mid"
+      ],
+      "766": [
+       "midis/E1_v5b/A3ctcaT/766/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/766/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/766/co/sample_2_temp1.0.mid"
+      ],
+      "776": [
+       "midis/E1_v5b/A3ctcaT/776/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/776/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/776/co/sample_2_temp1.0.mid"
+      ],
+      "786": [
+       "midis/E1_v5b/A3ctcaT/786/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/786/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/786/co/sample_2_temp1.0.mid"
+      ],
+      "796": [
+       "midis/E1_v5b/A3ctcaT/796/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/796/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/796/co/sample_2_temp1.0.mid"
+      ],
+      "806": [
+       "midis/E1_v5b/A3ctcaT/806/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/806/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/806/co/sample_2_temp1.0.mid"
+      ],
+      "816": [
+       "midis/E1_v5b/A3ctcaT/816/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/816/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/816/co/sample_2_temp1.0.mid"
+      ],
+      "826": [
+       "midis/E1_v5b/A3ctcaT/826/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/826/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/826/co/sample_2_temp1.0.mid"
+      ],
+      "836": [
+       "midis/E1_v5b/A3ctcaT/836/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/836/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/836/co/sample_2_temp1.0.mid"
+      ],
+      "846": [
+       "midis/E1_v5b/A3ctcaT/846/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/846/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/846/co/sample_2_temp1.0.mid"
+      ],
+      "856": [
+       "midis/E1_v5b/A3ctcaT/856/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/856/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/856/co/sample_2_temp1.0.mid"
+      ],
+      "866": [
+       "midis/E1_v5b/A3ctcaT/866/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/866/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/866/co/sample_2_temp1.0.mid"
+      ],
+      "876": [
+       "midis/E1_v5b/A3ctcaT/876/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/876/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/876/co/sample_2_temp1.0.mid"
+      ],
+      "886": [
+       "midis/E1_v5b/A3ctcaT/886/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/886/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/886/co/sample_2_temp1.0.mid"
+      ],
+      "896": [
+       "midis/E1_v5b/A3ctcaT/896/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/896/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/896/co/sample_2_temp1.0.mid"
+      ],
+      "906": [
+       "midis/E1_v5b/A3ctcaT/906/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/906/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/A3ctcaT/906/co/sample_2_temp1.0.mid"
       ]
      }
     },
     {
      "id": "S-scratch",
-     "name": "S-scratch",
+     "name": "Single-stream (from scratch)",
+     "group": "Internal Baselines",
      "variations": {
-      "046": [
-       "midis/E1_matched_p8/S-scratch/046.mid_temp1.0_continuation_0.mid",
-       "midis/E1_matched_p8/S-scratch/046.mid_temp1.0_continuation_1.mid",
-       "midis/E1_matched_p8/S-scratch/046.mid_temp1.0_continuation_2.mid"
+      "296": [
+       "midis/E1_v5b/S-scratch/296.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/296.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/296.mid_temp1.0_continuation_2.mid"
       ],
-      "136": [
-       "midis/E1_matched_p8/S-scratch/136.mid_temp1.0_continuation_0.mid",
-       "midis/E1_matched_p8/S-scratch/136.mid_temp1.0_continuation_1.mid",
-       "midis/E1_matched_p8/S-scratch/136.mid_temp1.0_continuation_2.mid"
+      "496": [
+       "midis/E1_v5b/S-scratch/496.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/496.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/496.mid_temp1.0_continuation_2.mid"
+      ],
+      "286": [
+       "midis/E1_v5b/S-scratch/286.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/286.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/286.mid_temp1.0_continuation_2.mid"
+      ],
+      "746": [
+       "midis/E1_v5b/S-scratch/746.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/746.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/746.mid_temp1.0_continuation_2.mid"
+      ],
+      "156": [
+       "midis/E1_v5b/S-scratch/156.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/156.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/156.mid_temp1.0_continuation_2.mid"
+      ],
+      "005": [
+       "midis/E1_v5b/S-scratch/005.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/005.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/005.mid_temp1.0_continuation_2.mid"
+      ],
+      "266": [
+       "midis/E1_v5b/S-scratch/266.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/266.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/266.mid_temp1.0_continuation_2.mid"
+      ],
+      "306": [
+       "midis/E1_v5b/S-scratch/306.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/306.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/306.mid_temp1.0_continuation_2.mid"
+      ],
+      "626": [
+       "midis/E1_v5b/S-scratch/626.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/626.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/626.mid_temp1.0_continuation_2.mid"
+      ],
+      "436": [
+       "midis/E1_v5b/S-scratch/436.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/436.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/436.mid_temp1.0_continuation_2.mid"
+      ],
+      "816": [
+       "midis/E1_v5b/S-scratch/816.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/816.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/816.mid_temp1.0_continuation_2.mid"
+      ],
+      "606": [
+       "midis/E1_v5b/S-scratch/606.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/606.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/606.mid_temp1.0_continuation_2.mid"
+      ],
+      "776": [
+       "midis/E1_v5b/S-scratch/776.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/776.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/776.mid_temp1.0_continuation_2.mid"
+      ],
+      "026": [
+       "midis/E1_v5b/S-scratch/026.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/026.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/026.mid_temp1.0_continuation_2.mid"
+      ],
+      "336": [
+       "midis/E1_v5b/S-scratch/336.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/336.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/336.mid_temp1.0_continuation_2.mid"
+      ],
+      "106": [
+       "midis/E1_v5b/S-scratch/106.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/106.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/106.mid_temp1.0_continuation_2.mid"
+      ],
+      "596": [
+       "midis/E1_v5b/S-scratch/596.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/596.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/596.mid_temp1.0_continuation_2.mid"
+      ],
+      "426": [
+       "midis/E1_v5b/S-scratch/426.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/426.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/426.mid_temp1.0_continuation_2.mid"
+      ],
+      "246": [
+       "midis/E1_v5b/S-scratch/246.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/246.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/246.mid_temp1.0_continuation_2.mid"
+      ],
+      "586": [
+       "midis/E1_v5b/S-scratch/586.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/586.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/586.mid_temp1.0_continuation_2.mid"
+      ],
+      "016": [
+       "midis/E1_v5b/S-scratch/016.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/016.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/016.mid_temp1.0_continuation_2.mid"
+      ],
+      "766": [
+       "midis/E1_v5b/S-scratch/766.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/766.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/766.mid_temp1.0_continuation_2.mid"
+      ],
+      "876": [
+       "midis/E1_v5b/S-scratch/876.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/876.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/876.mid_temp1.0_continuation_2.mid"
+      ],
+      "036": [
+       "midis/E1_v5b/S-scratch/036.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/036.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/036.mid_temp1.0_continuation_2.mid"
+      ],
+      "196": [
+       "midis/E1_v5b/S-scratch/196.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/196.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/196.mid_temp1.0_continuation_2.mid"
+      ],
+      "716": [
+       "midis/E1_v5b/S-scratch/716.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/716.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/716.mid_temp1.0_continuation_2.mid"
+      ],
+      "856": [
+       "midis/E1_v5b/S-scratch/856.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/856.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/856.mid_temp1.0_continuation_2.mid"
+      ],
+      "126": [
+       "midis/E1_v5b/S-scratch/126.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/126.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/126.mid_temp1.0_continuation_2.mid"
+      ],
+      "676": [
+       "midis/E1_v5b/S-scratch/676.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/676.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/676.mid_temp1.0_continuation_2.mid"
+      ],
+      "346": [
+       "midis/E1_v5b/S-scratch/346.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/346.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/346.mid_temp1.0_continuation_2.mid"
+      ],
+      "316": [
+       "midis/E1_v5b/S-scratch/316.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/316.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/316.mid_temp1.0_continuation_2.mid"
+      ],
+      "696": [
+       "midis/E1_v5b/S-scratch/696.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/696.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/696.mid_temp1.0_continuation_2.mid"
+      ],
+      "636": [
+       "midis/E1_v5b/S-scratch/636.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/636.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/636.mid_temp1.0_continuation_2.mid"
+      ],
+      "456": [
+       "midis/E1_v5b/S-scratch/456.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/456.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/456.mid_temp1.0_continuation_2.mid"
+      ],
+      "406": [
+       "midis/E1_v5b/S-scratch/406.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/406.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/406.mid_temp1.0_continuation_2.mid"
+      ],
+      "806": [
+       "midis/E1_v5b/S-scratch/806.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/806.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/806.mid_temp1.0_continuation_2.mid"
+      ],
+      "486": [
+       "midis/E1_v5b/S-scratch/486.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/486.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/486.mid_temp1.0_continuation_2.mid"
+      ],
+      "206": [
+       "midis/E1_v5b/S-scratch/206.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/206.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/206.mid_temp1.0_continuation_2.mid"
+      ],
+      "786": [
+       "midis/E1_v5b/S-scratch/786.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/786.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/786.mid_temp1.0_continuation_2.mid"
+      ],
+      "086": [
+       "midis/E1_v5b/S-scratch/086.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/086.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/086.mid_temp1.0_continuation_2.mid"
+      ],
+      "906": [
+       "midis/E1_v5b/S-scratch/906.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/906.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/906.mid_temp1.0_continuation_2.mid"
+      ],
+      "836": [
+       "midis/E1_v5b/S-scratch/836.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/836.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/836.mid_temp1.0_continuation_2.mid"
+      ],
+      "116": [
+       "midis/E1_v5b/S-scratch/116.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/116.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/116.mid_temp1.0_continuation_2.mid"
+      ],
+      "416": [
+       "midis/E1_v5b/S-scratch/416.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/416.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/416.mid_temp1.0_continuation_2.mid"
+      ],
+      "726": [
+       "midis/E1_v5b/S-scratch/726.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/726.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/726.mid_temp1.0_continuation_2.mid"
+      ],
+      "896": [
+       "midis/E1_v5b/S-scratch/896.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/896.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/896.mid_temp1.0_continuation_2.mid"
+      ],
+      "001": [
+       "midis/E1_v5b/S-scratch/001.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/001.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/001.mid_temp1.0_continuation_2.mid"
+      ],
+      "376": [
+       "midis/E1_v5b/S-scratch/376.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/376.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/376.mid_temp1.0_continuation_2.mid"
+      ],
+      "686": [
+       "midis/E1_v5b/S-scratch/686.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/686.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/686.mid_temp1.0_continuation_2.mid"
+      ],
+      "166": [
+       "midis/E1_v5b/S-scratch/166.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/166.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/166.mid_temp1.0_continuation_2.mid"
+      ],
+      "004": [
+       "midis/E1_v5b/S-scratch/004.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/004.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/004.mid_temp1.0_continuation_2.mid"
+      ],
+      "396": [
+       "midis/E1_v5b/S-scratch/396.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/396.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/396.mid_temp1.0_continuation_2.mid"
+      ],
+      "546": [
+       "midis/E1_v5b/S-scratch/546.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/546.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/546.mid_temp1.0_continuation_2.mid"
+      ],
+      "046": [
+       "midis/E1_v5b/S-scratch/046.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/046.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/046.mid_temp1.0_continuation_2.mid"
+      ],
+      "536": [
+       "midis/E1_v5b/S-scratch/536.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/536.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/536.mid_temp1.0_continuation_2.mid"
+      ],
+      "056": [
+       "midis/E1_v5b/S-scratch/056.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/056.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/056.mid_temp1.0_continuation_2.mid"
+      ],
+      "186": [
+       "midis/E1_v5b/S-scratch/186.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/186.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/186.mid_temp1.0_continuation_2.mid"
+      ],
+      "756": [
+       "midis/E1_v5b/S-scratch/756.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/756.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/756.mid_temp1.0_continuation_2.mid"
+      ],
+      "736": [
+       "midis/E1_v5b/S-scratch/736.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/736.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/736.mid_temp1.0_continuation_2.mid"
+      ],
+      "616": [
+       "midis/E1_v5b/S-scratch/616.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/616.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/616.mid_temp1.0_continuation_2.mid"
+      ],
+      "516": [
+       "midis/E1_v5b/S-scratch/516.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/516.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/516.mid_temp1.0_continuation_2.mid"
+      ],
+      "646": [
+       "midis/E1_v5b/S-scratch/646.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/646.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/646.mid_temp1.0_continuation_2.mid"
+      ],
+      "706": [
+       "midis/E1_v5b/S-scratch/706.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/706.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/706.mid_temp1.0_continuation_2.mid"
+      ],
+      "386": [
+       "midis/E1_v5b/S-scratch/386.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/386.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/386.mid_temp1.0_continuation_2.mid"
+      ],
+      "796": [
+       "midis/E1_v5b/S-scratch/796.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/796.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/796.mid_temp1.0_continuation_2.mid"
       ],
       "466": [
-       "midis/E1_matched_p8/S-scratch/466.mid_temp1.0_continuation_0.mid",
-       "midis/E1_matched_p8/S-scratch/466.mid_temp1.0_continuation_1.mid",
-       "midis/E1_matched_p8/S-scratch/466.mid_temp1.0_continuation_2.mid"
+       "midis/E1_v5b/S-scratch/466.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/466.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/466.mid_temp1.0_continuation_2.mid"
+      ],
+      "176": [
+       "midis/E1_v5b/S-scratch/176.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/176.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/176.mid_temp1.0_continuation_2.mid"
+      ],
+      "066": [
+       "midis/E1_v5b/S-scratch/066.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/066.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/066.mid_temp1.0_continuation_2.mid"
+      ],
+      "656": [
+       "midis/E1_v5b/S-scratch/656.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/656.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/656.mid_temp1.0_continuation_2.mid"
+      ],
+      "356": [
+       "midis/E1_v5b/S-scratch/356.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/356.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/356.mid_temp1.0_continuation_2.mid"
+      ],
+      "136": [
+       "midis/E1_v5b/S-scratch/136.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/136.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/136.mid_temp1.0_continuation_2.mid"
+      ],
+      "003": [
+       "midis/E1_v5b/S-scratch/003.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/003.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/003.mid_temp1.0_continuation_2.mid"
+      ],
+      "476": [
+       "midis/E1_v5b/S-scratch/476.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/476.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/476.mid_temp1.0_continuation_2.mid"
+      ],
+      "576": [
+       "midis/E1_v5b/S-scratch/576.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/576.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/576.mid_temp1.0_continuation_2.mid"
+      ],
+      "866": [
+       "midis/E1_v5b/S-scratch/866.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/866.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/866.mid_temp1.0_continuation_2.mid"
+      ],
+      "556": [
+       "midis/E1_v5b/S-scratch/556.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/556.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/556.mid_temp1.0_continuation_2.mid"
+      ],
+      "256": [
+       "midis/E1_v5b/S-scratch/256.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/256.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/256.mid_temp1.0_continuation_2.mid"
+      ],
+      "526": [
+       "midis/E1_v5b/S-scratch/526.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/526.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/526.mid_temp1.0_continuation_2.mid"
+      ],
+      "566": [
+       "midis/E1_v5b/S-scratch/566.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/566.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/566.mid_temp1.0_continuation_2.mid"
+      ],
+      "276": [
+       "midis/E1_v5b/S-scratch/276.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/276.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/276.mid_temp1.0_continuation_2.mid"
+      ],
+      "666": [
+       "midis/E1_v5b/S-scratch/666.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/666.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/666.mid_temp1.0_continuation_2.mid"
+      ],
+      "216": [
+       "midis/E1_v5b/S-scratch/216.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/216.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/216.mid_temp1.0_continuation_2.mid"
+      ],
+      "236": [
+       "midis/E1_v5b/S-scratch/236.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/236.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/236.mid_temp1.0_continuation_2.mid"
+      ],
+      "506": [
+       "midis/E1_v5b/S-scratch/506.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/506.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/506.mid_temp1.0_continuation_2.mid"
+      ],
+      "076": [
+       "midis/E1_v5b/S-scratch/076.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/076.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/076.mid_temp1.0_continuation_2.mid"
+      ],
+      "226": [
+       "midis/E1_v5b/S-scratch/226.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/226.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/226.mid_temp1.0_continuation_2.mid"
+      ],
+      "366": [
+       "midis/E1_v5b/S-scratch/366.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/366.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/366.mid_temp1.0_continuation_2.mid"
+      ],
+      "146": [
+       "midis/E1_v5b/S-scratch/146.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/146.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/146.mid_temp1.0_continuation_2.mid"
+      ],
+      "886": [
+       "midis/E1_v5b/S-scratch/886.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/886.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/886.mid_temp1.0_continuation_2.mid"
+      ],
+      "002": [
+       "midis/E1_v5b/S-scratch/002.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/002.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/002.mid_temp1.0_continuation_2.mid"
+      ],
+      "826": [
+       "midis/E1_v5b/S-scratch/826.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/826.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/826.mid_temp1.0_continuation_2.mid"
+      ],
+      "006": [
+       "midis/E1_v5b/S-scratch/006.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/006.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/006.mid_temp1.0_continuation_2.mid"
+      ],
+      "846": [
+       "midis/E1_v5b/S-scratch/846.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/846.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/846.mid_temp1.0_continuation_2.mid"
+      ],
+      "096": [
+       "midis/E1_v5b/S-scratch/096.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/096.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/096.mid_temp1.0_continuation_2.mid"
+      ],
+      "446": [
+       "midis/E1_v5b/S-scratch/446.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/446.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/446.mid_temp1.0_continuation_2.mid"
+      ]
+     }
+    },
+    {
+     "id": "S1",
+     "name": "Single-stream (finetuned)",
+     "group": "Internal Baselines",
+     "variations": {
+      "296": [
+       "midis/E1_v5b/S1/296.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/296.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/296.mid_temp1.0_continuation_2.mid"
+      ],
+      "496": [
+       "midis/E1_v5b/S1/496.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/496.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/496.mid_temp1.0_continuation_2.mid"
+      ],
+      "286": [
+       "midis/E1_v5b/S1/286.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/286.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/286.mid_temp1.0_continuation_2.mid"
+      ],
+      "746": [
+       "midis/E1_v5b/S1/746.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/746.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/746.mid_temp1.0_continuation_2.mid"
+      ],
+      "156": [
+       "midis/E1_v5b/S1/156.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/156.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/156.mid_temp1.0_continuation_2.mid"
+      ],
+      "005": [
+       "midis/E1_v5b/S1/005.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/005.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/005.mid_temp1.0_continuation_2.mid"
+      ],
+      "266": [
+       "midis/E1_v5b/S1/266.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/266.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/266.mid_temp1.0_continuation_2.mid"
+      ],
+      "306": [
+       "midis/E1_v5b/S1/306.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/306.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/306.mid_temp1.0_continuation_2.mid"
+      ],
+      "626": [
+       "midis/E1_v5b/S1/626.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/626.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/626.mid_temp1.0_continuation_2.mid"
+      ],
+      "436": [
+       "midis/E1_v5b/S1/436.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/436.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/436.mid_temp1.0_continuation_2.mid"
+      ],
+      "816": [
+       "midis/E1_v5b/S1/816.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/816.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/816.mid_temp1.0_continuation_2.mid"
+      ],
+      "606": [
+       "midis/E1_v5b/S1/606.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/606.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/606.mid_temp1.0_continuation_2.mid"
+      ],
+      "776": [
+       "midis/E1_v5b/S1/776.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/776.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/776.mid_temp1.0_continuation_2.mid"
+      ],
+      "026": [
+       "midis/E1_v5b/S1/026.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/026.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/026.mid_temp1.0_continuation_2.mid"
+      ],
+      "336": [
+       "midis/E1_v5b/S1/336.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/336.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/336.mid_temp1.0_continuation_2.mid"
+      ],
+      "106": [
+       "midis/E1_v5b/S1/106.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/106.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/106.mid_temp1.0_continuation_2.mid"
+      ],
+      "596": [
+       "midis/E1_v5b/S1/596.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/596.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/596.mid_temp1.0_continuation_2.mid"
+      ],
+      "426": [
+       "midis/E1_v5b/S1/426.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/426.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/426.mid_temp1.0_continuation_2.mid"
+      ],
+      "246": [
+       "midis/E1_v5b/S1/246.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/246.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/246.mid_temp1.0_continuation_2.mid"
+      ],
+      "586": [
+       "midis/E1_v5b/S1/586.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/586.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/586.mid_temp1.0_continuation_2.mid"
+      ],
+      "016": [
+       "midis/E1_v5b/S1/016.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/016.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/016.mid_temp1.0_continuation_2.mid"
+      ],
+      "766": [
+       "midis/E1_v5b/S1/766.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/766.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/766.mid_temp1.0_continuation_2.mid"
+      ],
+      "876": [
+       "midis/E1_v5b/S1/876.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/876.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/876.mid_temp1.0_continuation_2.mid"
+      ],
+      "036": [
+       "midis/E1_v5b/S1/036.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/036.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/036.mid_temp1.0_continuation_2.mid"
+      ],
+      "196": [
+       "midis/E1_v5b/S1/196.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/196.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/196.mid_temp1.0_continuation_2.mid"
+      ],
+      "716": [
+       "midis/E1_v5b/S1/716.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/716.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/716.mid_temp1.0_continuation_2.mid"
+      ],
+      "856": [
+       "midis/E1_v5b/S1/856.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/856.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/856.mid_temp1.0_continuation_2.mid"
+      ],
+      "126": [
+       "midis/E1_v5b/S1/126.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/126.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/126.mid_temp1.0_continuation_2.mid"
+      ],
+      "676": [
+       "midis/E1_v5b/S1/676.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/676.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/676.mid_temp1.0_continuation_2.mid"
+      ],
+      "346": [
+       "midis/E1_v5b/S1/346.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/346.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/346.mid_temp1.0_continuation_2.mid"
+      ],
+      "316": [
+       "midis/E1_v5b/S1/316.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/316.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/316.mid_temp1.0_continuation_2.mid"
+      ],
+      "696": [
+       "midis/E1_v5b/S1/696.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/696.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/696.mid_temp1.0_continuation_2.mid"
+      ],
+      "636": [
+       "midis/E1_v5b/S1/636.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/636.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/636.mid_temp1.0_continuation_2.mid"
+      ],
+      "456": [
+       "midis/E1_v5b/S1/456.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/456.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/456.mid_temp1.0_continuation_2.mid"
+      ],
+      "406": [
+       "midis/E1_v5b/S1/406.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/406.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/406.mid_temp1.0_continuation_2.mid"
+      ],
+      "806": [
+       "midis/E1_v5b/S1/806.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/806.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/806.mid_temp1.0_continuation_2.mid"
+      ],
+      "486": [
+       "midis/E1_v5b/S1/486.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/486.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/486.mid_temp1.0_continuation_2.mid"
+      ],
+      "206": [
+       "midis/E1_v5b/S1/206.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/206.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/206.mid_temp1.0_continuation_2.mid"
+      ],
+      "786": [
+       "midis/E1_v5b/S1/786.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/786.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/786.mid_temp1.0_continuation_2.mid"
+      ],
+      "086": [
+       "midis/E1_v5b/S1/086.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/086.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/086.mid_temp1.0_continuation_2.mid"
+      ],
+      "906": [
+       "midis/E1_v5b/S1/906.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/906.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/906.mid_temp1.0_continuation_2.mid"
+      ],
+      "836": [
+       "midis/E1_v5b/S1/836.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/836.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/836.mid_temp1.0_continuation_2.mid"
+      ],
+      "116": [
+       "midis/E1_v5b/S1/116.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/116.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/116.mid_temp1.0_continuation_2.mid"
+      ],
+      "416": [
+       "midis/E1_v5b/S1/416.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/416.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/416.mid_temp1.0_continuation_2.mid"
+      ],
+      "726": [
+       "midis/E1_v5b/S1/726.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/726.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/726.mid_temp1.0_continuation_2.mid"
+      ],
+      "896": [
+       "midis/E1_v5b/S1/896.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/896.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/896.mid_temp1.0_continuation_2.mid"
+      ],
+      "001": [
+       "midis/E1_v5b/S1/001.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/001.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/001.mid_temp1.0_continuation_2.mid"
+      ],
+      "376": [
+       "midis/E1_v5b/S1/376.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/376.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/376.mid_temp1.0_continuation_2.mid"
+      ],
+      "686": [
+       "midis/E1_v5b/S1/686.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/686.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/686.mid_temp1.0_continuation_2.mid"
+      ],
+      "166": [
+       "midis/E1_v5b/S1/166.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/166.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/166.mid_temp1.0_continuation_2.mid"
+      ],
+      "004": [
+       "midis/E1_v5b/S1/004.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/004.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/004.mid_temp1.0_continuation_2.mid"
+      ],
+      "396": [
+       "midis/E1_v5b/S1/396.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/396.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/396.mid_temp1.0_continuation_2.mid"
+      ],
+      "546": [
+       "midis/E1_v5b/S1/546.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/546.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/546.mid_temp1.0_continuation_2.mid"
+      ],
+      "046": [
+       "midis/E1_v5b/S1/046.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/046.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/046.mid_temp1.0_continuation_2.mid"
+      ],
+      "536": [
+       "midis/E1_v5b/S1/536.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/536.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/536.mid_temp1.0_continuation_2.mid"
+      ],
+      "056": [
+       "midis/E1_v5b/S1/056.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/056.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/056.mid_temp1.0_continuation_2.mid"
+      ],
+      "186": [
+       "midis/E1_v5b/S1/186.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/186.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/186.mid_temp1.0_continuation_2.mid"
+      ],
+      "756": [
+       "midis/E1_v5b/S1/756.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/756.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/756.mid_temp1.0_continuation_2.mid"
+      ],
+      "736": [
+       "midis/E1_v5b/S1/736.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/736.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/736.mid_temp1.0_continuation_2.mid"
+      ],
+      "616": [
+       "midis/E1_v5b/S1/616.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/616.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/616.mid_temp1.0_continuation_2.mid"
+      ],
+      "516": [
+       "midis/E1_v5b/S1/516.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/516.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/516.mid_temp1.0_continuation_2.mid"
+      ],
+      "646": [
+       "midis/E1_v5b/S1/646.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/646.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/646.mid_temp1.0_continuation_2.mid"
+      ],
+      "706": [
+       "midis/E1_v5b/S1/706.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/706.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/706.mid_temp1.0_continuation_2.mid"
+      ],
+      "386": [
+       "midis/E1_v5b/S1/386.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/386.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/386.mid_temp1.0_continuation_2.mid"
+      ],
+      "796": [
+       "midis/E1_v5b/S1/796.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/796.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/796.mid_temp1.0_continuation_2.mid"
+      ],
+      "466": [
+       "midis/E1_v5b/S1/466.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/466.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/466.mid_temp1.0_continuation_2.mid"
+      ],
+      "176": [
+       "midis/E1_v5b/S1/176.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/176.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/176.mid_temp1.0_continuation_2.mid"
+      ],
+      "066": [
+       "midis/E1_v5b/S1/066.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/066.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/066.mid_temp1.0_continuation_2.mid"
+      ],
+      "656": [
+       "midis/E1_v5b/S1/656.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/656.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/656.mid_temp1.0_continuation_2.mid"
+      ],
+      "356": [
+       "midis/E1_v5b/S1/356.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/356.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/356.mid_temp1.0_continuation_2.mid"
+      ],
+      "136": [
+       "midis/E1_v5b/S1/136.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/136.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/136.mid_temp1.0_continuation_2.mid"
+      ],
+      "003": [
+       "midis/E1_v5b/S1/003.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/003.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/003.mid_temp1.0_continuation_2.mid"
+      ],
+      "476": [
+       "midis/E1_v5b/S1/476.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/476.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/476.mid_temp1.0_continuation_2.mid"
+      ],
+      "576": [
+       "midis/E1_v5b/S1/576.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/576.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/576.mid_temp1.0_continuation_2.mid"
+      ],
+      "866": [
+       "midis/E1_v5b/S1/866.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/866.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/866.mid_temp1.0_continuation_2.mid"
+      ],
+      "556": [
+       "midis/E1_v5b/S1/556.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/556.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/556.mid_temp1.0_continuation_2.mid"
+      ],
+      "256": [
+       "midis/E1_v5b/S1/256.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/256.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/256.mid_temp1.0_continuation_2.mid"
+      ],
+      "526": [
+       "midis/E1_v5b/S1/526.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/526.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/526.mid_temp1.0_continuation_2.mid"
+      ],
+      "566": [
+       "midis/E1_v5b/S1/566.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/566.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/566.mid_temp1.0_continuation_2.mid"
+      ],
+      "276": [
+       "midis/E1_v5b/S1/276.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/276.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/276.mid_temp1.0_continuation_2.mid"
+      ],
+      "666": [
+       "midis/E1_v5b/S1/666.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/666.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/666.mid_temp1.0_continuation_2.mid"
+      ],
+      "216": [
+       "midis/E1_v5b/S1/216.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/216.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/216.mid_temp1.0_continuation_2.mid"
+      ],
+      "236": [
+       "midis/E1_v5b/S1/236.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/236.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/236.mid_temp1.0_continuation_2.mid"
+      ],
+      "506": [
+       "midis/E1_v5b/S1/506.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/506.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/506.mid_temp1.0_continuation_2.mid"
+      ],
+      "076": [
+       "midis/E1_v5b/S1/076.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/076.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/076.mid_temp1.0_continuation_2.mid"
+      ],
+      "226": [
+       "midis/E1_v5b/S1/226.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/226.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/226.mid_temp1.0_continuation_2.mid"
+      ],
+      "366": [
+       "midis/E1_v5b/S1/366.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/366.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/366.mid_temp1.0_continuation_2.mid"
+      ],
+      "146": [
+       "midis/E1_v5b/S1/146.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/146.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/146.mid_temp1.0_continuation_2.mid"
+      ],
+      "886": [
+       "midis/E1_v5b/S1/886.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/886.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/886.mid_temp1.0_continuation_2.mid"
+      ],
+      "002": [
+       "midis/E1_v5b/S1/002.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/002.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/002.mid_temp1.0_continuation_2.mid"
+      ],
+      "826": [
+       "midis/E1_v5b/S1/826.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/826.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/826.mid_temp1.0_continuation_2.mid"
+      ],
+      "006": [
+       "midis/E1_v5b/S1/006.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/006.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/006.mid_temp1.0_continuation_2.mid"
+      ],
+      "846": [
+       "midis/E1_v5b/S1/846.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/846.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/846.mid_temp1.0_continuation_2.mid"
+      ],
+      "096": [
+       "midis/E1_v5b/S1/096.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/096.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/096.mid_temp1.0_continuation_2.mid"
+      ],
+      "446": [
+       "midis/E1_v5b/S1/446.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/446.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/446.mid_temp1.0_continuation_2.mid"
+      ]
+     }
+    },
+    {
+     "id": "P-mc",
+     "name": "Cascade (mel\u2192cho)",
+     "group": "Internal Baselines",
+     "variations": {
+      "001": [
+       "midis/E1_v5b/P-mc/4_final/001/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/001/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/001/co/sample_2_temp1.0.mid"
+      ],
+      "002": [
+       "midis/E1_v5b/P-mc/4_final/002/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/002/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/002/co/sample_2_temp1.0.mid"
+      ],
+      "003": [
+       "midis/E1_v5b/P-mc/4_final/003/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/003/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/003/co/sample_2_temp1.0.mid"
+      ],
+      "004": [
+       "midis/E1_v5b/P-mc/4_final/004/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/004/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/004/co/sample_2_temp1.0.mid"
+      ],
+      "005": [
+       "midis/E1_v5b/P-mc/4_final/005/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/005/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/005/co/sample_2_temp1.0.mid"
+      ],
+      "006": [
+       "midis/E1_v5b/P-mc/4_final/006/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/006/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/006/co/sample_2_temp1.0.mid"
+      ],
+      "016": [
+       "midis/E1_v5b/P-mc/4_final/016/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/016/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/016/co/sample_2_temp1.0.mid"
+      ],
+      "026": [
+       "midis/E1_v5b/P-mc/4_final/026/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/026/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/026/co/sample_2_temp1.0.mid"
+      ],
+      "036": [
+       "midis/E1_v5b/P-mc/4_final/036/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/036/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/036/co/sample_2_temp1.0.mid"
+      ],
+      "046": [
+       "midis/E1_v5b/P-mc/4_final/046/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/046/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/046/co/sample_2_temp1.0.mid"
+      ],
+      "056": [
+       "midis/E1_v5b/P-mc/4_final/056/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/056/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/056/co/sample_2_temp1.0.mid"
+      ],
+      "066": [
+       "midis/E1_v5b/P-mc/4_final/066/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/066/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/066/co/sample_2_temp1.0.mid"
+      ],
+      "076": [
+       "midis/E1_v5b/P-mc/4_final/076/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/076/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/076/co/sample_2_temp1.0.mid"
+      ],
+      "086": [
+       "midis/E1_v5b/P-mc/4_final/086/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/086/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/086/co/sample_2_temp1.0.mid"
+      ],
+      "096": [
+       "midis/E1_v5b/P-mc/4_final/096/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/096/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/096/co/sample_2_temp1.0.mid"
+      ],
+      "106": [
+       "midis/E1_v5b/P-mc/4_final/106/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/106/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/106/co/sample_2_temp1.0.mid"
+      ],
+      "116": [
+       "midis/E1_v5b/P-mc/4_final/116/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/116/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/116/co/sample_2_temp1.0.mid"
+      ],
+      "126": [
+       "midis/E1_v5b/P-mc/4_final/126/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/126/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/126/co/sample_2_temp1.0.mid"
+      ],
+      "136": [
+       "midis/E1_v5b/P-mc/4_final/136/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/136/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/136/co/sample_2_temp1.0.mid"
+      ],
+      "146": [
+       "midis/E1_v5b/P-mc/4_final/146/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/146/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/146/co/sample_2_temp1.0.mid"
+      ],
+      "156": [
+       "midis/E1_v5b/P-mc/4_final/156/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/156/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/156/co/sample_2_temp1.0.mid"
+      ],
+      "166": [
+       "midis/E1_v5b/P-mc/4_final/166/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/166/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/166/co/sample_2_temp1.0.mid"
+      ],
+      "176": [
+       "midis/E1_v5b/P-mc/4_final/176/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/176/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/176/co/sample_2_temp1.0.mid"
+      ],
+      "186": [
+       "midis/E1_v5b/P-mc/4_final/186/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/186/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/186/co/sample_2_temp1.0.mid"
+      ],
+      "196": [
+       "midis/E1_v5b/P-mc/4_final/196/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/196/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/196/co/sample_2_temp1.0.mid"
+      ],
+      "206": [
+       "midis/E1_v5b/P-mc/4_final/206/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/206/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/206/co/sample_2_temp1.0.mid"
+      ],
+      "216": [
+       "midis/E1_v5b/P-mc/4_final/216/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/216/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/216/co/sample_2_temp1.0.mid"
+      ],
+      "226": [
+       "midis/E1_v5b/P-mc/4_final/226/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/226/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/226/co/sample_2_temp1.0.mid"
+      ],
+      "236": [
+       "midis/E1_v5b/P-mc/4_final/236/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/236/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/236/co/sample_2_temp1.0.mid"
+      ],
+      "246": [
+       "midis/E1_v5b/P-mc/4_final/246/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/246/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/246/co/sample_2_temp1.0.mid"
+      ],
+      "256": [
+       "midis/E1_v5b/P-mc/4_final/256/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/256/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/256/co/sample_2_temp1.0.mid"
+      ],
+      "266": [
+       "midis/E1_v5b/P-mc/4_final/266/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/266/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/266/co/sample_2_temp1.0.mid"
+      ],
+      "276": [
+       "midis/E1_v5b/P-mc/4_final/276/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/276/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/276/co/sample_2_temp1.0.mid"
+      ],
+      "286": [
+       "midis/E1_v5b/P-mc/4_final/286/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/286/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/286/co/sample_2_temp1.0.mid"
+      ],
+      "296": [
+       "midis/E1_v5b/P-mc/4_final/296/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/296/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/296/co/sample_2_temp1.0.mid"
+      ],
+      "306": [
+       "midis/E1_v5b/P-mc/4_final/306/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/306/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/306/co/sample_2_temp1.0.mid"
+      ],
+      "316": [
+       "midis/E1_v5b/P-mc/4_final/316/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/316/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/316/co/sample_2_temp1.0.mid"
+      ],
+      "336": [
+       "midis/E1_v5b/P-mc/4_final/336/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/336/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/336/co/sample_2_temp1.0.mid"
+      ],
+      "346": [
+       "midis/E1_v5b/P-mc/4_final/346/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/346/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/346/co/sample_2_temp1.0.mid"
+      ],
+      "356": [
+       "midis/E1_v5b/P-mc/4_final/356/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/356/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/356/co/sample_2_temp1.0.mid"
+      ],
+      "366": [
+       "midis/E1_v5b/P-mc/4_final/366/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/366/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/366/co/sample_2_temp1.0.mid"
+      ],
+      "376": [
+       "midis/E1_v5b/P-mc/4_final/376/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/376/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/376/co/sample_2_temp1.0.mid"
+      ],
+      "386": [
+       "midis/E1_v5b/P-mc/4_final/386/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/386/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/386/co/sample_2_temp1.0.mid"
+      ],
+      "396": [
+       "midis/E1_v5b/P-mc/4_final/396/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/396/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/396/co/sample_2_temp1.0.mid"
+      ],
+      "406": [
+       "midis/E1_v5b/P-mc/4_final/406/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/406/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/406/co/sample_2_temp1.0.mid"
+      ],
+      "416": [
+       "midis/E1_v5b/P-mc/4_final/416/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/416/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/416/co/sample_2_temp1.0.mid"
+      ],
+      "426": [
+       "midis/E1_v5b/P-mc/4_final/426/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/426/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/426/co/sample_2_temp1.0.mid"
+      ],
+      "436": [
+       "midis/E1_v5b/P-mc/4_final/436/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/436/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/436/co/sample_2_temp1.0.mid"
+      ],
+      "446": [
+       "midis/E1_v5b/P-mc/4_final/446/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/446/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/446/co/sample_2_temp1.0.mid"
+      ],
+      "456": [
+       "midis/E1_v5b/P-mc/4_final/456/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/456/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/456/co/sample_2_temp1.0.mid"
+      ],
+      "466": [
+       "midis/E1_v5b/P-mc/4_final/466/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/466/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/466/co/sample_2_temp1.0.mid"
+      ],
+      "476": [
+       "midis/E1_v5b/P-mc/4_final/476/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/476/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/476/co/sample_2_temp1.0.mid"
+      ],
+      "486": [
+       "midis/E1_v5b/P-mc/4_final/486/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/486/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/486/co/sample_2_temp1.0.mid"
+      ],
+      "496": [
+       "midis/E1_v5b/P-mc/4_final/496/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/496/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/496/co/sample_2_temp1.0.mid"
+      ],
+      "516": [
+       "midis/E1_v5b/P-mc/4_final/516/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/516/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/516/co/sample_2_temp1.0.mid"
+      ],
+      "526": [
+       "midis/E1_v5b/P-mc/4_final/526/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/526/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/526/co/sample_2_temp1.0.mid"
+      ],
+      "536": [
+       "midis/E1_v5b/P-mc/4_final/536/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/536/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/536/co/sample_2_temp1.0.mid"
+      ],
+      "546": [
+       "midis/E1_v5b/P-mc/4_final/546/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/546/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/546/co/sample_2_temp1.0.mid"
+      ],
+      "556": [
+       "midis/E1_v5b/P-mc/4_final/556/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/556/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/556/co/sample_2_temp1.0.mid"
+      ],
+      "566": [
+       "midis/E1_v5b/P-mc/4_final/566/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/566/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/566/co/sample_2_temp1.0.mid"
+      ],
+      "576": [
+       "midis/E1_v5b/P-mc/4_final/576/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/576/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/576/co/sample_2_temp1.0.mid"
+      ],
+      "586": [
+       "midis/E1_v5b/P-mc/4_final/586/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/586/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/586/co/sample_2_temp1.0.mid"
+      ],
+      "596": [
+       "midis/E1_v5b/P-mc/4_final/596/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/596/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/596/co/sample_2_temp1.0.mid"
+      ],
+      "606": [
+       "midis/E1_v5b/P-mc/4_final/606/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/606/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/606/co/sample_2_temp1.0.mid"
+      ],
+      "616": [
+       "midis/E1_v5b/P-mc/4_final/616/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/616/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/616/co/sample_2_temp1.0.mid"
+      ],
+      "626": [
+       "midis/E1_v5b/P-mc/4_final/626/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/626/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/626/co/sample_2_temp1.0.mid"
+      ],
+      "636": [
+       "midis/E1_v5b/P-mc/4_final/636/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/636/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/636/co/sample_2_temp1.0.mid"
+      ],
+      "646": [
+       "midis/E1_v5b/P-mc/4_final/646/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/646/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/646/co/sample_2_temp1.0.mid"
+      ],
+      "656": [
+       "midis/E1_v5b/P-mc/4_final/656/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/656/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/656/co/sample_2_temp1.0.mid"
+      ],
+      "666": [
+       "midis/E1_v5b/P-mc/4_final/666/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/666/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/666/co/sample_2_temp1.0.mid"
+      ],
+      "676": [
+       "midis/E1_v5b/P-mc/4_final/676/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/676/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/676/co/sample_2_temp1.0.mid"
+      ],
+      "686": [
+       "midis/E1_v5b/P-mc/4_final/686/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/686/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/686/co/sample_2_temp1.0.mid"
+      ],
+      "696": [
+       "midis/E1_v5b/P-mc/4_final/696/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/696/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/696/co/sample_2_temp1.0.mid"
+      ],
+      "706": [
+       "midis/E1_v5b/P-mc/4_final/706/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/706/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/706/co/sample_2_temp1.0.mid"
+      ],
+      "716": [
+       "midis/E1_v5b/P-mc/4_final/716/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/716/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/716/co/sample_2_temp1.0.mid"
+      ],
+      "726": [
+       "midis/E1_v5b/P-mc/4_final/726/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/726/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/726/co/sample_2_temp1.0.mid"
+      ],
+      "736": [
+       "midis/E1_v5b/P-mc/4_final/736/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/736/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/736/co/sample_2_temp1.0.mid"
+      ],
+      "746": [
+       "midis/E1_v5b/P-mc/4_final/746/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/746/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/746/co/sample_2_temp1.0.mid"
+      ],
+      "756": [
+       "midis/E1_v5b/P-mc/4_final/756/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/756/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/756/co/sample_2_temp1.0.mid"
+      ],
+      "766": [
+       "midis/E1_v5b/P-mc/4_final/766/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/766/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/766/co/sample_2_temp1.0.mid"
+      ],
+      "776": [
+       "midis/E1_v5b/P-mc/4_final/776/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/776/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/776/co/sample_2_temp1.0.mid"
+      ],
+      "796": [
+       "midis/E1_v5b/P-mc/4_final/796/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/796/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/796/co/sample_2_temp1.0.mid"
+      ],
+      "806": [
+       "midis/E1_v5b/P-mc/4_final/806/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/806/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/806/co/sample_2_temp1.0.mid"
+      ],
+      "816": [
+       "midis/E1_v5b/P-mc/4_final/816/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/816/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/816/co/sample_2_temp1.0.mid"
+      ],
+      "826": [
+       "midis/E1_v5b/P-mc/4_final/826/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/826/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/826/co/sample_2_temp1.0.mid"
+      ],
+      "836": [
+       "midis/E1_v5b/P-mc/4_final/836/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/836/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/836/co/sample_2_temp1.0.mid"
+      ],
+      "846": [
+       "midis/E1_v5b/P-mc/4_final/846/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/846/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/846/co/sample_2_temp1.0.mid"
+      ],
+      "856": [
+       "midis/E1_v5b/P-mc/4_final/856/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/856/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/856/co/sample_2_temp1.0.mid"
+      ],
+      "866": [
+       "midis/E1_v5b/P-mc/4_final/866/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/866/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/866/co/sample_2_temp1.0.mid"
+      ],
+      "876": [
+       "midis/E1_v5b/P-mc/4_final/876/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/876/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/876/co/sample_2_temp1.0.mid"
+      ],
+      "886": [
+       "midis/E1_v5b/P-mc/4_final/886/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/886/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/886/co/sample_2_temp1.0.mid"
+      ],
+      "896": [
+       "midis/E1_v5b/P-mc/4_final/896/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/896/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/896/co/sample_2_temp1.0.mid"
+      ],
+      "906": [
+       "midis/E1_v5b/P-mc/4_final/906/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/906/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-mc/4_final/906/co/sample_2_temp1.0.mid"
+      ]
+     }
+    },
+    {
+     "id": "P-cm",
+     "name": "Cascade (cho\u2192mel)",
+     "group": "Internal Baselines",
+     "variations": {
+      "001": [
+       "midis/E1_v5b/P-cm/4_final/001/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/001/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/001/co/sample_2_temp1.0.mid"
+      ],
+      "002": [
+       "midis/E1_v5b/P-cm/4_final/002/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/002/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/002/co/sample_2_temp1.0.mid"
+      ],
+      "003": [
+       "midis/E1_v5b/P-cm/4_final/003/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/003/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/003/co/sample_2_temp1.0.mid"
+      ],
+      "004": [
+       "midis/E1_v5b/P-cm/4_final/004/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/004/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/004/co/sample_2_temp1.0.mid"
+      ],
+      "005": [
+       "midis/E1_v5b/P-cm/4_final/005/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/005/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/005/co/sample_2_temp1.0.mid"
+      ],
+      "006": [
+       "midis/E1_v5b/P-cm/4_final/006/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/006/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/006/co/sample_2_temp1.0.mid"
+      ],
+      "016": [
+       "midis/E1_v5b/P-cm/4_final/016/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/016/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/016/co/sample_2_temp1.0.mid"
+      ],
+      "026": [
+       "midis/E1_v5b/P-cm/4_final/026/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/026/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/026/co/sample_2_temp1.0.mid"
+      ],
+      "036": [
+       "midis/E1_v5b/P-cm/4_final/036/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/036/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/036/co/sample_2_temp1.0.mid"
+      ],
+      "046": [
+       "midis/E1_v5b/P-cm/4_final/046/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/046/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/046/co/sample_2_temp1.0.mid"
+      ],
+      "056": [
+       "midis/E1_v5b/P-cm/4_final/056/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/056/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/056/co/sample_2_temp1.0.mid"
+      ],
+      "066": [
+       "midis/E1_v5b/P-cm/4_final/066/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/066/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/066/co/sample_2_temp1.0.mid"
+      ],
+      "076": [
+       "midis/E1_v5b/P-cm/4_final/076/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/076/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/076/co/sample_2_temp1.0.mid"
+      ],
+      "086": [
+       "midis/E1_v5b/P-cm/4_final/086/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/086/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/086/co/sample_2_temp1.0.mid"
+      ],
+      "096": [
+       "midis/E1_v5b/P-cm/4_final/096/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/096/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/096/co/sample_2_temp1.0.mid"
+      ],
+      "106": [
+       "midis/E1_v5b/P-cm/4_final/106/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/106/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/106/co/sample_2_temp1.0.mid"
+      ],
+      "116": [
+       "midis/E1_v5b/P-cm/4_final/116/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/116/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/116/co/sample_2_temp1.0.mid"
+      ],
+      "126": [
+       "midis/E1_v5b/P-cm/4_final/126/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/126/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/126/co/sample_2_temp1.0.mid"
+      ],
+      "136": [
+       "midis/E1_v5b/P-cm/4_final/136/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/136/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/136/co/sample_2_temp1.0.mid"
+      ],
+      "146": [
+       "midis/E1_v5b/P-cm/4_final/146/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/146/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/146/co/sample_2_temp1.0.mid"
+      ],
+      "156": [
+       "midis/E1_v5b/P-cm/4_final/156/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/156/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/156/co/sample_2_temp1.0.mid"
+      ],
+      "166": [
+       "midis/E1_v5b/P-cm/4_final/166/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/166/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/166/co/sample_2_temp1.0.mid"
+      ],
+      "176": [
+       "midis/E1_v5b/P-cm/4_final/176/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/176/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/176/co/sample_2_temp1.0.mid"
+      ],
+      "186": [
+       "midis/E1_v5b/P-cm/4_final/186/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/186/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/186/co/sample_2_temp1.0.mid"
+      ],
+      "196": [
+       "midis/E1_v5b/P-cm/4_final/196/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/196/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/196/co/sample_2_temp1.0.mid"
+      ],
+      "206": [
+       "midis/E1_v5b/P-cm/4_final/206/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/206/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/206/co/sample_2_temp1.0.mid"
+      ],
+      "216": [
+       "midis/E1_v5b/P-cm/4_final/216/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/216/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/216/co/sample_2_temp1.0.mid"
+      ],
+      "226": [
+       "midis/E1_v5b/P-cm/4_final/226/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/226/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/226/co/sample_2_temp1.0.mid"
+      ],
+      "236": [
+       "midis/E1_v5b/P-cm/4_final/236/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/236/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/236/co/sample_2_temp1.0.mid"
+      ],
+      "246": [
+       "midis/E1_v5b/P-cm/4_final/246/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/246/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/246/co/sample_2_temp1.0.mid"
+      ],
+      "256": [
+       "midis/E1_v5b/P-cm/4_final/256/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/256/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/256/co/sample_2_temp1.0.mid"
+      ],
+      "266": [
+       "midis/E1_v5b/P-cm/4_final/266/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/266/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/266/co/sample_2_temp1.0.mid"
+      ],
+      "276": [
+       "midis/E1_v5b/P-cm/4_final/276/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/276/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/276/co/sample_2_temp1.0.mid"
+      ],
+      "286": [
+       "midis/E1_v5b/P-cm/4_final/286/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/286/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/286/co/sample_2_temp1.0.mid"
+      ],
+      "296": [
+       "midis/E1_v5b/P-cm/4_final/296/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/296/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/296/co/sample_2_temp1.0.mid"
+      ],
+      "306": [
+       "midis/E1_v5b/P-cm/4_final/306/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/306/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/306/co/sample_2_temp1.0.mid"
+      ],
+      "316": [
+       "midis/E1_v5b/P-cm/4_final/316/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/316/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/316/co/sample_2_temp1.0.mid"
+      ],
+      "336": [
+       "midis/E1_v5b/P-cm/4_final/336/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/336/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/336/co/sample_2_temp1.0.mid"
+      ],
+      "346": [
+       "midis/E1_v5b/P-cm/4_final/346/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/346/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/346/co/sample_2_temp1.0.mid"
+      ],
+      "356": [
+       "midis/E1_v5b/P-cm/4_final/356/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/356/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/356/co/sample_2_temp1.0.mid"
+      ],
+      "366": [
+       "midis/E1_v5b/P-cm/4_final/366/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/366/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/366/co/sample_2_temp1.0.mid"
+      ],
+      "376": [
+       "midis/E1_v5b/P-cm/4_final/376/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/376/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/376/co/sample_2_temp1.0.mid"
+      ],
+      "386": [
+       "midis/E1_v5b/P-cm/4_final/386/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/386/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/386/co/sample_2_temp1.0.mid"
+      ],
+      "396": [
+       "midis/E1_v5b/P-cm/4_final/396/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/396/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/396/co/sample_2_temp1.0.mid"
+      ],
+      "406": [
+       "midis/E1_v5b/P-cm/4_final/406/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/406/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/406/co/sample_2_temp1.0.mid"
+      ],
+      "416": [
+       "midis/E1_v5b/P-cm/4_final/416/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/416/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/416/co/sample_2_temp1.0.mid"
+      ],
+      "426": [
+       "midis/E1_v5b/P-cm/4_final/426/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/426/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/426/co/sample_2_temp1.0.mid"
+      ],
+      "436": [
+       "midis/E1_v5b/P-cm/4_final/436/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/436/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/436/co/sample_2_temp1.0.mid"
+      ],
+      "446": [
+       "midis/E1_v5b/P-cm/4_final/446/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/446/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/446/co/sample_2_temp1.0.mid"
+      ],
+      "456": [
+       "midis/E1_v5b/P-cm/4_final/456/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/456/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/456/co/sample_2_temp1.0.mid"
+      ],
+      "466": [
+       "midis/E1_v5b/P-cm/4_final/466/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/466/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/466/co/sample_2_temp1.0.mid"
+      ],
+      "476": [
+       "midis/E1_v5b/P-cm/4_final/476/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/476/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/476/co/sample_2_temp1.0.mid"
+      ],
+      "486": [
+       "midis/E1_v5b/P-cm/4_final/486/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/486/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/486/co/sample_2_temp1.0.mid"
+      ],
+      "496": [
+       "midis/E1_v5b/P-cm/4_final/496/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/496/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/496/co/sample_2_temp1.0.mid"
+      ],
+      "506": [
+       "midis/E1_v5b/P-cm/4_final/506/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/506/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/506/co/sample_2_temp1.0.mid"
+      ],
+      "516": [
+       "midis/E1_v5b/P-cm/4_final/516/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/516/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/516/co/sample_2_temp1.0.mid"
+      ],
+      "526": [
+       "midis/E1_v5b/P-cm/4_final/526/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/526/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/526/co/sample_2_temp1.0.mid"
+      ],
+      "536": [
+       "midis/E1_v5b/P-cm/4_final/536/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/536/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/536/co/sample_2_temp1.0.mid"
+      ],
+      "546": [
+       "midis/E1_v5b/P-cm/4_final/546/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/546/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/546/co/sample_2_temp1.0.mid"
+      ],
+      "556": [
+       "midis/E1_v5b/P-cm/4_final/556/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/556/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/556/co/sample_2_temp1.0.mid"
+      ],
+      "566": [
+       "midis/E1_v5b/P-cm/4_final/566/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/566/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/566/co/sample_2_temp1.0.mid"
+      ],
+      "576": [
+       "midis/E1_v5b/P-cm/4_final/576/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/576/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/576/co/sample_2_temp1.0.mid"
+      ],
+      "586": [
+       "midis/E1_v5b/P-cm/4_final/586/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/586/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/586/co/sample_2_temp1.0.mid"
+      ],
+      "596": [
+       "midis/E1_v5b/P-cm/4_final/596/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/596/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/596/co/sample_2_temp1.0.mid"
+      ],
+      "606": [
+       "midis/E1_v5b/P-cm/4_final/606/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/606/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/606/co/sample_2_temp1.0.mid"
+      ],
+      "616": [
+       "midis/E1_v5b/P-cm/4_final/616/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/616/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/616/co/sample_2_temp1.0.mid"
+      ],
+      "626": [
+       "midis/E1_v5b/P-cm/4_final/626/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/626/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/626/co/sample_2_temp1.0.mid"
+      ],
+      "636": [
+       "midis/E1_v5b/P-cm/4_final/636/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/636/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/636/co/sample_2_temp1.0.mid"
+      ],
+      "646": [
+       "midis/E1_v5b/P-cm/4_final/646/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/646/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/646/co/sample_2_temp1.0.mid"
+      ],
+      "656": [
+       "midis/E1_v5b/P-cm/4_final/656/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/656/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/656/co/sample_2_temp1.0.mid"
+      ],
+      "666": [
+       "midis/E1_v5b/P-cm/4_final/666/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/666/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/666/co/sample_2_temp1.0.mid"
+      ],
+      "676": [
+       "midis/E1_v5b/P-cm/4_final/676/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/676/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/676/co/sample_2_temp1.0.mid"
+      ],
+      "686": [
+       "midis/E1_v5b/P-cm/4_final/686/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/686/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/686/co/sample_2_temp1.0.mid"
+      ],
+      "696": [
+       "midis/E1_v5b/P-cm/4_final/696/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/696/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/696/co/sample_2_temp1.0.mid"
+      ],
+      "706": [
+       "midis/E1_v5b/P-cm/4_final/706/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/706/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/706/co/sample_2_temp1.0.mid"
+      ],
+      "716": [
+       "midis/E1_v5b/P-cm/4_final/716/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/716/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/716/co/sample_2_temp1.0.mid"
+      ],
+      "726": [
+       "midis/E1_v5b/P-cm/4_final/726/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/726/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/726/co/sample_2_temp1.0.mid"
+      ],
+      "736": [
+       "midis/E1_v5b/P-cm/4_final/736/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/736/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/736/co/sample_2_temp1.0.mid"
+      ],
+      "746": [
+       "midis/E1_v5b/P-cm/4_final/746/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/746/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/746/co/sample_2_temp1.0.mid"
+      ],
+      "756": [
+       "midis/E1_v5b/P-cm/4_final/756/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/756/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/756/co/sample_2_temp1.0.mid"
+      ],
+      "766": [
+       "midis/E1_v5b/P-cm/4_final/766/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/766/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/766/co/sample_2_temp1.0.mid"
+      ],
+      "776": [
+       "midis/E1_v5b/P-cm/4_final/776/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/776/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/776/co/sample_2_temp1.0.mid"
+      ],
+      "786": [
+       "midis/E1_v5b/P-cm/4_final/786/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/786/co/sample_1_temp1.0.mid"
+      ],
+      "796": [
+       "midis/E1_v5b/P-cm/4_final/796/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/796/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/796/co/sample_2_temp1.0.mid"
+      ],
+      "806": [
+       "midis/E1_v5b/P-cm/4_final/806/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/806/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/806/co/sample_2_temp1.0.mid"
+      ],
+      "816": [
+       "midis/E1_v5b/P-cm/4_final/816/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/816/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/816/co/sample_2_temp1.0.mid"
+      ],
+      "826": [
+       "midis/E1_v5b/P-cm/4_final/826/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/826/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/826/co/sample_2_temp1.0.mid"
+      ],
+      "836": [
+       "midis/E1_v5b/P-cm/4_final/836/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/836/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/836/co/sample_2_temp1.0.mid"
+      ],
+      "846": [
+       "midis/E1_v5b/P-cm/4_final/846/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/846/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/846/co/sample_2_temp1.0.mid"
+      ],
+      "856": [
+       "midis/E1_v5b/P-cm/4_final/856/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/856/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/856/co/sample_2_temp1.0.mid"
+      ],
+      "866": [
+       "midis/E1_v5b/P-cm/4_final/866/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/866/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/866/co/sample_2_temp1.0.mid"
+      ],
+      "876": [
+       "midis/E1_v5b/P-cm/4_final/876/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/876/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/876/co/sample_2_temp1.0.mid"
+      ],
+      "886": [
+       "midis/E1_v5b/P-cm/4_final/886/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/886/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/886/co/sample_2_temp1.0.mid"
+      ],
+      "896": [
+       "midis/E1_v5b/P-cm/4_final/896/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/896/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/896/co/sample_2_temp1.0.mid"
+      ],
+      "906": [
+       "midis/E1_v5b/P-cm/4_final/906/co/sample_0_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/906/co/sample_1_temp1.0.mid",
+       "midis/E1_v5b/P-cm/4_final/906/co/sample_2_temp1.0.mid"
+      ]
+     }
+    },
+    {
+     "id": "WSf",
+     "name": "Whole-song Generation",
+     "group": "External Baseline",
+     "variations": {
+      "001": [
+       "midis/E1_v5b/WSf/001/co/sample_0.mid",
+       "midis/E1_v5b/WSf/001/co/sample_1.mid",
+       "midis/E1_v5b/WSf/001/co/sample_2.mid"
+      ],
+      "002": [
+       "midis/E1_v5b/WSf/002/co/sample_0.mid",
+       "midis/E1_v5b/WSf/002/co/sample_1.mid",
+       "midis/E1_v5b/WSf/002/co/sample_2.mid"
+      ],
+      "003": [
+       "midis/E1_v5b/WSf/003/co/sample_0.mid",
+       "midis/E1_v5b/WSf/003/co/sample_1.mid",
+       "midis/E1_v5b/WSf/003/co/sample_2.mid"
+      ],
+      "004": [
+       "midis/E1_v5b/WSf/004/co/sample_0.mid",
+       "midis/E1_v5b/WSf/004/co/sample_1.mid",
+       "midis/E1_v5b/WSf/004/co/sample_2.mid"
+      ],
+      "005": [
+       "midis/E1_v5b/WSf/005/co/sample_0.mid",
+       "midis/E1_v5b/WSf/005/co/sample_1.mid",
+       "midis/E1_v5b/WSf/005/co/sample_2.mid"
+      ],
+      "006": [
+       "midis/E1_v5b/WSf/006/co/sample_0.mid",
+       "midis/E1_v5b/WSf/006/co/sample_1.mid",
+       "midis/E1_v5b/WSf/006/co/sample_2.mid"
+      ],
+      "016": [
+       "midis/E1_v5b/WSf/016/co/sample_0.mid",
+       "midis/E1_v5b/WSf/016/co/sample_1.mid",
+       "midis/E1_v5b/WSf/016/co/sample_2.mid"
+      ],
+      "026": [
+       "midis/E1_v5b/WSf/026/co/sample_0.mid",
+       "midis/E1_v5b/WSf/026/co/sample_1.mid",
+       "midis/E1_v5b/WSf/026/co/sample_2.mid"
+      ],
+      "036": [
+       "midis/E1_v5b/WSf/036/co/sample_0.mid",
+       "midis/E1_v5b/WSf/036/co/sample_1.mid",
+       "midis/E1_v5b/WSf/036/co/sample_2.mid"
+      ],
+      "046": [
+       "midis/E1_v5b/WSf/046/co/sample_0.mid",
+       "midis/E1_v5b/WSf/046/co/sample_1.mid",
+       "midis/E1_v5b/WSf/046/co/sample_2.mid"
+      ],
+      "056": [
+       "midis/E1_v5b/WSf/056/co/sample_0.mid",
+       "midis/E1_v5b/WSf/056/co/sample_1.mid",
+       "midis/E1_v5b/WSf/056/co/sample_2.mid"
+      ],
+      "066": [
+       "midis/E1_v5b/WSf/066/co/sample_0.mid",
+       "midis/E1_v5b/WSf/066/co/sample_1.mid",
+       "midis/E1_v5b/WSf/066/co/sample_2.mid"
+      ],
+      "076": [
+       "midis/E1_v5b/WSf/076/co/sample_0.mid",
+       "midis/E1_v5b/WSf/076/co/sample_1.mid",
+       "midis/E1_v5b/WSf/076/co/sample_2.mid"
+      ],
+      "086": [
+       "midis/E1_v5b/WSf/086/co/sample_0.mid",
+       "midis/E1_v5b/WSf/086/co/sample_1.mid",
+       "midis/E1_v5b/WSf/086/co/sample_2.mid"
+      ],
+      "096": [
+       "midis/E1_v5b/WSf/096/co/sample_0.mid",
+       "midis/E1_v5b/WSf/096/co/sample_1.mid",
+       "midis/E1_v5b/WSf/096/co/sample_2.mid"
+      ],
+      "106": [
+       "midis/E1_v5b/WSf/106/co/sample_0.mid",
+       "midis/E1_v5b/WSf/106/co/sample_1.mid",
+       "midis/E1_v5b/WSf/106/co/sample_2.mid"
+      ],
+      "116": [
+       "midis/E1_v5b/WSf/116/co/sample_0.mid",
+       "midis/E1_v5b/WSf/116/co/sample_1.mid",
+       "midis/E1_v5b/WSf/116/co/sample_2.mid"
+      ],
+      "126": [
+       "midis/E1_v5b/WSf/126/co/sample_0.mid",
+       "midis/E1_v5b/WSf/126/co/sample_1.mid",
+       "midis/E1_v5b/WSf/126/co/sample_2.mid"
+      ],
+      "136": [
+       "midis/E1_v5b/WSf/136/co/sample_0.mid",
+       "midis/E1_v5b/WSf/136/co/sample_1.mid",
+       "midis/E1_v5b/WSf/136/co/sample_2.mid"
+      ],
+      "146": [
+       "midis/E1_v5b/WSf/146/co/sample_0.mid",
+       "midis/E1_v5b/WSf/146/co/sample_1.mid",
+       "midis/E1_v5b/WSf/146/co/sample_2.mid"
+      ],
+      "156": [
+       "midis/E1_v5b/WSf/156/co/sample_0.mid",
+       "midis/E1_v5b/WSf/156/co/sample_1.mid",
+       "midis/E1_v5b/WSf/156/co/sample_2.mid"
+      ],
+      "166": [
+       "midis/E1_v5b/WSf/166/co/sample_0.mid",
+       "midis/E1_v5b/WSf/166/co/sample_1.mid",
+       "midis/E1_v5b/WSf/166/co/sample_2.mid"
+      ],
+      "176": [
+       "midis/E1_v5b/WSf/176/co/sample_0.mid",
+       "midis/E1_v5b/WSf/176/co/sample_1.mid",
+       "midis/E1_v5b/WSf/176/co/sample_2.mid"
+      ],
+      "186": [
+       "midis/E1_v5b/WSf/186/co/sample_0.mid",
+       "midis/E1_v5b/WSf/186/co/sample_1.mid",
+       "midis/E1_v5b/WSf/186/co/sample_2.mid"
+      ],
+      "196": [
+       "midis/E1_v5b/WSf/196/co/sample_0.mid",
+       "midis/E1_v5b/WSf/196/co/sample_1.mid",
+       "midis/E1_v5b/WSf/196/co/sample_2.mid"
+      ],
+      "206": [
+       "midis/E1_v5b/WSf/206/co/sample_0.mid",
+       "midis/E1_v5b/WSf/206/co/sample_1.mid",
+       "midis/E1_v5b/WSf/206/co/sample_2.mid"
+      ],
+      "216": [
+       "midis/E1_v5b/WSf/216/co/sample_0.mid",
+       "midis/E1_v5b/WSf/216/co/sample_1.mid",
+       "midis/E1_v5b/WSf/216/co/sample_2.mid"
+      ],
+      "226": [
+       "midis/E1_v5b/WSf/226/co/sample_0.mid",
+       "midis/E1_v5b/WSf/226/co/sample_1.mid",
+       "midis/E1_v5b/WSf/226/co/sample_2.mid"
+      ],
+      "236": [
+       "midis/E1_v5b/WSf/236/co/sample_0.mid",
+       "midis/E1_v5b/WSf/236/co/sample_1.mid",
+       "midis/E1_v5b/WSf/236/co/sample_2.mid"
+      ],
+      "246": [
+       "midis/E1_v5b/WSf/246/co/sample_0.mid",
+       "midis/E1_v5b/WSf/246/co/sample_1.mid",
+       "midis/E1_v5b/WSf/246/co/sample_2.mid"
+      ],
+      "256": [
+       "midis/E1_v5b/WSf/256/co/sample_0.mid",
+       "midis/E1_v5b/WSf/256/co/sample_1.mid",
+       "midis/E1_v5b/WSf/256/co/sample_2.mid"
+      ],
+      "266": [
+       "midis/E1_v5b/WSf/266/co/sample_0.mid",
+       "midis/E1_v5b/WSf/266/co/sample_1.mid",
+       "midis/E1_v5b/WSf/266/co/sample_2.mid"
+      ],
+      "276": [
+       "midis/E1_v5b/WSf/276/co/sample_0.mid",
+       "midis/E1_v5b/WSf/276/co/sample_1.mid",
+       "midis/E1_v5b/WSf/276/co/sample_2.mid"
+      ],
+      "286": [
+       "midis/E1_v5b/WSf/286/co/sample_0.mid",
+       "midis/E1_v5b/WSf/286/co/sample_1.mid",
+       "midis/E1_v5b/WSf/286/co/sample_2.mid"
+      ],
+      "296": [
+       "midis/E1_v5b/WSf/296/co/sample_0.mid",
+       "midis/E1_v5b/WSf/296/co/sample_1.mid",
+       "midis/E1_v5b/WSf/296/co/sample_2.mid"
+      ],
+      "306": [
+       "midis/E1_v5b/WSf/306/co/sample_0.mid",
+       "midis/E1_v5b/WSf/306/co/sample_1.mid",
+       "midis/E1_v5b/WSf/306/co/sample_2.mid"
+      ],
+      "316": [
+       "midis/E1_v5b/WSf/316/co/sample_0.mid",
+       "midis/E1_v5b/WSf/316/co/sample_1.mid",
+       "midis/E1_v5b/WSf/316/co/sample_2.mid"
+      ],
+      "336": [
+       "midis/E1_v5b/WSf/336/co/sample_0.mid",
+       "midis/E1_v5b/WSf/336/co/sample_1.mid",
+       "midis/E1_v5b/WSf/336/co/sample_2.mid"
+      ],
+      "346": [
+       "midis/E1_v5b/WSf/346/co/sample_0.mid",
+       "midis/E1_v5b/WSf/346/co/sample_1.mid",
+       "midis/E1_v5b/WSf/346/co/sample_2.mid"
+      ],
+      "356": [
+       "midis/E1_v5b/WSf/356/co/sample_0.mid",
+       "midis/E1_v5b/WSf/356/co/sample_1.mid",
+       "midis/E1_v5b/WSf/356/co/sample_2.mid"
+      ],
+      "366": [
+       "midis/E1_v5b/WSf/366/co/sample_0.mid",
+       "midis/E1_v5b/WSf/366/co/sample_1.mid",
+       "midis/E1_v5b/WSf/366/co/sample_2.mid"
+      ],
+      "376": [
+       "midis/E1_v5b/WSf/376/co/sample_0.mid",
+       "midis/E1_v5b/WSf/376/co/sample_1.mid",
+       "midis/E1_v5b/WSf/376/co/sample_2.mid"
+      ],
+      "386": [
+       "midis/E1_v5b/WSf/386/co/sample_0.mid",
+       "midis/E1_v5b/WSf/386/co/sample_1.mid",
+       "midis/E1_v5b/WSf/386/co/sample_2.mid"
+      ],
+      "396": [
+       "midis/E1_v5b/WSf/396/co/sample_0.mid",
+       "midis/E1_v5b/WSf/396/co/sample_1.mid",
+       "midis/E1_v5b/WSf/396/co/sample_2.mid"
+      ],
+      "406": [
+       "midis/E1_v5b/WSf/406/co/sample_0.mid",
+       "midis/E1_v5b/WSf/406/co/sample_1.mid",
+       "midis/E1_v5b/WSf/406/co/sample_2.mid"
+      ],
+      "416": [
+       "midis/E1_v5b/WSf/416/co/sample_0.mid",
+       "midis/E1_v5b/WSf/416/co/sample_1.mid",
+       "midis/E1_v5b/WSf/416/co/sample_2.mid"
+      ],
+      "426": [
+       "midis/E1_v5b/WSf/426/co/sample_0.mid",
+       "midis/E1_v5b/WSf/426/co/sample_1.mid",
+       "midis/E1_v5b/WSf/426/co/sample_2.mid"
+      ],
+      "436": [
+       "midis/E1_v5b/WSf/436/co/sample_0.mid",
+       "midis/E1_v5b/WSf/436/co/sample_1.mid",
+       "midis/E1_v5b/WSf/436/co/sample_2.mid"
+      ],
+      "446": [
+       "midis/E1_v5b/WSf/446/co/sample_0.mid",
+       "midis/E1_v5b/WSf/446/co/sample_1.mid",
+       "midis/E1_v5b/WSf/446/co/sample_2.mid"
+      ],
+      "456": [
+       "midis/E1_v5b/WSf/456/co/sample_0.mid",
+       "midis/E1_v5b/WSf/456/co/sample_1.mid",
+       "midis/E1_v5b/WSf/456/co/sample_2.mid"
+      ],
+      "466": [
+       "midis/E1_v5b/WSf/466/co/sample_0.mid",
+       "midis/E1_v5b/WSf/466/co/sample_1.mid",
+       "midis/E1_v5b/WSf/466/co/sample_2.mid"
+      ],
+      "476": [
+       "midis/E1_v5b/WSf/476/co/sample_0.mid",
+       "midis/E1_v5b/WSf/476/co/sample_1.mid",
+       "midis/E1_v5b/WSf/476/co/sample_2.mid"
+      ],
+      "486": [
+       "midis/E1_v5b/WSf/486/co/sample_0.mid",
+       "midis/E1_v5b/WSf/486/co/sample_1.mid",
+       "midis/E1_v5b/WSf/486/co/sample_2.mid"
+      ],
+      "496": [
+       "midis/E1_v5b/WSf/496/co/sample_0.mid",
+       "midis/E1_v5b/WSf/496/co/sample_1.mid",
+       "midis/E1_v5b/WSf/496/co/sample_2.mid"
+      ],
+      "506": [
+       "midis/E1_v5b/WSf/506/co/sample_0.mid",
+       "midis/E1_v5b/WSf/506/co/sample_1.mid",
+       "midis/E1_v5b/WSf/506/co/sample_2.mid"
+      ],
+      "516": [
+       "midis/E1_v5b/WSf/516/co/sample_0.mid",
+       "midis/E1_v5b/WSf/516/co/sample_1.mid",
+       "midis/E1_v5b/WSf/516/co/sample_2.mid"
+      ],
+      "526": [
+       "midis/E1_v5b/WSf/526/co/sample_0.mid",
+       "midis/E1_v5b/WSf/526/co/sample_1.mid",
+       "midis/E1_v5b/WSf/526/co/sample_2.mid"
+      ],
+      "536": [
+       "midis/E1_v5b/WSf/536/co/sample_0.mid",
+       "midis/E1_v5b/WSf/536/co/sample_1.mid",
+       "midis/E1_v5b/WSf/536/co/sample_2.mid"
+      ],
+      "546": [
+       "midis/E1_v5b/WSf/546/co/sample_0.mid",
+       "midis/E1_v5b/WSf/546/co/sample_1.mid",
+       "midis/E1_v5b/WSf/546/co/sample_2.mid"
+      ],
+      "556": [
+       "midis/E1_v5b/WSf/556/co/sample_0.mid",
+       "midis/E1_v5b/WSf/556/co/sample_1.mid",
+       "midis/E1_v5b/WSf/556/co/sample_2.mid"
+      ],
+      "566": [
+       "midis/E1_v5b/WSf/566/co/sample_0.mid",
+       "midis/E1_v5b/WSf/566/co/sample_1.mid",
+       "midis/E1_v5b/WSf/566/co/sample_2.mid"
+      ],
+      "576": [
+       "midis/E1_v5b/WSf/576/co/sample_0.mid",
+       "midis/E1_v5b/WSf/576/co/sample_1.mid",
+       "midis/E1_v5b/WSf/576/co/sample_2.mid"
+      ],
+      "586": [
+       "midis/E1_v5b/WSf/586/co/sample_0.mid",
+       "midis/E1_v5b/WSf/586/co/sample_1.mid",
+       "midis/E1_v5b/WSf/586/co/sample_2.mid"
+      ],
+      "596": [
+       "midis/E1_v5b/WSf/596/co/sample_0.mid",
+       "midis/E1_v5b/WSf/596/co/sample_1.mid",
+       "midis/E1_v5b/WSf/596/co/sample_2.mid"
+      ],
+      "606": [
+       "midis/E1_v5b/WSf/606/co/sample_0.mid",
+       "midis/E1_v5b/WSf/606/co/sample_1.mid",
+       "midis/E1_v5b/WSf/606/co/sample_2.mid"
+      ],
+      "616": [
+       "midis/E1_v5b/WSf/616/co/sample_0.mid",
+       "midis/E1_v5b/WSf/616/co/sample_1.mid",
+       "midis/E1_v5b/WSf/616/co/sample_2.mid"
+      ],
+      "626": [
+       "midis/E1_v5b/WSf/626/co/sample_0.mid",
+       "midis/E1_v5b/WSf/626/co/sample_1.mid",
+       "midis/E1_v5b/WSf/626/co/sample_2.mid"
+      ],
+      "636": [
+       "midis/E1_v5b/WSf/636/co/sample_0.mid",
+       "midis/E1_v5b/WSf/636/co/sample_1.mid",
+       "midis/E1_v5b/WSf/636/co/sample_2.mid"
+      ],
+      "646": [
+       "midis/E1_v5b/WSf/646/co/sample_0.mid",
+       "midis/E1_v5b/WSf/646/co/sample_1.mid",
+       "midis/E1_v5b/WSf/646/co/sample_2.mid"
+      ],
+      "656": [
+       "midis/E1_v5b/WSf/656/co/sample_0.mid",
+       "midis/E1_v5b/WSf/656/co/sample_1.mid",
+       "midis/E1_v5b/WSf/656/co/sample_2.mid"
+      ],
+      "666": [
+       "midis/E1_v5b/WSf/666/co/sample_0.mid",
+       "midis/E1_v5b/WSf/666/co/sample_1.mid",
+       "midis/E1_v5b/WSf/666/co/sample_2.mid"
+      ],
+      "676": [
+       "midis/E1_v5b/WSf/676/co/sample_0.mid",
+       "midis/E1_v5b/WSf/676/co/sample_1.mid",
+       "midis/E1_v5b/WSf/676/co/sample_2.mid"
+      ],
+      "686": [
+       "midis/E1_v5b/WSf/686/co/sample_0.mid",
+       "midis/E1_v5b/WSf/686/co/sample_1.mid",
+       "midis/E1_v5b/WSf/686/co/sample_2.mid"
       ]
      }
     }
    ],
-   "name": "E1 \u00b7 8-bar",
-   "capBars": 28
+   "capBars": 27,
+   "name": "E1 \u00b7 5-bar prompt"
   }
  ]
 }

@@ -49,6 +49,7 @@ def model_meta(folder):
         "P-mc":      ("Cascade (mel\u2192cho)",             4,  "Internal Baselines"),
         "P-cm":      ("Cascade (cho\u2192mel)",             5,  "Internal Baselines"),
         "WSf":       ("Whole-song Generation",              6,  "External Baseline"),
+        "AMT":       ("Anticipatory Music Transformer",     7,  "External Baseline"),
     }
     if folder in table:
         nm, order, grp = table[folder]; return (folder, nm, order, grp)

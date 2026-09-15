@@ -246,8 +246,13 @@ function renderPrompts() {
     // dropdown + prev/next for large song sets
     const prev = btn("&#10094;", "pnav"), next = btn("&#10095;", "pnav");
     const sel = document.createElement("select"); sel.className = "songsel";
+    const RED = new Set(["126", "596", "606", "696", "886"]);
+    const ORANGE = new Set(["003", "726", "496"]);
     exp.prompts.forEach((pid, i) => {
-      const o = document.createElement("option"); o.value = i; o.textContent = `POP909 #${pid}`;
+      const o = document.createElement("option"); o.value = i;
+      if (RED.has(pid)) { o.textContent = `\u{1F534} POP909 #${pid}`; o.style.color = "#d23b2e"; }
+      else if (ORANGE.has(pid)) { o.textContent = `\u{1F7E0} POP909 #${pid}`; o.style.color = "#d98a1f"; }
+      else { o.textContent = `POP909 #${pid}`; }
       if (i === promptIdx) o.selected = true; sel.appendChild(o);
     });
     const count = Object.assign(document.createElement("span"), { className: "pcount", textContent: `${exp.prompts.length} songs · POP909 index` });

@@ -41,8 +41,9 @@ def subdirs(d): return [os.path.join(d, x) for x in os.listdir(d) if os.path.isd
 def model_meta(folder):
     """Return (id, display_name, sort_order, group)."""
     table = {
-        "A1":        ("Duet without query",                 0,  "Our Models"),
-        "A3ctcaT":   ("Duet",                               1,  "Our Models"),
+        "A1":        ("Duet (w/o query)",                 0,  "Our Models"),
+        "A3":        ("Duet (refine)",                    1,  "Our Models"),
+        "A3ctcaT":   ("Duet (alt.)",                      2,  "Our Models"),
         "S-scratch": ("Single-stream (from scratch)",       2,  "Internal Baselines"),
         "S1":        ("Single-stream (finetuned)",          3,  "Internal Baselines"),
         "P-mc":      ("Cascade (mel\u2192cho)",             4,  "Internal Baselines"),
@@ -197,7 +198,7 @@ def model_variations(model_dir):
 
 def model_excluded(folder):
     if folder.endswith("_piano") or folder in IGNORE_MODELS: return True
-    if re.match(r"A3", folder) and folder != "A3ctcaT": return True   # drop all A3* except A3ctcaT
+    if re.match(r"A3", folder) and folder not in ("A3", "A3ctcaT"): return True   # keep A3 & A3ctcaT; drop other A3* variants
     return False
 
 def co_models(run):

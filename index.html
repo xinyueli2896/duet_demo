@@ -3,58 +3,74 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Melody + Chord — model comparison</title>
+<title>Lead-sheet continuation — model comparison</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,620&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-  :root{ --bg:#f5f2ec; --panel:#fff; --line:#e6e1d6; --ink:#20242c; --dim:#74706a; --accent:#b07b3a;
-    --serif:"Iowan Old Style",Palatino,Georgia,serif; --sans:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
+  :root{
+    --bg:#ece4d6; --panel:#faf5ec; --panel2:#f3ecdf; --line:#ddd0bb; --line2:#cabfa8;
+    --ink:#221c15; --dim:#6f6252; --accent:#8a2f38; --accent2:#5c1f27;
+    --mel:#c2772a; --chd:#2f6a78;
+    --serif:"Fraunces",Georgia,"Times New Roman",serif;
+    --sans:"Space Grotesk",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  }
   *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.6 var(--sans)}
-  .wrap{max-width:1280px;margin:0 auto;padding:32px 20px 90px}
-  h1{font-family:var(--serif);font-weight:600;font-size:1.7rem;margin:0 0 2px}
-  .sub{color:var(--dim);margin:0 0 20px}
-  .tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
-  .tab{font:600 13px var(--sans);padding:8px 14px;border:1px solid var(--line);background:#faf8f2;border-radius:10px 10px 0 0;cursor:pointer;color:#4b4a46}
-  .tab.on{background:#fff;border-bottom-color:#fff;color:var(--ink);box-shadow:0 -2px 0 var(--accent) inset}
-  .prompts{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:22px}
-  .plabel{color:var(--dim);font-size:13px;margin-right:6px}
-  .pbtn{font:600 13px var(--sans);min-width:44px;padding:6px 11px;border:1px solid var(--line);background:#fff;border-radius:8px;cursor:pointer;color:#4b4a46}
-  .pbtn.on{background:#2a2e36;color:#fff;border-color:#2a2e36}
-  .row{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:16px;box-shadow:0 4px 16px rgba(40,34,22,.05)}
-  .rowhead{display:flex;align-items:center;gap:14px;margin-bottom:8px;flex-wrap:wrap}
-  .rowtitle b{font-family:var(--serif);font-size:1.06rem}
-  .rowtitle .dim{color:var(--dim);font-weight:400;font-size:13px}
-  .legend{display:flex;gap:14px;color:var(--dim);font-size:12.5px}
+  body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.62 var(--sans);
+    background-image:radial-gradient(1200px 500px at 70% -5%, #f3ecde 0%, var(--bg) 55%)}
+  .wrap{max-width:1180px;margin:0 auto;padding:40px 22px 96px}
+  .brand{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+  h1{font-family:var(--serif);font-weight:600;font-size:2.15rem;letter-spacing:-.015em;margin:0;line-height:1.08}
+  .kicker{text-transform:uppercase;letter-spacing:.22em;font-size:11px;font-weight:600;color:var(--accent);margin-bottom:12px}
+  .rule{height:2px;background:linear-gradient(90deg,var(--accent) 0%,var(--mel) 42%,var(--chd) 100%);border-radius:2px;margin:14px 0 18px;max-width:280px}
+  .sub{color:var(--dim);margin:0 0 24px;max-width:70ch}
+  .tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:18px}
+  .tab{font:600 12.5px var(--sans);letter-spacing:.01em;padding:9px 16px;border:1px solid var(--line);background:var(--panel2);border-radius:999px;cursor:pointer;color:#6a5f4e;transition:.15s}
+  .tab:hover{border-color:var(--line2)}
+  .tab.on{background:var(--ink);border-color:var(--ink);color:#f3ead9}
+  .prompts{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:24px}
+  .plabel{color:var(--dim);font-size:13px;margin-right:4px}
+  .pbtn{font:600 13px var(--sans);min-width:44px;padding:6px 11px;border:1px solid var(--line);background:var(--panel);border-radius:8px;cursor:pointer;color:#4b4a46}
+  .pbtn.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .row{background:var(--panel);border:1px solid var(--line);border-radius:4px 14px 14px 14px;padding:15px 16px;margin-bottom:16px;box-shadow:0 1px 0 #fff inset,0 6px 20px rgba(80,50,30,.06)}
+  .rowhead{display:flex;align-items:center;gap:14px;margin-bottom:9px;flex-wrap:wrap}
+  .rowtitle b{font-family:var(--serif);font-weight:600;font-size:1.14rem;letter-spacing:-.01em}
+  .rowtitle .dim{color:var(--dim);font-weight:400;font-size:12.5px}
+  .legend{display:flex;gap:14px;color:var(--dim);font-size:12px}
   .legend .lg{display:inline-flex;align-items:center}
   .legend i{width:11px;height:11px;border-radius:3px;margin-right:6px;display:inline-block}
   .varsel{margin-left:auto;display:flex;align-items:center;gap:8px}
-  .vnav{width:30px;height:26px;border:1px solid var(--line);background:#faf8f2;border-radius:7px;cursor:pointer;color:#4b4a46;font-size:12px}
-  .vnav:hover{background:#fff;border-color:#d9d2c4}
+  .vnav{width:30px;height:26px;border:1px solid var(--line);background:var(--panel2);border-radius:7px;cursor:pointer;color:#4b4a46;font-size:12px}
+  .vnav:hover{background:var(--panel);border-color:var(--line2)}
   .vlabel{font:600 12px var(--sans);color:var(--dim);min-width:34px;text-align:center}
-  .roll{width:100%;height:200px;background:#fffdf8;border:1px solid var(--line);border-radius:10px;cursor:pointer;display:block}
+  .roll{width:100%;height:196px;background:#fdf9f1;border:1px solid var(--line);border-radius:8px;cursor:pointer;display:block}
   .roll.playing{cursor:col-resize}
-  .transport{display:flex;align-items:center;gap:12px;margin-top:10px;padding:0 2px}
-  .play{width:36px;height:36px;border-radius:50%;border:1px solid var(--line);background:#fff;cursor:pointer;font-size:13px;color:#2a2e36;box-shadow:0 2px 8px rgba(40,34,22,.1)}
-  .play.on{background:#2a2e36;color:#fff}
+  .transport{display:flex;align-items:center;gap:12px;margin-top:11px;padding:0 2px}
+  .play{width:38px;height:38px;border-radius:50%;border:1px solid var(--accent);background:var(--accent);cursor:pointer;font-size:13px;color:#fff;box-shadow:0 3px 10px rgba(138,47,56,.28)}
+  .play.on{background:var(--accent2);border-color:var(--accent2)}
   .time{font:600 13px var(--sans);color:var(--dim);min-width:96px;font-variant-numeric:tabular-nums}
-  .seek{flex:1;accent-color:#3F7FD6}
+  .seek{flex:1;accent-color:var(--accent)}
 
   .groupbpm{margin-left:auto;display:inline-flex;align-items:center;gap:4px;color:var(--dim);font-size:13px;font-weight:600}
-  .bpmin{width:62px;padding:5px 7px;border:1px solid var(--line);border-radius:8px;font:600 13px var(--sans);color:var(--ink);background:#fff}
+  .bpmin{width:62px;padding:5px 7px;border:1px solid var(--line);border-radius:8px;font:600 13px var(--sans);color:var(--ink);background:var(--panel)}
 
-  .songsel{font:600 13px var(--sans);padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--ink);max-width:340px}
-  .pnav{width:30px;height:30px;border:1px solid var(--line);background:#faf8f2;border-radius:8px;cursor:pointer;color:#4b4a46;font-size:12px}
-  .pnav:hover{background:#fff;border-color:#d9d2c4}
+  .songsel{font:600 13px var(--sans);padding:8px 11px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink);max-width:340px}
+  .pnav{width:30px;height:30px;border:1px solid var(--line);background:var(--panel2);border-radius:8px;cursor:pointer;color:#4b4a46;font-size:12px}
+  .pnav:hover{background:var(--panel);border-color:var(--line2)}
   .pcount{color:var(--dim);font-size:12.5px;font-variant-numeric:tabular-nums;margin-left:2px}
-  .grouphead{font-family:var(--serif);font-weight:600;font-size:1.02rem;color:var(--accent);margin:22px 2px 4px;padding-bottom:4px;border-bottom:1px solid var(--line);letter-spacing:.01em}
-  .grouphead:first-child{margin-top:4px}
+  .grouphead{font-family:var(--serif);font-weight:600;font-size:.82rem;text-transform:uppercase;letter-spacing:.14em;color:var(--accent);margin:30px 2px 8px;display:flex;align-items:center;gap:12px}
+  .grouphead::after{content:"";flex:1;height:1px;background:var(--line2)}
+  .grouphead:first-child{margin-top:6px}
   .expnote{color:var(--dim);font-size:13px;margin:-8px 0 18px;font-style:italic}
-  .err{color:#b23}
+  .err{color:var(--accent)}
 </style>
 </head>
 <body>
 <div class="wrap">
-  <h1>Melody + Chord — model comparison</h1>
-  <p class="sub">For each song, compare the ground truth against each model's continuation. Songs are identified by their <b>POP909 dataset index</b>. Tracks are coloured by role (melody / chord) and played through piano. Click or drag a roll to seek; use &#10094; &#10095; to switch a model's variations.</p>
+  <div class="kicker">Symbolic Music Generation</div>
+  <div class="brand"><h1>Lead-sheet Continuation</h1></div>
+  <div class="rule"></div>
+  <p class="sub">For each song, compare the ground-truth continuation against each model. Songs are identified by their <b>POP909 dataset index</b>. Each lead sheet pairs a <span style="color:var(--mel);font-weight:600">melody</span> with its underlying <span style="color:var(--chd);font-weight:600">chord</span> progression, played through piano. Click or drag a roll to seek; use &#10094; &#10095; to switch a model's variations.</p>
   <div id="tabs" class="tabs"></div>
   <div id="prompts" class="prompts"></div>
   <div id="rows"></div>

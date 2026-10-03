@@ -3,7 +3,7 @@
    every roll multitrack (melody vs chord, piano for all), with left/right to switch
    variations, a draggable playhead + time readout. */
 
-const ROLE_COLORS = { melody: "#E07A2E", chord: "#3F7FD6", other: "#8A8A8A", condition: "#9A968E" };
+const ROLE_COLORS = { melody: "#c2772a", chord: "#2f6a78", other: "#9a8f7d", condition: "#9a8f7d" };
 function maxSimul(notes) {
   const ev = []; notes.forEach(n => { ev.push([n.time, 1]); ev.push([n.time + n.duration, -1]); });
   ev.sort((a, b) => a[0] - b[0] || a[1] - b[1]);

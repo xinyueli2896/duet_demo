@@ -6,33 +6,58 @@
 <title>Melody–Chord Co-generation — model comparison</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,620&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
-    --bg:#ece4d6; --panel:#faf5ec; --panel2:#f3ecdf; --line:#ddd0bb; --line2:#cabfa8;
-    --ink:#221c15; --dim:#6f6252; --accent:#8a2f38; --accent2:#5c1f27;
-    --mel:#c2772a; --chd:#2f6a78;
+    --bg:#e8ede7; --panel:#f8faf6; --panel2:#eef2eb; --rollbg:#f6f9f4; --line:#d1dac9; --line2:#bbc7b1;
+    --ink:#1e2420; --dim:#5f6a5c; --accent:#2f6b57; --accent2:#214f41; --onaccent:#ffffff;
+    --mel:#b2663e; --chd:#3f6f86; --other:#8a9185;
     --serif:"Fraunces",Georgia,"Times New Roman",serif;
     --sans:"Space Grotesk",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
   }
   *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.62 var(--sans);
-    background-image:radial-gradient(1200px 500px at 70% -5%, #f3ecde 0%, var(--bg) 55%)}
-  .wrap{max-width:1180px;margin:0 auto;padding:40px 22px 96px}
-  .brand{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+  body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.62 var(--sans)}
+  .wrap{max-width:1280px;margin:0 auto;padding:36px 22px 90px}
+  .topline{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;flex-wrap:wrap}
+  .kicker{text-transform:uppercase;letter-spacing:.22em;font-size:11px;font-weight:600;color:var(--accent);margin-bottom:10px}
   h1{font-family:var(--serif);font-weight:600;font-size:2.15rem;letter-spacing:-.015em;margin:0;line-height:1.08}
-  .kicker{text-transform:uppercase;letter-spacing:.22em;font-size:11px;font-weight:600;color:var(--accent);margin-bottom:12px}
-  .rule{height:2px;background:linear-gradient(90deg,var(--accent) 0%,var(--mel) 42%,var(--chd) 100%);border-radius:2px;margin:14px 0 18px;max-width:280px}
-  .sub{color:var(--dim);margin:0 0 24px;max-width:70ch}
-  .tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:18px}
-  .tab{font:600 12.5px var(--sans);letter-spacing:.01em;padding:9px 16px;border:1px solid var(--line);background:var(--panel2);border-radius:999px;cursor:pointer;color:#6a5f4e;transition:.15s}
+  .affil{text-align:right;line-height:1.3}
+  .affil .lab{font-family:var(--serif);font-weight:600;font-size:1rem}
+  .affil .org{color:var(--accent);font-weight:600;font-size:12.5px;letter-spacing:.02em}
+  .rule{height:2px;background:linear-gradient(90deg,var(--accent) 0%,var(--mel) 48%,var(--chd) 100%);border-radius:2px;margin:14px 0 16px;max-width:260px}
+  .sub{color:var(--dim);margin:0 0 22px;max-width:76ch}
+  .tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:20px}
+  .tab{font:600 12.5px var(--sans);padding:9px 16px;border:1px solid var(--line);background:var(--panel2);border-radius:999px;cursor:pointer;color:var(--dim);transition:.15s}
   .tab:hover{border-color:var(--line2)}
-  .tab.on{background:var(--ink);border-color:var(--ink);color:#f3ead9}
-  .prompts{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:24px}
-  .plabel{color:var(--dim);font-size:13px;margin-right:4px}
-  .pbtn{font:600 13px var(--sans);min-width:44px;padding:6px 11px;border:1px solid var(--line);background:var(--panel);border-radius:8px;cursor:pointer;color:#4b4a46}
-  .pbtn.on{background:var(--accent);color:#fff;border-color:var(--accent)}
-  .row{background:var(--panel);border:1px solid var(--line);border-radius:4px 14px 14px 14px;padding:15px 16px;margin-bottom:16px;box-shadow:0 1px 0 #fff inset,0 6px 20px rgba(80,50,30,.06)}
+  .tab.on{background:var(--accent);border-color:var(--accent);color:var(--onaccent)}
+
+  /* layout 5: sidebar + main */
+  .layout{display:flex;gap:20px;align-items:flex-start}
+  .sidebar{position:sticky;top:16px;width:252px;flex:none;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px;max-height:calc(100vh - 40px);display:flex;flex-direction:column;box-shadow:0 6px 20px rgba(30,40,30,.05)}
+  .sidebar h2{font:700 11px var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 10px;display:flex;justify-content:space-between;align-items:baseline}
+  .sidebar h2 .n{color:var(--dim);font-weight:600;letter-spacing:0}
+  .sidenote{display:flex;align-items:center;gap:7px;color:var(--dim);font-size:12px;margin:2px 2px 10px}
+  .sidenote .dot{width:9px;height:9px;border-radius:50%;display:inline-block}
+  .filter{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--panel2);color:var(--ink);font:13px var(--sans);margin-bottom:8px}
+  .filter::placeholder{color:var(--dim)}
+  .songlist{overflow-y:auto;flex:1;margin:0 -6px;padding:2px 6px;scrollbar-width:thin}
+  .songitem{display:flex;align-items:center;gap:9px;padding:7px 10px;border-radius:8px;cursor:pointer;color:var(--dim);font:600 13px var(--sans)}
+  .songitem:hover{background:var(--panel2)}
+  .songitem.on{background:color-mix(in srgb,var(--accent) 15%,transparent);color:var(--ink);box-shadow:inset 3px 0 0 var(--accent)}
+  .songitem .dot{width:8px;height:8px;border-radius:50%;flex:none;background:transparent}
+  .sidenav{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:10px;padding-top:10px;border-top:1px solid var(--line)}
+  .sidenav .pnav{width:32px;height:30px;border:1px solid var(--line);background:var(--panel2);border-radius:8px;cursor:pointer;color:var(--dim)}
+  .sidenav .pnav:hover{background:var(--panel);border-color:var(--line2)}
+  .sidenav .pos{font:600 12px var(--sans);color:var(--dim)}
+
+  #main{flex:1;min-width:0}
+  .mainbar{display:flex;align-items:center;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+  .songtag{font-family:var(--serif);font-weight:600;font-size:1.15rem}
+  .groupbpm{margin-left:auto;display:inline-flex;align-items:center;gap:4px;color:var(--dim);font-size:13px;font-weight:600}
+  .bpmin{width:62px;padding:5px 7px;border:1px solid var(--line);border-radius:8px;font:600 13px var(--sans);color:var(--ink);background:var(--panel)}
+  .expnote{color:var(--dim);font-size:13px;margin:0 0 14px;font-style:italic}
+
+  .row{background:var(--panel);border:1px solid var(--line);border-radius:4px 14px 14px 14px;padding:15px 16px;margin-bottom:16px;box-shadow:0 6px 20px rgba(30,40,30,.05)}
   .rowhead{display:flex;align-items:center;gap:14px;margin-bottom:9px;flex-wrap:wrap}
   .rowtitle b{font-family:var(--serif);font-weight:600;font-size:1.14rem;letter-spacing:-.01em}
   .rowtitle .dim{color:var(--dim);font-weight:400;font-size:12.5px}
@@ -40,54 +65,47 @@
   .legend .lg{display:inline-flex;align-items:center}
   .legend i{width:11px;height:11px;border-radius:3px;margin-right:6px;display:inline-block}
   .varsel{margin-left:auto;display:flex;align-items:center;gap:8px}
-  .vnav{width:30px;height:26px;border:1px solid var(--line);background:var(--panel2);border-radius:7px;cursor:pointer;color:#4b4a46;font-size:12px}
+  .vnav{width:30px;height:26px;border:1px solid var(--line);background:var(--panel2);border-radius:7px;cursor:pointer;color:var(--dim);font-size:12px}
   .vnav:hover{background:var(--panel);border-color:var(--line2)}
   .vlabel{font:600 12px var(--sans);color:var(--dim);min-width:34px;text-align:center}
-  .roll{width:100%;height:196px;background:#fdf9f1;border:1px solid var(--line);border-radius:8px;cursor:pointer;display:block}
+  .roll{width:100%;height:188px;background:var(--rollbg);border:1px solid var(--line);border-radius:8px;cursor:pointer;display:block}
   .roll.playing{cursor:col-resize}
   .transport{display:flex;align-items:center;gap:12px;margin-top:11px;padding:0 2px}
-  .play{width:38px;height:38px;border-radius:50%;border:1px solid var(--accent);background:var(--accent);cursor:pointer;font-size:13px;color:#fff;box-shadow:0 3px 10px rgba(138,47,56,.28)}
+  .play{width:38px;height:38px;border-radius:50%;border:1px solid var(--accent);background:var(--accent);cursor:pointer;font-size:13px;color:var(--onaccent);box-shadow:0 3px 10px rgba(47,107,87,.26)}
   .play.on{background:var(--accent2);border-color:var(--accent2)}
   .time{font:600 13px var(--sans);color:var(--dim);min-width:96px;font-variant-numeric:tabular-nums}
   .seek{flex:1;accent-color:var(--accent)}
-
-  .groupbpm{margin-left:auto;display:inline-flex;align-items:center;gap:4px;color:var(--dim);font-size:13px;font-weight:600}
-  .bpmin{width:62px;padding:5px 7px;border:1px solid var(--line);border-radius:8px;font:600 13px var(--sans);color:var(--ink);background:var(--panel)}
-
-  .songsel{font:600 13px var(--sans);padding:8px 11px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink);max-width:340px}
-  .pnav{width:30px;height:30px;border:1px solid var(--line);background:var(--panel2);border-radius:8px;cursor:pointer;color:#4b4a46;font-size:12px}
-  .pnav:hover{background:var(--panel);border-color:var(--line2)}
-  .pcount{color:var(--dim);font-size:12.5px;font-variant-numeric:tabular-nums;margin-left:2px}
-  .grouphead{font-family:var(--serif);font-weight:600;font-size:.82rem;text-transform:uppercase;letter-spacing:.14em;color:var(--accent);margin:30px 2px 8px;display:flex;align-items:center;gap:12px}
+  .grouphead{font-family:var(--serif);font-weight:600;font-size:.82rem;text-transform:uppercase;letter-spacing:.14em;color:var(--accent);margin:26px 2px 8px;display:flex;align-items:center;gap:12px}
   .grouphead::after{content:"";flex:1;height:1px;background:var(--line2)}
-  .grouphead:first-child{margin-top:6px}
-  .expnote{color:var(--dim);font-size:13px;margin:-8px 0 18px;font-style:italic}
+  .grouphead:first-child{margin-top:2px}
   .err{color:var(--accent)}
+  @media (max-width:860px){ .layout{flex-direction:column} .sidebar{position:static;width:100%;max-height:300px} }
 </style>
 </head>
 <body>
 <div class="wrap">
-  <div class="kicker">Symbolic Music Generation</div>
-  <div class="brand"><h1>Melody–Chord Co-generation</h1></div>
+  <div class="topline">
+    <div>
+      <div class="kicker">Symbolic Music Generation</div>
+      <h1>Melody–Chord Co-generation</h1>
+    </div>
+    <div class="affil"><div class="lab">Music X Lab</div><div class="org">MBZUAI × NYU</div></div>
+  </div>
   <div class="rule"></div>
-  <p class="sub">Each system is given a <b>5-bar prompt</b> and jointly generates the continuation of both the <span style="color:var(--mel);font-weight:600">melody</span> and its underlying <span style="color:var(--chd);font-weight:600">chord</span> progression. We draw <b>3 samples per song</b> for every system; use &#10094; &#10095; to switch between them. Evaluated on <b>92 held-out POP909 songs</b> (identified by their dataset index), each shown as the prompt plus ~22 generated bars, played through piano at 120&nbsp;BPM. Compare the ground truth against our models and the baselines below; click or drag a roll to seek.</p>
+  <p class="sub">Each system is given a <b>5-bar prompt</b> and jointly generates the continuation of both the <span style="color:var(--mel);font-weight:600">melody</span> and its underlying <span style="color:var(--chd);font-weight:600">chord</span> progression. We draw <b>3 samples per song</b> for every system (use &#10094; &#10095; to switch). Evaluated on <b>92 held-out POP909 songs</b>, each shown as the prompt plus ~22 generated bars, played through piano. Click or drag a roll to seek.</p>
   <div id="tabs" class="tabs"></div>
-  <div id="prompts" class="prompts"></div>
-  <div id="rows"></div>
+  <div class="layout">
+    <aside id="sidebar" class="sidebar"></aside>
+    <main id="main">
+      <div class="mainbar" id="mainbar"></div>
+      <div id="rows"></div>
+    </main>
+  </div>
 </div>
 <script src="lib/Tone.js?v=1"></script>
 <script>
-/* Load our own scripts with a fresh timestamp each visit, so browsers never serve
-   a stale cached copy after an update. Loaded in order (parser before app). */
-(function () {
-  var v = Date.now(), srcs = ["lib/midi-parse.js", "app.js"];
-  (function next(i) {
-    if (i >= srcs.length) return;
-    var s = document.createElement("script");
-    s.src = srcs[i] + "?v=" + v;
-    s.onload = function () { next(i + 1); };
-    document.body.appendChild(s);
-  })(0);
+(function () { var v = Date.now(), srcs = ["lib/midi-parse.js", "app.js"];
+  (function next(i){ if(i>=srcs.length) return; var s=document.createElement("script"); s.src=srcs[i]+"?v="+v; s.onload=function(){next(i+1);}; document.body.appendChild(s); })(0);
 })();
 </script>
 </body>

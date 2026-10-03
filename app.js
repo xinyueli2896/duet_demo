@@ -3,7 +3,8 @@
    every roll multitrack (melody vs chord, piano for all), with left/right to switch
    variations, a draggable playhead + time readout. */
 
-const ROLE_COLORS = { melody: "#c2772a", chord: "#2f6a78", other: "#9a8f7d", condition: "#9a8f7d" };
+const _cv = (n,f)=>{const v=getComputedStyle(document.documentElement).getPropertyValue(n).trim();return v||f;};
+const ROLE_COLORS = { melody: _cv("--mel","#c2772a"), chord: _cv("--chd","#2f6a78"), other: _cv("--other","#9a8f7d"), condition: _cv("--other","#9a8f7d") };
 function maxSimul(notes) {
   const ev = []; notes.forEach(n => { ev.push([n.time, 1]); ev.push([n.time + n.duration, -1]); });
   ev.sort((a, b) => a[0] - b[0] || a[1] - b[1]);
@@ -237,54 +238,70 @@ function renderRows() {
     makeRow(rows, mdl.name, files, { promptBars: pb, given: gv, capBars: cap });
   }
 }
-function renderPrompts() {
+let songFilter = "";
+function selectSong(i) {
   const exp = MANIFEST.experiments[expIdx];
-  const box = document.getElementById("prompts"); box.innerHTML = "";
-  const many = exp.prompts.length > 12;
-  box.appendChild(Object.assign(document.createElement("span"), { className: "plabel", textContent: many ? "POP909 song" : "Prompt" }));
-  if (many) {
-    // dropdown + prev/next for large song sets
-    const prev = btn("&#10094;", "pnav"), next = btn("&#10095;", "pnav");
-    const sel = document.createElement("select"); sel.className = "songsel";
-    const RED = new Set(["126", "596", "606", "696", "886"]);
-    const ORANGE = new Set(["003", "726", "496"]);
+  promptIdx = (i + exp.prompts.length) % exp.prompts.length;
+  document.querySelectorAll("#sidebar .songitem").forEach(el => el.classList.toggle("on", +el.dataset.i === promptIdx));
+  const act = document.querySelector("#sidebar .songitem.on");
+  if (act) act.scrollIntoView({ block: "nearest" });
+  renderMainbar(); renderRows();
+}
+const RED = new Set(["126", "596", "606", "696", "886"]);
+function renderSidebar() {
+  const exp = MANIFEST.experiments[expIdx];
+  const sb = document.getElementById("sidebar"); sb.innerHTML = "";
+  const h = document.createElement("h2"); h.innerHTML = `Song <span class="n">${exp.prompts.length}</span>`; sb.appendChild(h);
+  const note = document.createElement("div"); note.className = "sidenote";
+  note.innerHTML = `<span class="dot" style="background:#c0574a"></span>Used in the subjective evaluation`;
+  sb.appendChild(note);
+  const f = document.createElement("input"); f.className = "filter"; f.type = "text"; f.placeholder = "Filter POP909 index…"; f.value = songFilter;
+  sb.appendChild(f);
+  const list = document.createElement("div"); list.className = "songlist"; sb.appendChild(list);
+  function fill() {
+    list.innerHTML = "";
     exp.prompts.forEach((pid, i) => {
-      const o = document.createElement("option"); o.value = i;
-      if (RED.has(pid)) { o.textContent = `\u{1F534} POP909 #${pid}`; o.style.color = "#d23b2e"; }
-      else if (ORANGE.has(pid)) { o.textContent = `\u{1F7E0} POP909 #${pid}`; o.style.color = "#d98a1f"; }
-      else { o.textContent = `POP909 #${pid}`; }
-      if (i === promptIdx) o.selected = true; sel.appendChild(o);
-    });
-    const count = Object.assign(document.createElement("span"), { className: "pcount", textContent: `${exp.prompts.length} songs · POP909 index` });
-    const go = (i) => { promptIdx = (i + exp.prompts.length) % exp.prompts.length; renderPrompts(); renderRows(); };
-    sel.addEventListener("change", () => go(+sel.value));
-    prev.addEventListener("click", () => go(promptIdx - 1));
-    next.addEventListener("click", () => go(promptIdx + 1));
-    box.appendChild(prev); box.appendChild(sel); box.appendChild(next); box.appendChild(count);
-  } else {
-    exp.prompts.forEach((pid, i) => {
-      const b = btn(pid, "pbtn" + (i === promptIdx ? " on" : ""));
-      b.addEventListener("click", () => { promptIdx = i; renderPrompts(); renderRows(); });
-      box.appendChild(b);
+      if (songFilter && !String(pid).includes(songFilter)) return;
+      const it = document.createElement("div"); it.className = "songitem" + (i === promptIdx ? " on" : ""); it.dataset.i = i;
+      const dot = document.createElement("span"); dot.className = "dot";
+      if (RED.has(pid)) { dot.style.background = "#c0574a"; it.title = "Used in the subjective evaluation"; }
+      const lab = document.createElement("span"); lab.textContent = "POP909 #" + pid;
+      it.appendChild(dot); it.appendChild(lab);
+      it.addEventListener("click", () => selectSong(i));
+      list.appendChild(it);
     });
   }
-  // one BPM handle for the whole experiment
+  fill();
+  f.addEventListener("input", () => { songFilter = f.value.trim(); fill(); });
+  const nav = document.createElement("div"); nav.className = "sidenav";
+  const prev = btn("&#10094;", "pnav"), next = btn("&#10095;", "pnav");
+  const pos = document.createElement("span"); pos.className = "pos"; pos.id = "sidepos";
+  prev.addEventListener("click", () => selectSong(promptIdx - 1));
+  next.addEventListener("click", () => selectSong(promptIdx + 1));
+  nav.appendChild(prev); nav.appendChild(pos); nav.appendChild(next); sb.appendChild(nav);
+  renderMainbar();
+}
+function renderMainbar() {
+  const exp = MANIFEST.experiments[expIdx];
+  const bar = document.getElementById("mainbar"); bar.innerHTML = "";
+  const tag = document.createElement("span"); tag.className = "songtag"; tag.textContent = "POP909 #" + exp.prompts[promptIdx];
+  bar.appendChild(tag);
+  const sp = document.getElementById("sidepos"); if (sp) sp.textContent = `${promptIdx + 1} / ${exp.prompts.length}`;
   const g = document.createElement("span"); g.className = "groupbpm";
   const inp = document.createElement("input"); inp.type = "number"; inp.min = 20; inp.max = 400; inp.step = 1; inp.className = "bpmin"; inp.value = groupBpm;
   g.appendChild(document.createTextNode("Tempo (all): ")); g.appendChild(inp); g.appendChild(document.createTextNode(" BPM"));
   inp.addEventListener("change", () => { let v = parseFloat(inp.value); if (!(v >= 20 && v <= 400)) { v = groupBpm; inp.value = v; } groupBpmTouched = true; setGroupBpm(v); });
-  box.appendChild(g); bpmInput = inp;
-  const note = MANIFEST.experiments[expIdx].note;
+  bar.appendChild(g); bpmInput = inp;
+  const note = exp.note;
   let nd = document.getElementById("expnote");
-  if (!nd) { nd = document.createElement("div"); nd.id = "expnote"; nd.className = "expnote"; box.parentNode.insertBefore(nd, box.nextSibling); }
-  nd.textContent = note || "";
-  nd.style.display = note ? "block" : "none";
+  if (!nd) { nd = document.createElement("div"); nd.id = "expnote"; nd.className = "expnote"; bar.parentNode.insertBefore(nd, bar.nextSibling); }
+  nd.textContent = note || ""; nd.style.display = note ? "block" : "none";
 }
 function renderTabs() {
   const box = document.getElementById("tabs"); box.innerHTML = "";
   MANIFEST.experiments.forEach((e, i) => {
     const b = btn(e.name, "tab" + (i === expIdx ? " on" : ""));
-    b.addEventListener("click", () => { expIdx = i; promptIdx = 0; groupBpmTouched = false; renderTabs(); renderPrompts(); renderRows(); });
+    b.addEventListener("click", () => { expIdx = i; promptIdx = 0; groupBpmTouched = false; renderTabs(); renderSidebar(); renderRows(); });
     box.appendChild(b);
   });
 }
@@ -292,7 +309,7 @@ function initApp() {
   fetch("manifest.json").then(r => r.json()).then(m => {
     MANIFEST = m;
     if (!m.experiments || !m.experiments.length) { document.getElementById("rows").innerHTML = "<p class='err'>manifest.json has no experiments — run build_manifest.py</p>"; return; }
-    renderTabs(); renderPrompts(); renderRows();
+    renderTabs(); renderSidebar(); renderRows();
   }).catch(() => { document.getElementById("rows").innerHTML = "<p class='err'>could not load manifest.json — run <code>python3 build_manifest.py</code>, then serve over http.</p>"; });
 }
 if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", initApp);

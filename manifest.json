@@ -52,12 +52,10 @@
     "426",
     "436",
     "446",
-    "456",
     "466",
     "476",
     "486",
     "496",
-    "506",
     "516",
     "526",
     "536",
@@ -85,7 +83,6 @@
     "756",
     "766",
     "776",
-    "786",
     "796",
     "806",
     "816",
@@ -107,176 +104,212 @@
      "name": "Ground Truth",
      "group": "Reference",
      "variations": {
-      "216": [
-       "midis/E1_v5b/prompts/merged_tagged/216.mid"
-      ],
-      "766": [
-       "midis/E1_v5b/prompts/merged_tagged/766.mid"
-      ],
-      "606": [
-       "midis/E1_v5b/prompts/merged_tagged/606.mid"
-      ],
-      "376": [
-       "midis/E1_v5b/prompts/merged_tagged/376.mid"
-      ],
-      "001": [
-       "midis/E1_v5b/prompts/merged_tagged/001.mid"
-      ],
-      "003": [
-       "midis/E1_v5b/prompts/merged_tagged/003.mid"
-      ],
-      "836": [
-       "midis/E1_v5b/prompts/merged_tagged/836.mid"
-      ],
-      "406": [
-       "midis/E1_v5b/prompts/merged_tagged/406.mid"
-      ],
-      "176": [
-       "midis/E1_v5b/prompts/merged_tagged/176.mid"
-      ],
-      "002": [
-       "midis/E1_v5b/prompts/merged_tagged/002.mid"
-      ],
-      "016": [
-       "midis/E1_v5b/prompts/merged_tagged/016.mid"
-      ],
-      "566": [
-       "midis/E1_v5b/prompts/merged_tagged/566.mid"
-      ],
-      "576": [
-       "midis/E1_v5b/prompts/merged_tagged/576.mid"
-      ],
-      "006": [
-       "midis/E1_v5b/prompts/merged_tagged/006.mid"
-      ],
-      "166": [
-       "midis/E1_v5b/prompts/merged_tagged/166.mid"
-      ],
-      "416": [
-       "midis/E1_v5b/prompts/merged_tagged/416.mid"
-      ],
-      "826": [
-       "midis/E1_v5b/prompts/merged_tagged/826.mid"
-      ],
-      "005": [
-       "midis/E1_v5b/prompts/merged_tagged/005.mid"
-      ],
-      "366": [
-       "midis/E1_v5b/prompts/merged_tagged/366.mid"
-      ],
-      "616": [
-       "midis/E1_v5b/prompts/merged_tagged/616.mid"
-      ],
-      "776": [
-       "midis/E1_v5b/prompts/merged_tagged/776.mid"
-      ],
-      "004": [
-       "midis/E1_v5b/prompts/merged_tagged/004.mid"
-      ],
-      "206": [
-       "midis/E1_v5b/prompts/merged_tagged/206.mid"
-      ],
-      "856": [
-       "midis/E1_v5b/prompts/merged_tagged/856.mid"
-      ],
-      "466": [
-       "midis/E1_v5b/prompts/merged_tagged/466.mid"
-      ],
-      "116": [
-       "midis/E1_v5b/prompts/merged_tagged/116.mid"
-      ],
-      "076": [
-       "midis/E1_v5b/prompts/merged_tagged/076.mid"
-      ],
-      "506": [
-       "midis/E1_v5b/prompts/merged_tagged/506.mid"
-      ],
-      "276": [
-       "midis/E1_v5b/prompts/merged_tagged/276.mid"
-      ],
-      "706": [
-       "midis/E1_v5b/prompts/merged_tagged/706.mid"
-      ],
-      "666": [
-       "midis/E1_v5b/prompts/merged_tagged/666.mid"
-      ],
-      "896": [
-       "midis/E1_v5b/prompts/merged_tagged/896.mid"
-      ],
-      "316": [
-       "midis/E1_v5b/prompts/merged_tagged/316.mid"
-      ],
-      "306": [
-       "midis/E1_v5b/prompts/merged_tagged/306.mid"
-      ],
       "676": [
        "midis/E1_v5b/prompts/merged_tagged/676.mid"
-      ],
-      "886": [
-       "midis/E1_v5b/prompts/merged_tagged/886.mid"
-      ],
-      "716": [
-       "midis/E1_v5b/prompts/merged_tagged/716.mid"
-      ],
-      "266": [
-       "midis/E1_v5b/prompts/merged_tagged/266.mid"
-      ],
-      "516": [
-       "midis/E1_v5b/prompts/merged_tagged/516.mid"
-      ],
-      "066": [
-       "midis/E1_v5b/prompts/merged_tagged/066.mid"
-      ],
-      "106": [
-       "midis/E1_v5b/prompts/merged_tagged/106.mid"
-      ],
-      "476": [
-       "midis/E1_v5b/prompts/merged_tagged/476.mid"
-      ],
-      "846": [
-       "midis/E1_v5b/prompts/merged_tagged/846.mid"
-      ],
-      "526": [
-       "midis/E1_v5b/prompts/merged_tagged/526.mid"
-      ],
-      "056": [
-       "midis/E1_v5b/prompts/merged_tagged/056.mid"
-      ],
-      "136": [
-       "midis/E1_v5b/prompts/merged_tagged/136.mid"
-      ],
-      "446": [
-       "midis/E1_v5b/prompts/merged_tagged/446.mid"
-      ],
-      "876": [
-       "midis/E1_v5b/prompts/merged_tagged/876.mid"
-      ],
-      "686": [
-       "midis/E1_v5b/prompts/merged_tagged/686.mid"
       ],
       "296": [
        "midis/E1_v5b/prompts/merged_tagged/296.mid"
       ],
-      "096": [
-       "midis/E1_v5b/prompts/merged_tagged/096.mid"
-      ],
-      "486": [
-       "midis/E1_v5b/prompts/merged_tagged/486.mid"
-      ],
-      "336": [
-       "midis/E1_v5b/prompts/merged_tagged/336.mid"
+      "706": [
+       "midis/E1_v5b/prompts/merged_tagged/706.mid"
       ],
       "646": [
        "midis/E1_v5b/prompts/merged_tagged/646.mid"
       ],
-      "726": [
-       "midis/E1_v5b/prompts/merged_tagged/726.mid"
+      "276": [
+       "midis/E1_v5b/prompts/merged_tagged/276.mid"
+      ],
+      "006": [
+       "midis/E1_v5b/prompts/merged_tagged/006.mid"
+      ],
+      "636": [
+       "midis/E1_v5b/prompts/merged_tagged/636.mid"
+      ],
+      "466": [
+       "midis/E1_v5b/prompts/merged_tagged/466.mid"
+      ],
+      "586": [
+       "midis/E1_v5b/prompts/merged_tagged/586.mid"
+      ],
+      "096": [
+       "midis/E1_v5b/prompts/merged_tagged/096.mid"
+      ],
+      "526": [
+       "midis/E1_v5b/prompts/merged_tagged/526.mid"
+      ],
+      "446": [
+       "midis/E1_v5b/prompts/merged_tagged/446.mid"
+      ],
+      "376": [
+       "midis/E1_v5b/prompts/merged_tagged/376.mid"
+      ],
+      "806": [
+       "midis/E1_v5b/prompts/merged_tagged/806.mid"
+      ],
+      "686": [
+       "midis/E1_v5b/prompts/merged_tagged/686.mid"
+      ],
+      "056": [
+       "midis/E1_v5b/prompts/merged_tagged/056.mid"
+      ],
+      "796": [
+       "midis/E1_v5b/prompts/merged_tagged/796.mid"
+      ],
+      "786": [
+       "midis/E1_v5b/prompts/merged_tagged/786.mid"
+      ],
+      "896": [
+       "midis/E1_v5b/prompts/merged_tagged/896.mid"
+      ],
+      "366": [
+       "midis/E1_v5b/prompts/merged_tagged/366.mid"
+      ],
+      "226": [
+       "midis/E1_v5b/prompts/merged_tagged/226.mid"
+      ],
+      "306": [
+       "midis/E1_v5b/prompts/merged_tagged/306.mid"
       ],
       "256": [
        "midis/E1_v5b/prompts/merged_tagged/256.mid"
       ],
-      "246": [
-       "midis/E1_v5b/prompts/merged_tagged/246.mid"
+      "005": [
+       "midis/E1_v5b/prompts/merged_tagged/005.mid"
+      ],
+      "216": [
+       "midis/E1_v5b/prompts/merged_tagged/216.mid"
+      ],
+      "166": [
+       "midis/E1_v5b/prompts/merged_tagged/166.mid"
+      ],
+      "546": [
+       "midis/E1_v5b/prompts/merged_tagged/546.mid"
+      ],
+      "766": [
+       "midis/E1_v5b/prompts/merged_tagged/766.mid"
+      ],
+      "476": [
+       "midis/E1_v5b/prompts/merged_tagged/476.mid"
+      ],
+      "826": [
+       "midis/E1_v5b/prompts/merged_tagged/826.mid"
+      ],
+      "036": [
+       "midis/E1_v5b/prompts/merged_tagged/036.mid"
+      ],
+      "756": [
+       "midis/E1_v5b/prompts/merged_tagged/756.mid"
+      ],
+      "866": [
+       "midis/E1_v5b/prompts/merged_tagged/866.mid"
+      ],
+      "606": [
+       "midis/E1_v5b/prompts/merged_tagged/606.mid"
+      ],
+      "616": [
+       "midis/E1_v5b/prompts/merged_tagged/616.mid"
+      ],
+      "356": [
+       "midis/E1_v5b/prompts/merged_tagged/356.mid"
+      ],
+      "426": [
+       "midis/E1_v5b/prompts/merged_tagged/426.mid"
+      ],
+      "196": [
+       "midis/E1_v5b/prompts/merged_tagged/196.mid"
+      ],
+      "002": [
+       "midis/E1_v5b/prompts/merged_tagged/002.mid"
+      ],
+      "126": [
+       "midis/E1_v5b/prompts/merged_tagged/126.mid"
+      ],
+      "066": [
+       "midis/E1_v5b/prompts/merged_tagged/066.mid"
+      ],
+      "046": [
+       "midis/E1_v5b/prompts/merged_tagged/046.mid"
+      ],
+      "746": [
+       "midis/E1_v5b/prompts/merged_tagged/746.mid"
+      ],
+      "206": [
+       "midis/E1_v5b/prompts/merged_tagged/206.mid"
+      ],
+      "846": [
+       "midis/E1_v5b/prompts/merged_tagged/846.mid"
+      ],
+      "406": [
+       "midis/E1_v5b/prompts/merged_tagged/406.mid"
+      ],
+      "336": [
+       "midis/E1_v5b/prompts/merged_tagged/336.mid"
+      ],
+      "856": [
+       "midis/E1_v5b/prompts/merged_tagged/856.mid"
+      ],
+      "086": [
+       "midis/E1_v5b/prompts/merged_tagged/086.mid"
+      ],
+      "106": [
+       "midis/E1_v5b/prompts/merged_tagged/106.mid"
+      ],
+      "666": [
+       "midis/E1_v5b/prompts/merged_tagged/666.mid"
+      ],
+      "016": [
+       "midis/E1_v5b/prompts/merged_tagged/016.mid"
+      ],
+      "696": [
+       "midis/E1_v5b/prompts/merged_tagged/696.mid"
+      ],
+      "076": [
+       "midis/E1_v5b/prompts/merged_tagged/076.mid"
+      ],
+      "876": [
+       "midis/E1_v5b/prompts/merged_tagged/876.mid"
+      ],
+      "576": [
+       "midis/E1_v5b/prompts/merged_tagged/576.mid"
+      ],
+      "116": [
+       "midis/E1_v5b/prompts/merged_tagged/116.mid"
+      ],
+      "266": [
+       "midis/E1_v5b/prompts/merged_tagged/266.mid"
+      ],
+      "004": [
+       "midis/E1_v5b/prompts/merged_tagged/004.mid"
+      ],
+      "776": [
+       "midis/E1_v5b/prompts/merged_tagged/776.mid"
+      ],
+      "186": [
+       "midis/E1_v5b/prompts/merged_tagged/186.mid"
+      ],
+      "486": [
+       "midis/E1_v5b/prompts/merged_tagged/486.mid"
+      ],
+      "156": [
+       "midis/E1_v5b/prompts/merged_tagged/156.mid"
+      ],
+      "386": [
+       "midis/E1_v5b/prompts/merged_tagged/386.mid"
+      ],
+      "236": [
+       "midis/E1_v5b/prompts/merged_tagged/236.mid"
+      ],
+      "726": [
+       "midis/E1_v5b/prompts/merged_tagged/726.mid"
+      ],
+      "886": [
+       "midis/E1_v5b/prompts/merged_tagged/886.mid"
+      ],
+      "286": [
+       "midis/E1_v5b/prompts/merged_tagged/286.mid"
+      ],
+      "716": [
+       "midis/E1_v5b/prompts/merged_tagged/716.mid"
       ],
       "736": [
        "midis/E1_v5b/prompts/merged_tagged/736.mid"
@@ -284,65 +317,38 @@
       "656": [
        "midis/E1_v5b/prompts/merged_tagged/656.mid"
       ],
+      "176": [
+       "midis/E1_v5b/prompts/merged_tagged/176.mid"
+      ],
+      "596": [
+       "midis/E1_v5b/prompts/merged_tagged/596.mid"
+      ],
       "496": [
        "midis/E1_v5b/prompts/merged_tagged/496.mid"
-      ],
-      "086": [
-       "midis/E1_v5b/prompts/merged_tagged/086.mid"
-      ],
-      "286": [
-       "midis/E1_v5b/prompts/merged_tagged/286.mid"
       ],
       "906": [
        "midis/E1_v5b/prompts/merged_tagged/906.mid"
       ],
-      "866": [
-       "midis/E1_v5b/prompts/merged_tagged/866.mid"
+      "556": [
+       "midis/E1_v5b/prompts/merged_tagged/556.mid"
       ],
-      "696": [
-       "midis/E1_v5b/prompts/merged_tagged/696.mid"
+      "316": [
+       "midis/E1_v5b/prompts/merged_tagged/316.mid"
+      ],
+      "146": [
+       "midis/E1_v5b/prompts/merged_tagged/146.mid"
       ],
       "456": [
        "midis/E1_v5b/prompts/merged_tagged/456.mid"
       ],
-      "126": [
-       "midis/E1_v5b/prompts/merged_tagged/126.mid"
-      ],
-      "046": [
-       "midis/E1_v5b/prompts/merged_tagged/046.mid"
-      ],
-      "536": [
-       "midis/E1_v5b/prompts/merged_tagged/536.mid"
-      ],
-      "586": [
-       "midis/E1_v5b/prompts/merged_tagged/586.mid"
-      ],
-      "196": [
-       "midis/E1_v5b/prompts/merged_tagged/196.mid"
-      ],
-      "356": [
-       "midis/E1_v5b/prompts/merged_tagged/356.mid"
-      ],
       "626": [
        "midis/E1_v5b/prompts/merged_tagged/626.mid"
       ],
-      "746": [
-       "midis/E1_v5b/prompts/merged_tagged/746.mid"
+      "436": [
+       "midis/E1_v5b/prompts/merged_tagged/436.mid"
       ],
-      "236": [
-       "midis/E1_v5b/prompts/merged_tagged/236.mid"
-      ],
-      "546": [
-       "midis/E1_v5b/prompts/merged_tagged/546.mid"
-      ],
-      "036": [
-       "midis/E1_v5b/prompts/merged_tagged/036.mid"
-      ],
-      "156": [
-       "midis/E1_v5b/prompts/merged_tagged/156.mid"
-      ],
-      "426": [
-       "midis/E1_v5b/prompts/merged_tagged/426.mid"
+      "136": [
+       "midis/E1_v5b/prompts/merged_tagged/136.mid"
       ],
       "396": [
        "midis/E1_v5b/prompts/merged_tagged/396.mid"
@@ -350,47 +356,38 @@
       "816": [
        "midis/E1_v5b/prompts/merged_tagged/816.mid"
       ],
-      "786": [
-       "midis/E1_v5b/prompts/merged_tagged/786.mid"
+      "003": [
+       "midis/E1_v5b/prompts/merged_tagged/003.mid"
       ],
-      "796": [
-       "midis/E1_v5b/prompts/merged_tagged/796.mid"
+      "246": [
+       "midis/E1_v5b/prompts/merged_tagged/246.mid"
       ],
-      "806": [
-       "midis/E1_v5b/prompts/merged_tagged/806.mid"
+      "536": [
+       "midis/E1_v5b/prompts/merged_tagged/536.mid"
       ],
-      "386": [
-       "midis/E1_v5b/prompts/merged_tagged/386.mid"
+      "506": [
+       "midis/E1_v5b/prompts/merged_tagged/506.mid"
       ],
-      "436": [
-       "midis/E1_v5b/prompts/merged_tagged/436.mid"
+      "516": [
+       "midis/E1_v5b/prompts/merged_tagged/516.mid"
       ],
-      "146": [
-       "midis/E1_v5b/prompts/merged_tagged/146.mid"
+      "566": [
+       "midis/E1_v5b/prompts/merged_tagged/566.mid"
       ],
       "026": [
        "midis/E1_v5b/prompts/merged_tagged/026.mid"
       ],
-      "556": [
-       "midis/E1_v5b/prompts/merged_tagged/556.mid"
-      ],
-      "226": [
-       "midis/E1_v5b/prompts/merged_tagged/226.mid"
-      ],
-      "756": [
-       "midis/E1_v5b/prompts/merged_tagged/756.mid"
-      ],
-      "636": [
-       "midis/E1_v5b/prompts/merged_tagged/636.mid"
-      ],
       "346": [
        "midis/E1_v5b/prompts/merged_tagged/346.mid"
       ],
-      "186": [
-       "midis/E1_v5b/prompts/merged_tagged/186.mid"
+      "836": [
+       "midis/E1_v5b/prompts/merged_tagged/836.mid"
       ],
-      "596": [
-       "midis/E1_v5b/prompts/merged_tagged/596.mid"
+      "416": [
+       "midis/E1_v5b/prompts/merged_tagged/416.mid"
+      ],
+      "001": [
+       "midis/E1_v5b/prompts/merged_tagged/001.mid"
       ]
      }
     },
@@ -1845,270 +1842,180 @@
      "name": "Single-stream (scratch)",
      "group": "Internal Baselines",
      "variations": {
-      "636": [
-       "midis/E1_v5b/S-scratch/636.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/636.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/636.mid_temp1.0_continuation_2.mid"
-      ],
-      "156": [
-       "midis/E1_v5b/S-scratch/156.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/156.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/156.mid_temp1.0_continuation_2.mid"
-      ],
-      "076": [
-       "midis/E1_v5b/S-scratch/076.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/076.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/076.mid_temp1.0_continuation_2.mid"
-      ],
-      "716": [
-       "midis/E1_v5b/S-scratch/716.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/716.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/716.mid_temp1.0_continuation_2.mid"
-      ],
-      "236": [
-       "midis/E1_v5b/S-scratch/236.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/236.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/236.mid_temp1.0_continuation_2.mid"
-      ],
-      "476": [
-       "midis/E1_v5b/S-scratch/476.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/476.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/476.mid_temp1.0_continuation_2.mid"
-      ],
-      "106": [
-       "midis/E1_v5b/S-scratch/106.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/106.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/106.mid_temp1.0_continuation_2.mid"
-      ],
-      "746": [
-       "midis/E1_v5b/S-scratch/746.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/746.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/746.mid_temp1.0_continuation_2.mid"
-      ],
-      "266": [
-       "midis/E1_v5b/S-scratch/266.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/266.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/266.mid_temp1.0_continuation_2.mid"
-      ],
-      "506": [
-       "midis/E1_v5b/S-scratch/506.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/506.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/506.mid_temp1.0_continuation_2.mid"
-      ],
-      "426": [
-       "midis/E1_v5b/S-scratch/426.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/426.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/426.mid_temp1.0_continuation_2.mid"
-      ],
-      "346": [
-       "midis/E1_v5b/S-scratch/346.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/346.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/346.mid_temp1.0_continuation_2.mid"
-      ],
-      "026": [
-       "midis/E1_v5b/S-scratch/026.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/026.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/026.mid_temp1.0_continuation_2.mid"
-      ],
-      "666": [
-       "midis/E1_v5b/S-scratch/666.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/666.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/666.mid_temp1.0_continuation_2.mid"
-      ],
-      "316": [
-       "midis/E1_v5b/S-scratch/316.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/316.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/316.mid_temp1.0_continuation_2.mid"
-      ],
-      "556": [
-       "midis/E1_v5b/S-scratch/556.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/556.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/556.mid_temp1.0_continuation_2.mid"
-      ],
-      "906": [
-       "midis/E1_v5b/S-scratch/906.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/906.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/906.mid_temp1.0_continuation_2.mid"
-      ],
-      "186": [
-       "midis/E1_v5b/S-scratch/186.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/186.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/186.mid_temp1.0_continuation_2.mid"
-      ],
-      "004": [
-       "midis/E1_v5b/S-scratch/004.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/004.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/004.mid_temp1.0_continuation_2.mid"
-      ],
-      "826": [
-       "midis/E1_v5b/S-scratch/826.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/826.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/826.mid_temp1.0_continuation_2.mid"
-      ],
-      "586": [
-       "midis/E1_v5b/S-scratch/586.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/586.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/586.mid_temp1.0_continuation_2.mid"
-      ],
-      "876": [
-       "midis/E1_v5b/S-scratch/876.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/876.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/876.mid_temp1.0_continuation_2.mid"
-      ],
-      "796": [
-       "midis/E1_v5b/S-scratch/796.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/796.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/796.mid_temp1.0_continuation_2.mid"
-      ],
-      "396": [
-       "midis/E1_v5b/S-scratch/396.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/396.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/396.mid_temp1.0_continuation_2.mid"
-      ],
-      "002": [
-       "midis/E1_v5b/S-scratch/002.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/002.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/002.mid_temp1.0_continuation_2.mid"
+      "296": [
+       "midis/E1_v5b/S-scratch/296.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/296.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/296.mid_temp1.0_continuation_2.mid"
       ],
       "496": [
        "midis/E1_v5b/S-scratch/496.mid_temp1.0_continuation_0.mid",
        "midis/E1_v5b/S-scratch/496.mid_temp1.0_continuation_1.mid",
        "midis/E1_v5b/S-scratch/496.mid_temp1.0_continuation_2.mid"
       ],
-      "816": [
-       "midis/E1_v5b/S-scratch/816.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/816.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/816.mid_temp1.0_continuation_2.mid"
-      ],
       "286": [
        "midis/E1_v5b/S-scratch/286.mid_temp1.0_continuation_0.mid",
        "midis/E1_v5b/S-scratch/286.mid_temp1.0_continuation_1.mid",
        "midis/E1_v5b/S-scratch/286.mid_temp1.0_continuation_2.mid"
       ],
-      "846": [
-       "midis/E1_v5b/S-scratch/846.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/846.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/846.mid_temp1.0_continuation_2.mid"
+      "746": [
+       "midis/E1_v5b/S-scratch/746.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/746.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/746.mid_temp1.0_continuation_2.mid"
       ],
-      "686": [
-       "midis/E1_v5b/S-scratch/686.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/686.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/686.mid_temp1.0_continuation_2.mid"
-      ],
-      "096": [
-       "midis/E1_v5b/S-scratch/096.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/096.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/096.mid_temp1.0_continuation_2.mid"
-      ],
-      "446": [
-       "midis/E1_v5b/S-scratch/446.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/446.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/446.mid_temp1.0_continuation_2.mid"
-      ],
-      "003": [
-       "midis/E1_v5b/S-scratch/003.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/003.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/003.mid_temp1.0_continuation_2.mid"
-      ],
-      "206": [
-       "midis/E1_v5b/S-scratch/206.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/206.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/206.mid_temp1.0_continuation_2.mid"
-      ],
-      "046": [
-       "midis/E1_v5b/S-scratch/046.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/046.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/046.mid_temp1.0_continuation_2.mid"
-      ],
-      "726": [
-       "midis/E1_v5b/S-scratch/726.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/726.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/726.mid_temp1.0_continuation_2.mid"
-      ],
-      "606": [
-       "midis/E1_v5b/S-scratch/606.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/606.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/606.mid_temp1.0_continuation_2.mid"
-      ],
-      "166": [
-       "midis/E1_v5b/S-scratch/166.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/166.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/166.mid_temp1.0_continuation_2.mid"
-      ],
-      "416": [
-       "midis/E1_v5b/S-scratch/416.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/416.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/416.mid_temp1.0_continuation_2.mid"
-      ],
-      "376": [
-       "midis/E1_v5b/S-scratch/376.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/376.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/376.mid_temp1.0_continuation_2.mid"
-      ],
-      "256": [
-       "midis/E1_v5b/S-scratch/256.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/256.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/256.mid_temp1.0_continuation_2.mid"
-      ],
-      "536": [
-       "midis/E1_v5b/S-scratch/536.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/536.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/536.mid_temp1.0_continuation_2.mid"
-      ],
-      "776": [
-       "midis/E1_v5b/S-scratch/776.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/776.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/776.mid_temp1.0_continuation_2.mid"
-      ],
-      "896": [
-       "midis/E1_v5b/S-scratch/896.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/896.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/896.mid_temp1.0_continuation_2.mid"
-      ],
-      "136": [
-       "midis/E1_v5b/S-scratch/136.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/136.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/136.mid_temp1.0_continuation_2.mid"
-      ],
-      "656": [
-       "midis/E1_v5b/S-scratch/656.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/656.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/656.mid_temp1.0_continuation_2.mid"
-      ],
-      "016": [
-       "midis/E1_v5b/S-scratch/016.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/016.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/016.mid_temp1.0_continuation_2.mid"
+      "156": [
+       "midis/E1_v5b/S-scratch/156.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/156.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/156.mid_temp1.0_continuation_2.mid"
       ],
       "005": [
        "midis/E1_v5b/S-scratch/005.mid_temp1.0_continuation_0.mid",
        "midis/E1_v5b/S-scratch/005.mid_temp1.0_continuation_1.mid",
        "midis/E1_v5b/S-scratch/005.mid_temp1.0_continuation_2.mid"
       ],
-      "566": [
-       "midis/E1_v5b/S-scratch/566.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/566.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/566.mid_temp1.0_continuation_2.mid"
+      "266": [
+       "midis/E1_v5b/S-scratch/266.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/266.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/266.mid_temp1.0_continuation_2.mid"
       ],
-      "086": [
-       "midis/E1_v5b/S-scratch/086.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/086.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/086.mid_temp1.0_continuation_2.mid"
+      "306": [
+       "midis/E1_v5b/S-scratch/306.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/306.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/306.mid_temp1.0_continuation_2.mid"
       ],
-      "296": [
-       "midis/E1_v5b/S-scratch/296.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/296.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/296.mid_temp1.0_continuation_2.mid"
+      "626": [
+       "midis/E1_v5b/S-scratch/626.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/626.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/626.mid_temp1.0_continuation_2.mid"
+      ],
+      "436": [
+       "midis/E1_v5b/S-scratch/436.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/436.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/436.mid_temp1.0_continuation_2.mid"
+      ],
+      "816": [
+       "midis/E1_v5b/S-scratch/816.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/816.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/816.mid_temp1.0_continuation_2.mid"
+      ],
+      "606": [
+       "midis/E1_v5b/S-scratch/606.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/606.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/606.mid_temp1.0_continuation_2.mid"
+      ],
+      "776": [
+       "midis/E1_v5b/S-scratch/776.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/776.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/776.mid_temp1.0_continuation_2.mid"
+      ],
+      "026": [
+       "midis/E1_v5b/S-scratch/026.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/026.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/026.mid_temp1.0_continuation_2.mid"
+      ],
+      "336": [
+       "midis/E1_v5b/S-scratch/336.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/336.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/336.mid_temp1.0_continuation_2.mid"
+      ],
+      "106": [
+       "midis/E1_v5b/S-scratch/106.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/106.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/106.mid_temp1.0_continuation_2.mid"
+      ],
+      "596": [
+       "midis/E1_v5b/S-scratch/596.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/596.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/596.mid_temp1.0_continuation_2.mid"
+      ],
+      "426": [
+       "midis/E1_v5b/S-scratch/426.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/426.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/426.mid_temp1.0_continuation_2.mid"
+      ],
+      "246": [
+       "midis/E1_v5b/S-scratch/246.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/246.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/246.mid_temp1.0_continuation_2.mid"
+      ],
+      "586": [
+       "midis/E1_v5b/S-scratch/586.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/586.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/586.mid_temp1.0_continuation_2.mid"
+      ],
+      "016": [
+       "midis/E1_v5b/S-scratch/016.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/016.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/016.mid_temp1.0_continuation_2.mid"
+      ],
+      "766": [
+       "midis/E1_v5b/S-scratch/766.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/766.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/766.mid_temp1.0_continuation_2.mid"
+      ],
+      "876": [
+       "midis/E1_v5b/S-scratch/876.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/876.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/876.mid_temp1.0_continuation_2.mid"
+      ],
+      "036": [
+       "midis/E1_v5b/S-scratch/036.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/036.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/036.mid_temp1.0_continuation_2.mid"
+      ],
+      "196": [
+       "midis/E1_v5b/S-scratch/196.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/196.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/196.mid_temp1.0_continuation_2.mid"
+      ],
+      "716": [
+       "midis/E1_v5b/S-scratch/716.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/716.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/716.mid_temp1.0_continuation_2.mid"
+      ],
+      "856": [
+       "midis/E1_v5b/S-scratch/856.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/856.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/856.mid_temp1.0_continuation_2.mid"
+      ],
+      "126": [
+       "midis/E1_v5b/S-scratch/126.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/126.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/126.mid_temp1.0_continuation_2.mid"
+      ],
+      "676": [
+       "midis/E1_v5b/S-scratch/676.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/676.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/676.mid_temp1.0_continuation_2.mid"
+      ],
+      "346": [
+       "midis/E1_v5b/S-scratch/346.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/346.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/346.mid_temp1.0_continuation_2.mid"
+      ],
+      "316": [
+       "midis/E1_v5b/S-scratch/316.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/316.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/316.mid_temp1.0_continuation_2.mid"
       ],
       "696": [
        "midis/E1_v5b/S-scratch/696.mid_temp1.0_continuation_0.mid",
        "midis/E1_v5b/S-scratch/696.mid_temp1.0_continuation_1.mid",
        "midis/E1_v5b/S-scratch/696.mid_temp1.0_continuation_2.mid"
       ],
-      "856": [
-       "midis/E1_v5b/S-scratch/856.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/856.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/856.mid_temp1.0_continuation_2.mid"
+      "636": [
+       "midis/E1_v5b/S-scratch/636.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/636.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/636.mid_temp1.0_continuation_2.mid"
+      ],
+      "456": [
+       "midis/E1_v5b/S-scratch/456.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/456.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/456.mid_temp1.0_continuation_2.mid"
+      ],
+      "406": [
+       "midis/E1_v5b/S-scratch/406.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/406.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/406.mid_temp1.0_continuation_2.mid"
       ],
       "806": [
        "midis/E1_v5b/S-scratch/806.mid_temp1.0_continuation_0.mid",
@@ -2120,85 +2027,150 @@
        "midis/E1_v5b/S-scratch/486.mid_temp1.0_continuation_1.mid",
        "midis/E1_v5b/S-scratch/486.mid_temp1.0_continuation_2.mid"
       ],
-      "216": [
-       "midis/E1_v5b/S-scratch/216.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/216.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/216.mid_temp1.0_continuation_2.mid"
+      "206": [
+       "midis/E1_v5b/S-scratch/206.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/206.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/206.mid_temp1.0_continuation_2.mid"
       ],
-      "576": [
-       "midis/E1_v5b/S-scratch/576.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/576.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/576.mid_temp1.0_continuation_2.mid"
+      "786": [
+       "midis/E1_v5b/S-scratch/786.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/786.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/786.mid_temp1.0_continuation_2.mid"
       ],
-      "456": [
-       "midis/E1_v5b/S-scratch/456.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/456.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/456.mid_temp1.0_continuation_2.mid"
+      "086": [
+       "midis/E1_v5b/S-scratch/086.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/086.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/086.mid_temp1.0_continuation_2.mid"
       ],
-      "336": [
-       "midis/E1_v5b/S-scratch/336.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/336.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/336.mid_temp1.0_continuation_2.mid"
+      "906": [
+       "midis/E1_v5b/S-scratch/906.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/906.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/906.mid_temp1.0_continuation_2.mid"
       ],
-      "616": [
-       "midis/E1_v5b/S-scratch/616.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/616.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/616.mid_temp1.0_continuation_2.mid"
+      "836": [
+       "midis/E1_v5b/S-scratch/836.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/836.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/836.mid_temp1.0_continuation_2.mid"
+      ],
+      "116": [
+       "midis/E1_v5b/S-scratch/116.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/116.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/116.mid_temp1.0_continuation_2.mid"
+      ],
+      "416": [
+       "midis/E1_v5b/S-scratch/416.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/416.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/416.mid_temp1.0_continuation_2.mid"
+      ],
+      "726": [
+       "midis/E1_v5b/S-scratch/726.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/726.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/726.mid_temp1.0_continuation_2.mid"
+      ],
+      "896": [
+       "midis/E1_v5b/S-scratch/896.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/896.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/896.mid_temp1.0_continuation_2.mid"
+      ],
+      "001": [
+       "midis/E1_v5b/S-scratch/001.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/001.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/001.mid_temp1.0_continuation_2.mid"
+      ],
+      "376": [
+       "midis/E1_v5b/S-scratch/376.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/376.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/376.mid_temp1.0_continuation_2.mid"
+      ],
+      "686": [
+       "midis/E1_v5b/S-scratch/686.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/686.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/686.mid_temp1.0_continuation_2.mid"
+      ],
+      "166": [
+       "midis/E1_v5b/S-scratch/166.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/166.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/166.mid_temp1.0_continuation_2.mid"
+      ],
+      "004": [
+       "midis/E1_v5b/S-scratch/004.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/004.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/004.mid_temp1.0_continuation_2.mid"
+      ],
+      "396": [
+       "midis/E1_v5b/S-scratch/396.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/396.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/396.mid_temp1.0_continuation_2.mid"
+      ],
+      "546": [
+       "midis/E1_v5b/S-scratch/546.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/546.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/546.mid_temp1.0_continuation_2.mid"
+      ],
+      "046": [
+       "midis/E1_v5b/S-scratch/046.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/046.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/046.mid_temp1.0_continuation_2.mid"
+      ],
+      "536": [
+       "midis/E1_v5b/S-scratch/536.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/536.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/536.mid_temp1.0_continuation_2.mid"
       ],
       "056": [
        "midis/E1_v5b/S-scratch/056.mid_temp1.0_continuation_0.mid",
        "midis/E1_v5b/S-scratch/056.mid_temp1.0_continuation_1.mid",
        "midis/E1_v5b/S-scratch/056.mid_temp1.0_continuation_2.mid"
       ],
-      "526": [
-       "midis/E1_v5b/S-scratch/526.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/526.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/526.mid_temp1.0_continuation_2.mid"
+      "186": [
+       "midis/E1_v5b/S-scratch/186.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/186.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/186.mid_temp1.0_continuation_2.mid"
       ],
-      "366": [
-       "midis/E1_v5b/S-scratch/366.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/366.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/366.mid_temp1.0_continuation_2.mid"
+      "756": [
+       "midis/E1_v5b/S-scratch/756.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/756.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/756.mid_temp1.0_continuation_2.mid"
+      ],
+      "736": [
+       "midis/E1_v5b/S-scratch/736.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/736.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/736.mid_temp1.0_continuation_2.mid"
+      ],
+      "616": [
+       "midis/E1_v5b/S-scratch/616.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/616.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/616.mid_temp1.0_continuation_2.mid"
+      ],
+      "516": [
+       "midis/E1_v5b/S-scratch/516.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/516.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/516.mid_temp1.0_continuation_2.mid"
       ],
       "646": [
        "midis/E1_v5b/S-scratch/646.mid_temp1.0_continuation_0.mid",
        "midis/E1_v5b/S-scratch/646.mid_temp1.0_continuation_1.mid",
        "midis/E1_v5b/S-scratch/646.mid_temp1.0_continuation_2.mid"
       ],
-      "126": [
-       "midis/E1_v5b/S-scratch/126.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/126.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/126.mid_temp1.0_continuation_2.mid"
+      "706": [
+       "midis/E1_v5b/S-scratch/706.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/706.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/706.mid_temp1.0_continuation_2.mid"
       ],
-      "006": [
-       "midis/E1_v5b/S-scratch/006.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/006.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/006.mid_temp1.0_continuation_2.mid"
+      "386": [
+       "midis/E1_v5b/S-scratch/386.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/386.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/386.mid_temp1.0_continuation_2.mid"
       ],
-      "766": [
-       "midis/E1_v5b/S-scratch/766.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/766.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/766.mid_temp1.0_continuation_2.mid"
+      "796": [
+       "midis/E1_v5b/S-scratch/796.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/796.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/796.mid_temp1.0_continuation_2.mid"
       ],
-      "886": [
-       "midis/E1_v5b/S-scratch/886.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/886.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/886.mid_temp1.0_continuation_2.mid"
-      ],
-      "406": [
-       "midis/E1_v5b/S-scratch/406.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/406.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/406.mid_temp1.0_continuation_2.mid"
-      ],
-      "246": [
-       "midis/E1_v5b/S-scratch/246.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/246.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/246.mid_temp1.0_continuation_2.mid"
-      ],
-      "736": [
-       "midis/E1_v5b/S-scratch/736.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/736.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/736.mid_temp1.0_continuation_2.mid"
+      "466": [
+       "midis/E1_v5b/S-scratch/466.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/466.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/466.mid_temp1.0_continuation_2.mid"
       ],
       "176": [
        "midis/E1_v5b/S-scratch/176.mid_temp1.0_continuation_0.mid",
@@ -2210,115 +2182,140 @@
        "midis/E1_v5b/S-scratch/066.mid_temp1.0_continuation_1.mid",
        "midis/E1_v5b/S-scratch/066.mid_temp1.0_continuation_2.mid"
       ],
-      "626": [
-       "midis/E1_v5b/S-scratch/626.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/626.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/626.mid_temp1.0_continuation_2.mid"
-      ],
-      "466": [
-       "midis/E1_v5b/S-scratch/466.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/466.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/466.mid_temp1.0_continuation_2.mid"
-      ],
-      "306": [
-       "midis/E1_v5b/S-scratch/306.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/306.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/306.mid_temp1.0_continuation_2.mid"
-      ],
-      "226": [
-       "midis/E1_v5b/S-scratch/226.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/226.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/226.mid_temp1.0_continuation_2.mid"
-      ],
-      "546": [
-       "midis/E1_v5b/S-scratch/546.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/546.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/546.mid_temp1.0_continuation_2.mid"
-      ],
-      "036": [
-       "midis/E1_v5b/S-scratch/036.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/036.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/036.mid_temp1.0_continuation_2.mid"
-      ],
-      "756": [
-       "midis/E1_v5b/S-scratch/756.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/756.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/756.mid_temp1.0_continuation_2.mid"
-      ],
-      "676": [
-       "midis/E1_v5b/S-scratch/676.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/676.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/676.mid_temp1.0_continuation_2.mid"
-      ],
-      "116": [
-       "midis/E1_v5b/S-scratch/116.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/116.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/116.mid_temp1.0_continuation_2.mid"
+      "656": [
+       "midis/E1_v5b/S-scratch/656.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/656.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/656.mid_temp1.0_continuation_2.mid"
       ],
       "356": [
        "midis/E1_v5b/S-scratch/356.mid_temp1.0_continuation_0.mid",
        "midis/E1_v5b/S-scratch/356.mid_temp1.0_continuation_1.mid",
        "midis/E1_v5b/S-scratch/356.mid_temp1.0_continuation_2.mid"
       ],
-      "516": [
-       "midis/E1_v5b/S-scratch/516.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/516.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/516.mid_temp1.0_continuation_2.mid"
+      "136": [
+       "midis/E1_v5b/S-scratch/136.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/136.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/136.mid_temp1.0_continuation_2.mid"
       ],
-      "276": [
-       "midis/E1_v5b/S-scratch/276.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/276.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/276.mid_temp1.0_continuation_2.mid"
+      "003": [
+       "midis/E1_v5b/S-scratch/003.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/003.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/003.mid_temp1.0_continuation_2.mid"
       ],
-      "436": [
-       "midis/E1_v5b/S-scratch/436.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/436.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/436.mid_temp1.0_continuation_2.mid"
+      "476": [
+       "midis/E1_v5b/S-scratch/476.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/476.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/476.mid_temp1.0_continuation_2.mid"
       ],
-      "146": [
-       "midis/E1_v5b/S-scratch/146.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/146.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/146.mid_temp1.0_continuation_2.mid"
-      ],
-      "706": [
-       "midis/E1_v5b/S-scratch/706.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/706.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/706.mid_temp1.0_continuation_2.mid"
-      ],
-      "196": [
-       "midis/E1_v5b/S-scratch/196.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/196.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/196.mid_temp1.0_continuation_2.mid"
-      ],
-      "596": [
-       "midis/E1_v5b/S-scratch/596.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/596.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/596.mid_temp1.0_continuation_2.mid"
+      "576": [
+       "midis/E1_v5b/S-scratch/576.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/576.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/576.mid_temp1.0_continuation_2.mid"
       ],
       "866": [
        "midis/E1_v5b/S-scratch/866.mid_temp1.0_continuation_0.mid",
        "midis/E1_v5b/S-scratch/866.mid_temp1.0_continuation_1.mid",
        "midis/E1_v5b/S-scratch/866.mid_temp1.0_continuation_2.mid"
       ],
-      "386": [
-       "midis/E1_v5b/S-scratch/386.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/386.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/386.mid_temp1.0_continuation_2.mid"
+      "556": [
+       "midis/E1_v5b/S-scratch/556.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/556.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/556.mid_temp1.0_continuation_2.mid"
       ],
-      "001": [
-       "midis/E1_v5b/S-scratch/001.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/001.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/001.mid_temp1.0_continuation_2.mid"
+      "256": [
+       "midis/E1_v5b/S-scratch/256.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/256.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/256.mid_temp1.0_continuation_2.mid"
       ],
-      "786": [
-       "midis/E1_v5b/S-scratch/786.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/786.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/786.mid_temp1.0_continuation_2.mid"
+      "526": [
+       "midis/E1_v5b/S-scratch/526.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/526.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/526.mid_temp1.0_continuation_2.mid"
       ],
-      "836": [
-       "midis/E1_v5b/S-scratch/836.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S-scratch/836.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S-scratch/836.mid_temp1.0_continuation_2.mid"
+      "566": [
+       "midis/E1_v5b/S-scratch/566.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/566.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/566.mid_temp1.0_continuation_2.mid"
+      ],
+      "276": [
+       "midis/E1_v5b/S-scratch/276.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/276.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/276.mid_temp1.0_continuation_2.mid"
+      ],
+      "666": [
+       "midis/E1_v5b/S-scratch/666.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/666.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/666.mid_temp1.0_continuation_2.mid"
+      ],
+      "216": [
+       "midis/E1_v5b/S-scratch/216.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/216.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/216.mid_temp1.0_continuation_2.mid"
+      ],
+      "236": [
+       "midis/E1_v5b/S-scratch/236.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/236.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/236.mid_temp1.0_continuation_2.mid"
+      ],
+      "506": [
+       "midis/E1_v5b/S-scratch/506.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/506.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/506.mid_temp1.0_continuation_2.mid"
+      ],
+      "076": [
+       "midis/E1_v5b/S-scratch/076.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/076.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/076.mid_temp1.0_continuation_2.mid"
+      ],
+      "226": [
+       "midis/E1_v5b/S-scratch/226.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/226.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/226.mid_temp1.0_continuation_2.mid"
+      ],
+      "366": [
+       "midis/E1_v5b/S-scratch/366.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/366.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/366.mid_temp1.0_continuation_2.mid"
+      ],
+      "146": [
+       "midis/E1_v5b/S-scratch/146.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/146.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/146.mid_temp1.0_continuation_2.mid"
+      ],
+      "886": [
+       "midis/E1_v5b/S-scratch/886.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/886.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/886.mid_temp1.0_continuation_2.mid"
+      ],
+      "002": [
+       "midis/E1_v5b/S-scratch/002.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/002.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/002.mid_temp1.0_continuation_2.mid"
+      ],
+      "826": [
+       "midis/E1_v5b/S-scratch/826.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/826.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/826.mid_temp1.0_continuation_2.mid"
+      ],
+      "006": [
+       "midis/E1_v5b/S-scratch/006.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/006.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/006.mid_temp1.0_continuation_2.mid"
+      ],
+      "846": [
+       "midis/E1_v5b/S-scratch/846.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/846.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/846.mid_temp1.0_continuation_2.mid"
+      ],
+      "096": [
+       "midis/E1_v5b/S-scratch/096.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/096.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/096.mid_temp1.0_continuation_2.mid"
+      ],
+      "446": [
+       "midis/E1_v5b/S-scratch/446.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S-scratch/446.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S-scratch/446.mid_temp1.0_continuation_2.mid"
       ]
      }
     },
@@ -2327,270 +2324,180 @@
      "name": "Single-stream (finetune)",
      "group": "Internal Baselines",
      "variations": {
-      "636": [
-       "midis/E1_v5b/S1/636.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/636.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/636.mid_temp1.0_continuation_2.mid"
-      ],
-      "156": [
-       "midis/E1_v5b/S1/156.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/156.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/156.mid_temp1.0_continuation_2.mid"
-      ],
-      "076": [
-       "midis/E1_v5b/S1/076.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/076.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/076.mid_temp1.0_continuation_2.mid"
-      ],
-      "716": [
-       "midis/E1_v5b/S1/716.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/716.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/716.mid_temp1.0_continuation_2.mid"
-      ],
-      "236": [
-       "midis/E1_v5b/S1/236.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/236.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/236.mid_temp1.0_continuation_2.mid"
-      ],
-      "476": [
-       "midis/E1_v5b/S1/476.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/476.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/476.mid_temp1.0_continuation_2.mid"
-      ],
-      "106": [
-       "midis/E1_v5b/S1/106.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/106.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/106.mid_temp1.0_continuation_2.mid"
-      ],
-      "746": [
-       "midis/E1_v5b/S1/746.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/746.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/746.mid_temp1.0_continuation_2.mid"
-      ],
-      "266": [
-       "midis/E1_v5b/S1/266.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/266.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/266.mid_temp1.0_continuation_2.mid"
-      ],
-      "506": [
-       "midis/E1_v5b/S1/506.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/506.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/506.mid_temp1.0_continuation_2.mid"
-      ],
-      "426": [
-       "midis/E1_v5b/S1/426.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/426.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/426.mid_temp1.0_continuation_2.mid"
-      ],
-      "346": [
-       "midis/E1_v5b/S1/346.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/346.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/346.mid_temp1.0_continuation_2.mid"
-      ],
-      "026": [
-       "midis/E1_v5b/S1/026.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/026.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/026.mid_temp1.0_continuation_2.mid"
-      ],
-      "666": [
-       "midis/E1_v5b/S1/666.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/666.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/666.mid_temp1.0_continuation_2.mid"
-      ],
-      "316": [
-       "midis/E1_v5b/S1/316.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/316.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/316.mid_temp1.0_continuation_2.mid"
-      ],
-      "556": [
-       "midis/E1_v5b/S1/556.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/556.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/556.mid_temp1.0_continuation_2.mid"
-      ],
-      "906": [
-       "midis/E1_v5b/S1/906.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/906.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/906.mid_temp1.0_continuation_2.mid"
-      ],
-      "186": [
-       "midis/E1_v5b/S1/186.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/186.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/186.mid_temp1.0_continuation_2.mid"
-      ],
-      "004": [
-       "midis/E1_v5b/S1/004.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/004.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/004.mid_temp1.0_continuation_2.mid"
-      ],
-      "826": [
-       "midis/E1_v5b/S1/826.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/826.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/826.mid_temp1.0_continuation_2.mid"
-      ],
-      "586": [
-       "midis/E1_v5b/S1/586.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/586.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/586.mid_temp1.0_continuation_2.mid"
-      ],
-      "876": [
-       "midis/E1_v5b/S1/876.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/876.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/876.mid_temp1.0_continuation_2.mid"
-      ],
-      "796": [
-       "midis/E1_v5b/S1/796.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/796.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/796.mid_temp1.0_continuation_2.mid"
-      ],
-      "396": [
-       "midis/E1_v5b/S1/396.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/396.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/396.mid_temp1.0_continuation_2.mid"
-      ],
-      "002": [
-       "midis/E1_v5b/S1/002.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/002.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/002.mid_temp1.0_continuation_2.mid"
+      "296": [
+       "midis/E1_v5b/S1/296.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/296.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/296.mid_temp1.0_continuation_2.mid"
       ],
       "496": [
        "midis/E1_v5b/S1/496.mid_temp1.0_continuation_0.mid",
        "midis/E1_v5b/S1/496.mid_temp1.0_continuation_1.mid",
        "midis/E1_v5b/S1/496.mid_temp1.0_continuation_2.mid"
       ],
-      "816": [
-       "midis/E1_v5b/S1/816.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/816.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/816.mid_temp1.0_continuation_2.mid"
-      ],
       "286": [
        "midis/E1_v5b/S1/286.mid_temp1.0_continuation_0.mid",
        "midis/E1_v5b/S1/286.mid_temp1.0_continuation_1.mid",
        "midis/E1_v5b/S1/286.mid_temp1.0_continuation_2.mid"
       ],
-      "846": [
-       "midis/E1_v5b/S1/846.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/846.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/846.mid_temp1.0_continuation_2.mid"
+      "746": [
+       "midis/E1_v5b/S1/746.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/746.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/746.mid_temp1.0_continuation_2.mid"
       ],
-      "686": [
-       "midis/E1_v5b/S1/686.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/686.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/686.mid_temp1.0_continuation_2.mid"
-      ],
-      "096": [
-       "midis/E1_v5b/S1/096.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/096.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/096.mid_temp1.0_continuation_2.mid"
-      ],
-      "446": [
-       "midis/E1_v5b/S1/446.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/446.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/446.mid_temp1.0_continuation_2.mid"
-      ],
-      "003": [
-       "midis/E1_v5b/S1/003.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/003.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/003.mid_temp1.0_continuation_2.mid"
-      ],
-      "206": [
-       "midis/E1_v5b/S1/206.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/206.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/206.mid_temp1.0_continuation_2.mid"
-      ],
-      "046": [
-       "midis/E1_v5b/S1/046.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/046.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/046.mid_temp1.0_continuation_2.mid"
-      ],
-      "726": [
-       "midis/E1_v5b/S1/726.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/726.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/726.mid_temp1.0_continuation_2.mid"
-      ],
-      "606": [
-       "midis/E1_v5b/S1/606.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/606.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/606.mid_temp1.0_continuation_2.mid"
-      ],
-      "166": [
-       "midis/E1_v5b/S1/166.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/166.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/166.mid_temp1.0_continuation_2.mid"
-      ],
-      "416": [
-       "midis/E1_v5b/S1/416.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/416.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/416.mid_temp1.0_continuation_2.mid"
-      ],
-      "376": [
-       "midis/E1_v5b/S1/376.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/376.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/376.mid_temp1.0_continuation_2.mid"
-      ],
-      "256": [
-       "midis/E1_v5b/S1/256.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/256.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/256.mid_temp1.0_continuation_2.mid"
-      ],
-      "536": [
-       "midis/E1_v5b/S1/536.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/536.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/536.mid_temp1.0_continuation_2.mid"
-      ],
-      "776": [
-       "midis/E1_v5b/S1/776.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/776.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/776.mid_temp1.0_continuation_2.mid"
-      ],
-      "896": [
-       "midis/E1_v5b/S1/896.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/896.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/896.mid_temp1.0_continuation_2.mid"
-      ],
-      "136": [
-       "midis/E1_v5b/S1/136.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/136.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/136.mid_temp1.0_continuation_2.mid"
-      ],
-      "656": [
-       "midis/E1_v5b/S1/656.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/656.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/656.mid_temp1.0_continuation_2.mid"
-      ],
-      "016": [
-       "midis/E1_v5b/S1/016.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/016.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/016.mid_temp1.0_continuation_2.mid"
+      "156": [
+       "midis/E1_v5b/S1/156.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/156.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/156.mid_temp1.0_continuation_2.mid"
       ],
       "005": [
        "midis/E1_v5b/S1/005.mid_temp1.0_continuation_0.mid",
        "midis/E1_v5b/S1/005.mid_temp1.0_continuation_1.mid",
        "midis/E1_v5b/S1/005.mid_temp1.0_continuation_2.mid"
       ],
-      "566": [
-       "midis/E1_v5b/S1/566.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/566.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/566.mid_temp1.0_continuation_2.mid"
+      "266": [
+       "midis/E1_v5b/S1/266.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/266.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/266.mid_temp1.0_continuation_2.mid"
       ],
-      "086": [
-       "midis/E1_v5b/S1/086.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/086.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/086.mid_temp1.0_continuation_2.mid"
+      "306": [
+       "midis/E1_v5b/S1/306.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/306.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/306.mid_temp1.0_continuation_2.mid"
       ],
-      "296": [
-       "midis/E1_v5b/S1/296.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/296.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/296.mid_temp1.0_continuation_2.mid"
+      "626": [
+       "midis/E1_v5b/S1/626.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/626.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/626.mid_temp1.0_continuation_2.mid"
+      ],
+      "436": [
+       "midis/E1_v5b/S1/436.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/436.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/436.mid_temp1.0_continuation_2.mid"
+      ],
+      "816": [
+       "midis/E1_v5b/S1/816.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/816.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/816.mid_temp1.0_continuation_2.mid"
+      ],
+      "606": [
+       "midis/E1_v5b/S1/606.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/606.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/606.mid_temp1.0_continuation_2.mid"
+      ],
+      "776": [
+       "midis/E1_v5b/S1/776.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/776.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/776.mid_temp1.0_continuation_2.mid"
+      ],
+      "026": [
+       "midis/E1_v5b/S1/026.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/026.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/026.mid_temp1.0_continuation_2.mid"
+      ],
+      "336": [
+       "midis/E1_v5b/S1/336.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/336.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/336.mid_temp1.0_continuation_2.mid"
+      ],
+      "106": [
+       "midis/E1_v5b/S1/106.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/106.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/106.mid_temp1.0_continuation_2.mid"
+      ],
+      "596": [
+       "midis/E1_v5b/S1/596.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/596.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/596.mid_temp1.0_continuation_2.mid"
+      ],
+      "426": [
+       "midis/E1_v5b/S1/426.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/426.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/426.mid_temp1.0_continuation_2.mid"
+      ],
+      "246": [
+       "midis/E1_v5b/S1/246.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/246.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/246.mid_temp1.0_continuation_2.mid"
+      ],
+      "586": [
+       "midis/E1_v5b/S1/586.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/586.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/586.mid_temp1.0_continuation_2.mid"
+      ],
+      "016": [
+       "midis/E1_v5b/S1/016.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/016.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/016.mid_temp1.0_continuation_2.mid"
+      ],
+      "766": [
+       "midis/E1_v5b/S1/766.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/766.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/766.mid_temp1.0_continuation_2.mid"
+      ],
+      "876": [
+       "midis/E1_v5b/S1/876.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/876.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/876.mid_temp1.0_continuation_2.mid"
+      ],
+      "036": [
+       "midis/E1_v5b/S1/036.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/036.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/036.mid_temp1.0_continuation_2.mid"
+      ],
+      "196": [
+       "midis/E1_v5b/S1/196.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/196.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/196.mid_temp1.0_continuation_2.mid"
+      ],
+      "716": [
+       "midis/E1_v5b/S1/716.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/716.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/716.mid_temp1.0_continuation_2.mid"
+      ],
+      "856": [
+       "midis/E1_v5b/S1/856.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/856.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/856.mid_temp1.0_continuation_2.mid"
+      ],
+      "126": [
+       "midis/E1_v5b/S1/126.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/126.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/126.mid_temp1.0_continuation_2.mid"
+      ],
+      "676": [
+       "midis/E1_v5b/S1/676.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/676.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/676.mid_temp1.0_continuation_2.mid"
+      ],
+      "346": [
+       "midis/E1_v5b/S1/346.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/346.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/346.mid_temp1.0_continuation_2.mid"
+      ],
+      "316": [
+       "midis/E1_v5b/S1/316.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/316.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/316.mid_temp1.0_continuation_2.mid"
       ],
       "696": [
        "midis/E1_v5b/S1/696.mid_temp1.0_continuation_0.mid",
        "midis/E1_v5b/S1/696.mid_temp1.0_continuation_1.mid",
        "midis/E1_v5b/S1/696.mid_temp1.0_continuation_2.mid"
       ],
-      "856": [
-       "midis/E1_v5b/S1/856.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/856.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/856.mid_temp1.0_continuation_2.mid"
+      "636": [
+       "midis/E1_v5b/S1/636.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/636.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/636.mid_temp1.0_continuation_2.mid"
+      ],
+      "456": [
+       "midis/E1_v5b/S1/456.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/456.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/456.mid_temp1.0_continuation_2.mid"
+      ],
+      "406": [
+       "midis/E1_v5b/S1/406.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/406.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/406.mid_temp1.0_continuation_2.mid"
       ],
       "806": [
        "midis/E1_v5b/S1/806.mid_temp1.0_continuation_0.mid",
@@ -2602,85 +2509,150 @@
        "midis/E1_v5b/S1/486.mid_temp1.0_continuation_1.mid",
        "midis/E1_v5b/S1/486.mid_temp1.0_continuation_2.mid"
       ],
-      "216": [
-       "midis/E1_v5b/S1/216.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/216.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/216.mid_temp1.0_continuation_2.mid"
+      "206": [
+       "midis/E1_v5b/S1/206.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/206.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/206.mid_temp1.0_continuation_2.mid"
       ],
-      "576": [
-       "midis/E1_v5b/S1/576.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/576.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/576.mid_temp1.0_continuation_2.mid"
+      "786": [
+       "midis/E1_v5b/S1/786.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/786.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/786.mid_temp1.0_continuation_2.mid"
       ],
-      "456": [
-       "midis/E1_v5b/S1/456.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/456.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/456.mid_temp1.0_continuation_2.mid"
+      "086": [
+       "midis/E1_v5b/S1/086.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/086.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/086.mid_temp1.0_continuation_2.mid"
       ],
-      "336": [
-       "midis/E1_v5b/S1/336.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/336.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/336.mid_temp1.0_continuation_2.mid"
+      "906": [
+       "midis/E1_v5b/S1/906.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/906.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/906.mid_temp1.0_continuation_2.mid"
       ],
-      "616": [
-       "midis/E1_v5b/S1/616.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/616.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/616.mid_temp1.0_continuation_2.mid"
+      "836": [
+       "midis/E1_v5b/S1/836.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/836.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/836.mid_temp1.0_continuation_2.mid"
+      ],
+      "116": [
+       "midis/E1_v5b/S1/116.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/116.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/116.mid_temp1.0_continuation_2.mid"
+      ],
+      "416": [
+       "midis/E1_v5b/S1/416.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/416.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/416.mid_temp1.0_continuation_2.mid"
+      ],
+      "726": [
+       "midis/E1_v5b/S1/726.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/726.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/726.mid_temp1.0_continuation_2.mid"
+      ],
+      "896": [
+       "midis/E1_v5b/S1/896.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/896.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/896.mid_temp1.0_continuation_2.mid"
+      ],
+      "001": [
+       "midis/E1_v5b/S1/001.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/001.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/001.mid_temp1.0_continuation_2.mid"
+      ],
+      "376": [
+       "midis/E1_v5b/S1/376.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/376.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/376.mid_temp1.0_continuation_2.mid"
+      ],
+      "686": [
+       "midis/E1_v5b/S1/686.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/686.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/686.mid_temp1.0_continuation_2.mid"
+      ],
+      "166": [
+       "midis/E1_v5b/S1/166.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/166.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/166.mid_temp1.0_continuation_2.mid"
+      ],
+      "004": [
+       "midis/E1_v5b/S1/004.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/004.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/004.mid_temp1.0_continuation_2.mid"
+      ],
+      "396": [
+       "midis/E1_v5b/S1/396.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/396.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/396.mid_temp1.0_continuation_2.mid"
+      ],
+      "546": [
+       "midis/E1_v5b/S1/546.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/546.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/546.mid_temp1.0_continuation_2.mid"
+      ],
+      "046": [
+       "midis/E1_v5b/S1/046.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/046.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/046.mid_temp1.0_continuation_2.mid"
+      ],
+      "536": [
+       "midis/E1_v5b/S1/536.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/536.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/536.mid_temp1.0_continuation_2.mid"
       ],
       "056": [
        "midis/E1_v5b/S1/056.mid_temp1.0_continuation_0.mid",
        "midis/E1_v5b/S1/056.mid_temp1.0_continuation_1.mid",
        "midis/E1_v5b/S1/056.mid_temp1.0_continuation_2.mid"
       ],
-      "526": [
-       "midis/E1_v5b/S1/526.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/526.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/526.mid_temp1.0_continuation_2.mid"
+      "186": [
+       "midis/E1_v5b/S1/186.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/186.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/186.mid_temp1.0_continuation_2.mid"
       ],
-      "366": [
-       "midis/E1_v5b/S1/366.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/366.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/366.mid_temp1.0_continuation_2.mid"
+      "756": [
+       "midis/E1_v5b/S1/756.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/756.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/756.mid_temp1.0_continuation_2.mid"
+      ],
+      "736": [
+       "midis/E1_v5b/S1/736.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/736.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/736.mid_temp1.0_continuation_2.mid"
+      ],
+      "616": [
+       "midis/E1_v5b/S1/616.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/616.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/616.mid_temp1.0_continuation_2.mid"
+      ],
+      "516": [
+       "midis/E1_v5b/S1/516.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/516.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/516.mid_temp1.0_continuation_2.mid"
       ],
       "646": [
        "midis/E1_v5b/S1/646.mid_temp1.0_continuation_0.mid",
        "midis/E1_v5b/S1/646.mid_temp1.0_continuation_1.mid",
        "midis/E1_v5b/S1/646.mid_temp1.0_continuation_2.mid"
       ],
-      "126": [
-       "midis/E1_v5b/S1/126.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/126.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/126.mid_temp1.0_continuation_2.mid"
+      "706": [
+       "midis/E1_v5b/S1/706.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/706.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/706.mid_temp1.0_continuation_2.mid"
       ],
-      "006": [
-       "midis/E1_v5b/S1/006.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/006.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/006.mid_temp1.0_continuation_2.mid"
+      "386": [
+       "midis/E1_v5b/S1/386.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/386.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/386.mid_temp1.0_continuation_2.mid"
       ],
-      "766": [
-       "midis/E1_v5b/S1/766.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/766.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/766.mid_temp1.0_continuation_2.mid"
+      "796": [
+       "midis/E1_v5b/S1/796.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/796.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/796.mid_temp1.0_continuation_2.mid"
       ],
-      "886": [
-       "midis/E1_v5b/S1/886.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/886.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/886.mid_temp1.0_continuation_2.mid"
-      ],
-      "406": [
-       "midis/E1_v5b/S1/406.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/406.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/406.mid_temp1.0_continuation_2.mid"
-      ],
-      "246": [
-       "midis/E1_v5b/S1/246.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/246.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/246.mid_temp1.0_continuation_2.mid"
-      ],
-      "736": [
-       "midis/E1_v5b/S1/736.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/736.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/736.mid_temp1.0_continuation_2.mid"
+      "466": [
+       "midis/E1_v5b/S1/466.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/466.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/466.mid_temp1.0_continuation_2.mid"
       ],
       "176": [
        "midis/E1_v5b/S1/176.mid_temp1.0_continuation_0.mid",
@@ -2692,115 +2664,140 @@
        "midis/E1_v5b/S1/066.mid_temp1.0_continuation_1.mid",
        "midis/E1_v5b/S1/066.mid_temp1.0_continuation_2.mid"
       ],
-      "626": [
-       "midis/E1_v5b/S1/626.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/626.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/626.mid_temp1.0_continuation_2.mid"
-      ],
-      "466": [
-       "midis/E1_v5b/S1/466.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/466.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/466.mid_temp1.0_continuation_2.mid"
-      ],
-      "306": [
-       "midis/E1_v5b/S1/306.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/306.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/306.mid_temp1.0_continuation_2.mid"
-      ],
-      "226": [
-       "midis/E1_v5b/S1/226.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/226.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/226.mid_temp1.0_continuation_2.mid"
-      ],
-      "546": [
-       "midis/E1_v5b/S1/546.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/546.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/546.mid_temp1.0_continuation_2.mid"
-      ],
-      "036": [
-       "midis/E1_v5b/S1/036.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/036.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/036.mid_temp1.0_continuation_2.mid"
-      ],
-      "756": [
-       "midis/E1_v5b/S1/756.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/756.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/756.mid_temp1.0_continuation_2.mid"
-      ],
-      "676": [
-       "midis/E1_v5b/S1/676.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/676.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/676.mid_temp1.0_continuation_2.mid"
-      ],
-      "116": [
-       "midis/E1_v5b/S1/116.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/116.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/116.mid_temp1.0_continuation_2.mid"
+      "656": [
+       "midis/E1_v5b/S1/656.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/656.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/656.mid_temp1.0_continuation_2.mid"
       ],
       "356": [
        "midis/E1_v5b/S1/356.mid_temp1.0_continuation_0.mid",
        "midis/E1_v5b/S1/356.mid_temp1.0_continuation_1.mid",
        "midis/E1_v5b/S1/356.mid_temp1.0_continuation_2.mid"
       ],
-      "516": [
-       "midis/E1_v5b/S1/516.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/516.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/516.mid_temp1.0_continuation_2.mid"
+      "136": [
+       "midis/E1_v5b/S1/136.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/136.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/136.mid_temp1.0_continuation_2.mid"
       ],
-      "276": [
-       "midis/E1_v5b/S1/276.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/276.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/276.mid_temp1.0_continuation_2.mid"
+      "003": [
+       "midis/E1_v5b/S1/003.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/003.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/003.mid_temp1.0_continuation_2.mid"
       ],
-      "436": [
-       "midis/E1_v5b/S1/436.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/436.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/436.mid_temp1.0_continuation_2.mid"
+      "476": [
+       "midis/E1_v5b/S1/476.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/476.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/476.mid_temp1.0_continuation_2.mid"
       ],
-      "146": [
-       "midis/E1_v5b/S1/146.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/146.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/146.mid_temp1.0_continuation_2.mid"
-      ],
-      "706": [
-       "midis/E1_v5b/S1/706.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/706.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/706.mid_temp1.0_continuation_2.mid"
-      ],
-      "196": [
-       "midis/E1_v5b/S1/196.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/196.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/196.mid_temp1.0_continuation_2.mid"
-      ],
-      "596": [
-       "midis/E1_v5b/S1/596.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/596.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/596.mid_temp1.0_continuation_2.mid"
+      "576": [
+       "midis/E1_v5b/S1/576.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/576.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/576.mid_temp1.0_continuation_2.mid"
       ],
       "866": [
        "midis/E1_v5b/S1/866.mid_temp1.0_continuation_0.mid",
        "midis/E1_v5b/S1/866.mid_temp1.0_continuation_1.mid",
        "midis/E1_v5b/S1/866.mid_temp1.0_continuation_2.mid"
       ],
-      "386": [
-       "midis/E1_v5b/S1/386.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/386.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/386.mid_temp1.0_continuation_2.mid"
+      "556": [
+       "midis/E1_v5b/S1/556.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/556.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/556.mid_temp1.0_continuation_2.mid"
       ],
-      "001": [
-       "midis/E1_v5b/S1/001.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/001.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/001.mid_temp1.0_continuation_2.mid"
+      "256": [
+       "midis/E1_v5b/S1/256.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/256.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/256.mid_temp1.0_continuation_2.mid"
       ],
-      "786": [
-       "midis/E1_v5b/S1/786.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/786.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/786.mid_temp1.0_continuation_2.mid"
+      "526": [
+       "midis/E1_v5b/S1/526.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/526.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/526.mid_temp1.0_continuation_2.mid"
       ],
-      "836": [
-       "midis/E1_v5b/S1/836.mid_temp1.0_continuation_0.mid",
-       "midis/E1_v5b/S1/836.mid_temp1.0_continuation_1.mid",
-       "midis/E1_v5b/S1/836.mid_temp1.0_continuation_2.mid"
+      "566": [
+       "midis/E1_v5b/S1/566.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/566.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/566.mid_temp1.0_continuation_2.mid"
+      ],
+      "276": [
+       "midis/E1_v5b/S1/276.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/276.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/276.mid_temp1.0_continuation_2.mid"
+      ],
+      "666": [
+       "midis/E1_v5b/S1/666.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/666.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/666.mid_temp1.0_continuation_2.mid"
+      ],
+      "216": [
+       "midis/E1_v5b/S1/216.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/216.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/216.mid_temp1.0_continuation_2.mid"
+      ],
+      "236": [
+       "midis/E1_v5b/S1/236.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/236.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/236.mid_temp1.0_continuation_2.mid"
+      ],
+      "506": [
+       "midis/E1_v5b/S1/506.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/506.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/506.mid_temp1.0_continuation_2.mid"
+      ],
+      "076": [
+       "midis/E1_v5b/S1/076.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/076.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/076.mid_temp1.0_continuation_2.mid"
+      ],
+      "226": [
+       "midis/E1_v5b/S1/226.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/226.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/226.mid_temp1.0_continuation_2.mid"
+      ],
+      "366": [
+       "midis/E1_v5b/S1/366.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/366.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/366.mid_temp1.0_continuation_2.mid"
+      ],
+      "146": [
+       "midis/E1_v5b/S1/146.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/146.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/146.mid_temp1.0_continuation_2.mid"
+      ],
+      "886": [
+       "midis/E1_v5b/S1/886.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/886.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/886.mid_temp1.0_continuation_2.mid"
+      ],
+      "002": [
+       "midis/E1_v5b/S1/002.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/002.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/002.mid_temp1.0_continuation_2.mid"
+      ],
+      "826": [
+       "midis/E1_v5b/S1/826.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/826.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/826.mid_temp1.0_continuation_2.mid"
+      ],
+      "006": [
+       "midis/E1_v5b/S1/006.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/006.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/006.mid_temp1.0_continuation_2.mid"
+      ],
+      "846": [
+       "midis/E1_v5b/S1/846.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/846.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/846.mid_temp1.0_continuation_2.mid"
+      ],
+      "096": [
+       "midis/E1_v5b/S1/096.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/096.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/096.mid_temp1.0_continuation_2.mid"
+      ],
+      "446": [
+       "midis/E1_v5b/S1/446.mid_temp1.0_continuation_0.mid",
+       "midis/E1_v5b/S1/446.mid_temp1.0_continuation_1.mid",
+       "midis/E1_v5b/S1/446.mid_temp1.0_continuation_2.mid"
       ]
      }
     },

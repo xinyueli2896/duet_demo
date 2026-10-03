@@ -425,7 +425,13 @@ def main():
             models.append({"id": mid, "name": nm, "group": grp, "variations": var})
         for i, (bn, bv) in enumerate(g.get("baselines", [])):
             models.append({"id": f"bl{i}", "name": bn, "group": "Internal Baselines", "variations": bv})
-        pids = sorted(set(g["input"]) | set().union(*[set(m["variations"]) for m in models]) if models else set(g["input"]), key=natural)
+        # Only list songs that EVERY non-reference model has, so no song shows a missing row
+        # (drops songs where any system — e.g. Whole-song — has no output).
+        gen_models = [m for m in models if m["group"] != "Reference"]
+        if gen_models:
+            pids = sorted(set.intersection(*[set(m["variations"]) for m in gen_models]), key=natural)
+        else:
+            pids = sorted(set(g["input"]), key=natural)
         exp = {"id": f"{tag}_{N}b", "prompts": pids, "promptBars": N, "input": {}, "models": models, "capBars": cap}
         if tag == "E4":
             exp["name"] = "E4 · MoE"; exp["note"] = f"MoE gating comparison · {N}-bar prompt · " + ", ".join(m["name"] for m in models)

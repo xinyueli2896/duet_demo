@@ -299,6 +299,8 @@ function renderMainbar() {
 }
 function renderTabs() {
   const box = document.getElementById("tabs"); box.innerHTML = "";
+  if (MANIFEST.experiments.length <= 1) { box.style.display = "none"; return; }  // hide tab bar when there's only one experiment
+  box.style.display = "";
   MANIFEST.experiments.forEach((e, i) => {
     const b = btn(e.name, "tab" + (i === expIdx ? " on" : ""));
     b.addEventListener("click", () => { expIdx = i; promptIdx = 0; groupBpmTouched = false; renderTabs(); renderSidebar(); renderRows(); });
